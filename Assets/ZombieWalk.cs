@@ -64,9 +64,16 @@ namespace UnityEngine.XR.iOS
 				angle = Mathf.Rad2Deg * angle;
 			}
 
-			if (dX < 1 || dZ < 1) {
+			if ((Mathf.Abs(dX) < 1 && Mathf.Abs(dZ) < 1) && (Mathf.Abs(dX) > 0.5 && Mathf.Abs(dZ) > 0.5)) {
 				myAnimation.SetBool ("isWalking", false);
 				myAnimation.SetBool ("isAttacking", true);
+			}  else if (Mathf.Abs(dX) > 20 && Mathf.Abs(dZ) > 20) {
+				Debug.Log ("Zombie killed " + dZ + " " + dX);
+				Destroy(this);
+			} else if (Mathf.Abs(dX) < 0.5 && Mathf.Abs(dZ) < 0.5) {
+				myAnimation.SetBool ("isWalking", false);
+				myAnimation.SetBool ("isAttacking", true);
+				Debug.Log ("Player killed " + dZ + " " + dX);
 				Camera.main.GetComponent<GameScript>().isDead = true;
 			} else {
 				myAnimation.SetBool ("isWalking", true);

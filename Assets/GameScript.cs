@@ -14,6 +14,7 @@ public class GameScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Debug.Log("Game started");
+		isDead = false;
 		//Vector3 zombieLoc = new Vector3(transform.position.x + Random.Range(-5,5), transform.position.y, transform.position.z + Random.Range(-5,5));
 		//Instantiate(zombo, zombieLoc, zombo.transform.rotation);
 	}
@@ -38,7 +39,8 @@ public class GameScript : MonoBehaviour {
 //
 //        }
 		if (isDead) {
-			SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+			SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+			isDead = false;
 		}
 	}
 }
