@@ -145,7 +145,7 @@ dd6501652c91cb163a39e051d37a965f Assembly-CSharp.dll:.Ballz
 e31ef279e8d06182f0817ebd899ff54c Assembly-CSharp.dll:.UnityARUserAnchorExample
 5511a49b5104d2e14b66af50a17125f0 Assembly-CSharp.dll:.ParticlePainter
 e353101906474689643fc3c6d0a3ba4a Assembly-CSharp.dll:.ColorPicker
-9729128c3633993356e2a991a8956d7a Assembly-CSharp.dll:.GameScript
+91dedfb15a8ccb7a82faf92c8b4ab217 Assembly-CSharp.dll:.GameScript
 3241ebe8b0922d467d765be7f37fd1ca Assembly-CSharp.dll:.UnityARKitPluginSettings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -192,5 +192,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 eb4fd2b7e0cd698b07603d3e2b00ab7c Assembly-CSharp.dll:.ARKitPlaneMeshRender
 391d84b859f3b155fe38f54bfce79162 Assembly-CSharp.dll:.UnityPointCloudExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
-0fc695fe3f8240e8b278282c570deb20 Assembly-CSharp.dll:UnityEngine.XR.iOS.PlaceBlock
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ArrowScript
+3e5c3ab65cdc8ce48e9e33515fca084a Assembly-CSharp.dll:UnityEngine.XR.iOS.PlaceBlock
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.ArrowScript

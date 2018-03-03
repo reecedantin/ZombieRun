@@ -53,20 +53,23 @@ namespace UnityEngine.XR.iOS
 			float dX = Camera.main.transform.position.x - transform.position.x;
             float dZ = Camera.main.transform.position.z - transform.position.z;
 			float angle = Mathf.Atan(dX / dZ);
-			if ((dX / dZ) < 0) {
+			if ((dX / dZ) > 0) {
 				angle = (180 + Mathf.Rad2Deg * angle) % 360;
 			} else {
 				angle = Mathf.Rad2Deg * angle;
 			}
+
+			if(dX > 0) {
+				angle = (180 + angle) % 360;
+			}
+
 			Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
 			//Vector3 destination = new Vector3(90, Mathf.Rad2Deg * angle, 0);
 			transform.eulerAngles = new Vector3(0, angle, 0);
 
-            if(dZ < 0) {
-                transform.Translate(Vector3.forward/2 * Time.deltaTime);
-            } else {
-                transform.Translate(Vector3.back/2 * Time.deltaTime);
-            }
+			transform.Translate(Vector3.forward/2 * Time.deltaTime);
+
+            
 
             //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, Time.deltaTime);
 		}

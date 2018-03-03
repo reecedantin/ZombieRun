@@ -10,9 +10,8 @@ namespace UnityEngine.XR.iOS
 		public float maxRayDistance = 30.0f;
 		private LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 		public GameObject blockPrefab;
-		public GameObject arrowPrefab;
 
-		bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
+		bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes, GameObject prefab)
 		{
 			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
 			if (hitResults.Count > 0) {
@@ -21,7 +20,7 @@ namespace UnityEngine.XR.iOS
 					Vector3 pos = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 					Quaternion rot = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
 
-					Instantiate (blockPrefab, pos, rot);
+					Instantiate (prefab, pos, rot);
 
 					// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
 					return true;
@@ -54,13 +53,11 @@ namespace UnityEngine.XR.iOS
 					}; 
 
 					foreach (ARHitTestResultType resultType in resultTypes) {
-						if (HitTestWithResultType (point, resultType)) {
+						if (HitTestWithResultType (point, resultType, blockPrefab)) {
 							return;
 						}
 					}
 				}
-			} else if (Input.touchCount > 1) {
-				Instantiate (arrowPrefab, Camera.main.transform.position, Camera.main.transform.rotation);
 			}
 
 		}

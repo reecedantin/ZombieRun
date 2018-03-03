@@ -7,6 +7,7 @@ public class GameScript : MonoBehaviour {
 	public GameObject zombo;
 	public float waittime = 0;
     public ArrayList zombies = new ArrayList();
+	public GameObject arrowPrefab;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +31,9 @@ public class GameScript : MonoBehaviour {
             foreach(GameObject zombie in zombies) {
                 GameObject.Destroy(zombie);
             }
+
+			Instantiate (arrowPrefab, transform.position, transform.rotation);
+
         }
 	}
 }

@@ -113,52 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &157427243
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.05234492
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.6061473
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -6.283145
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798544366316034, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1376644071758658, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c9cab830d1cb741088343fd5fb24dfee, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &354283676
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombo: {fileID: 1880908557766748, guid: 1b7dc5d5a3a9e461988c2537e4fee7a4, type: 2}
   waittime: 0
+  arrowPrefab: {fileID: 1376644071758658, guid: c9cab830d1cb741088343fd5fb24dfee,
+    type: 2}
 --- !u!114 &534412485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,8 +360,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxRayDistance: 30
   blockPrefab: {fileID: 1063015902996798, guid: df881a4392ac84bf3a6594f6f7f76155,
-    type: 2}
-  arrowPrefab: {fileID: 1376644071758658, guid: c9cab830d1cb741088343fd5fb24dfee,
     type: 2}
 --- !u!1001 &596604520
 Prefab:
