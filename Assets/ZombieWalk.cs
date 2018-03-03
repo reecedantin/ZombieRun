@@ -6,7 +6,7 @@ namespace UnityEngine.XR.iOS
 	public class ZombieWalk : MonoBehaviour
 	{
 		public float maxRayDistance = 30.0f;
-		public LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
+		private LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 
 		bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
 		{
@@ -32,7 +32,7 @@ namespace UnityEngine.XR.iOS
 				y = transform.position.z
 			};
 
-			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest (point, ARHitTestResultType.ARHitTestResultTypeEstimatedHorizontalPlane);
+			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface().HitTest (point, ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
 			if (hitResults.Count > 0) {
 				foreach (var hitResult in hitResults) {
 					//Debug.Log ("Got hit!");

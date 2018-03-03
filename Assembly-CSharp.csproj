@@ -51,7 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArrowScript.cs" />
      <Compile Include="Assets\GameScript.cs" />
+     <Compile Include="Assets\PlaceBlock.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs" />
