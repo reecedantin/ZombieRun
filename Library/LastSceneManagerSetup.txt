@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TrailerScene.unity
+- path: Assets/PlayScene.unity
   isLoaded: 1
   isActive: 1

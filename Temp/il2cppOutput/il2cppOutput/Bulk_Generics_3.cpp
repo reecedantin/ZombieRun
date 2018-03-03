@@ -105,54 +105,20 @@ struct InterfaceActionInvoker1
 	}
 };
 
-// System.Collections.Generic.List`1<UnityEngine.Vector2>
-struct List_1_t3628304265;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>
-struct IEnumerable_1_t1136082412;
-// System.ArgumentOutOfRangeException
-struct ArgumentOutOfRangeException_t777629997;
-// System.String
-struct String_t;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector2>
-struct IEnumerator_1_t2588799991;
-// System.Collections.IEnumerator
-struct IEnumerator_t1853284238;
-// System.ArgumentException
-struct ArgumentException_t132251570;
-// System.Collections.Generic.ICollection`1<UnityEngine.Vector2>
-struct ICollection_1_t689414461;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>
-struct ReadOnlyCollection_1_t3368805810;
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t1457185986;
-// System.Predicate`1<UnityEngine.Vector2>
-struct Predicate_1_t2981523647;
-// System.ArgumentNullException
-struct ArgumentNullException_t1615371798;
-// System.Comparison`1<UnityEngine.Vector2>
-struct Comparison_1_t1931160702;
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct List_1_t899420910;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>
-struct IEnumerable_1_t2702166353;
-// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3>
-struct IEnumerator_1_t4154883932;
-// System.Collections.Generic.ICollection`1<UnityEngine.Vector3>
-struct ICollection_1_t2255498402;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>
-struct ReadOnlyCollection_1_t639922455;
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1718750761;
-// System.Predicate`1<UnityEngine.Vector3>
-struct Predicate_1_t252640292;
-// System.Comparison`1<UnityEngine.Vector3>
-struct Comparison_1_t3497244643;
 // System.Collections.Generic.List`1<UnityEngine.Vector4>
 struct List_1_t496136383;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.Vector4>
 struct IEnumerable_1_t2298881826;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_t777629997;
+// System.String
+struct String_t;
 // System.Collections.Generic.IEnumerator`1<UnityEngine.Vector4>
 struct IEnumerator_1_t3751599405;
+// System.Collections.IEnumerator
+struct IEnumerator_t1853284238;
+// System.ArgumentException
+struct ArgumentException_t132251570;
 // System.Collections.Generic.ICollection`1<UnityEngine.Vector4>
 struct ICollection_1_t1852213875;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector4>
@@ -161,6 +127,8 @@ struct ReadOnlyCollection_1_t236637928;
 struct Vector4U5BU5D_t934056436;
 // System.Predicate`1<UnityEngine.Vector4>
 struct Predicate_1_t4144323061;
+// System.ArgumentNullException
+struct ArgumentNullException_t1615371798;
 // System.Comparison`1<UnityEngine.Vector4>
 struct Comparison_1_t3093960116;
 // System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>
@@ -207,26 +175,18 @@ struct IEnumerator_1_t3512676632;
 struct IEnumerator_1_t1787089080;
 // System.Collections.Generic.Stack`1<System.Object>
 struct Stack_1_t3923495619;
-// System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct Collection_1_t991591973;
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>[]
-struct KeyValuePair_2U5BU5D_t3002675950;
-// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct IEnumerator_1_t2479806523;
-// System.Type
-struct Type_t;
-// System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct IList_1_t3862555838;
-// System.NotSupportedException
-struct NotSupportedException_t1314879016;
 // System.Collections.ObjectModel.Collection`1<System.Int32>
 struct Collection_1_t1895301671;
 // System.Int32[]
 struct Int32U5BU5D_t385246372;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_t3383516221;
+// System.Type
+struct Type_t;
 // System.Collections.Generic.IList`1<System.Int32>
 struct IList_1_t471298240;
+// System.NotSupportedException
+struct NotSupportedException_t1314879016;
 // System.Collections.ObjectModel.Collection`1<System.Object>
 struct Collection_1_t2024462082;
 // System.Object[]
@@ -299,10 +259,18 @@ struct IEnumerator_1_t195100777;
 struct IList_1_t1577850092;
 // System.Collections.ObjectModel.Collection`1<UnityEngine.Vector2>
 struct Collection_1_t1100585441;
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t1457185986;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector2>
+struct IEnumerator_1_t2588799991;
 // System.Collections.Generic.IList`1<UnityEngine.Vector2>
 struct IList_1_t3971549306;
 // System.Collections.ObjectModel.Collection`1<UnityEngine.Vector3>
 struct Collection_1_t2666669382;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1718750761;
+// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3>
+struct IEnumerator_1_t4154883932;
 // System.Collections.Generic.IList`1<UnityEngine.Vector3>
 struct IList_1_t1242665951;
 // System.Collections.ObjectModel.Collection`1<UnityEngine.Vector4>
@@ -317,8 +285,6 @@ struct IList_1_t3094343713;
 struct Collection_1_t888810699;
 // System.Collections.Generic.IList`1<UnityEngine.XR.iOS.UnityARVideoFormat>
 struct IList_1_t3759774564;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct ReadOnlyCollection_1_t3259812342;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
 struct ReadOnlyCollection_1_t4163522040;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
@@ -327,34 +293,50 @@ struct ReadOnlyCollection_1_t4292682451;
 struct ReadOnlyCollection_1_t1500441997;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>
 struct ReadOnlyCollection_1_t3935726444;
-// UnityEngine.UnitySynchronizationContext/WorkRequest[]
-struct WorkRequestU5BU5D_t3723878365;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>
+struct ReadOnlyCollection_1_t2798554118;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>
+struct ReadOnlyCollection_1_t3813077579;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>
+struct ReadOnlyCollection_1_t277915840;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>
+struct ReadOnlyCollection_1_t1288077393;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>
+struct ReadOnlyCollection_1_t1112875801;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>
+struct ReadOnlyCollection_1_t975106596;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>
+struct ReadOnlyCollection_1_t3368805810;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>
+struct ReadOnlyCollection_1_t639922455;
 // System.IntPtr[]
 struct IntPtrU5BU5D_t4013366056;
 // System.Collections.IDictionary
 struct IDictionary_t1363984059;
 // System.Char[]
 struct CharU5BU5D_t3528271667;
-// UnityEngine.Events.UnityAction
-struct UnityAction_t3245792599;
+// UnityEngine.UnitySynchronizationContext/WorkRequest[]
+struct WorkRequestU5BU5D_t3723878365;
 // System.Void
 struct Void_t1185182177;
+// UnityEngine.Events.UnityAction
+struct UnityAction_t3245792599;
 // System.Threading.SendOrPostCallback
 struct SendOrPostCallback_t2750080073;
 // System.Threading.ManualResetEvent
 struct ManualResetEvent_t451242010;
-// UnityEngine.XR.iOS.VideoFormatEnumerator
-struct VideoFormatEnumerator_t3131638505;
+// System.Reflection.MemberInfo
+struct MemberInfo_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.DelegateData
 struct DelegateData_t1677132599;
-// System.Reflection.MemberInfo
-struct MemberInfo_t;
 // UnityEngine.GameObject
 struct GameObject_t1113636619;
 // UnityEngine.EventSystems.BaseRaycaster
 struct BaseRaycaster_t4150874583;
+// UnityEngine.XR.iOS.VideoFormatEnumerator
+struct VideoFormatEnumerator_t3131638505;
 // System.Type[]
 struct TypeU5BU5D_t3940880105;
 // System.Reflection.MemberFilter
@@ -366,57 +348,27 @@ struct AsyncCallback_t3962456242;
 
 extern RuntimeClass* ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var;
 extern String_t* _stringLiteral3623012086;
-extern const uint32_t List_1__ctor_m4267227738_MetadataUsageId;
+extern const uint32_t List_1__ctor_m3376067838_MetadataUsageId;
 extern RuntimeClass* NullReferenceException_t1023182353_il2cpp_TypeInfo_var;
 extern RuntimeClass* InvalidCastException_t3927145244_il2cpp_TypeInfo_var;
 extern RuntimeClass* ArgumentException_t132251570_il2cpp_TypeInfo_var;
 extern String_t* _stringLiteral1949155672;
-extern const uint32_t List_1_System_Collections_IList_Add_m1917877818_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Contains_m2131605266_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_IndexOf_m1088859899_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Insert_m2238786360_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Remove_m4226673807_MetadataUsageId;
-extern String_t* _stringLiteral3493618073;
-extern const uint32_t List_1_System_Collections_IList_set_Item_m4101821588_MetadataUsageId;
-extern RuntimeClass* IEnumerator_t1853284238_il2cpp_TypeInfo_var;
-extern RuntimeClass* IDisposable_t3640265483_il2cpp_TypeInfo_var;
-extern const uint32_t List_1_AddEnumerable_m1267044261_MetadataUsageId;
-extern RuntimeClass* ArgumentNullException_t1615371798_il2cpp_TypeInfo_var;
-extern String_t* _stringLiteral461028519;
-extern const uint32_t List_1_CheckMatch_m2804856007_MetadataUsageId;
-extern String_t* _stringLiteral797640427;
-extern const uint32_t List_1_CheckIndex_m2250397830_MetadataUsageId;
-extern String_t* _stringLiteral3723644332;
-extern const uint32_t List_1_CheckCollection_m205659001_MetadataUsageId;
-extern const uint32_t List_1_RemoveAt_m484847478_MetadataUsageId;
-extern const uint32_t List_1_set_Capacity_m2707586410_MetadataUsageId;
-extern const uint32_t List_1_get_Item_m1378751541_MetadataUsageId;
-extern const uint32_t List_1_set_Item_m35836043_MetadataUsageId;
-extern const uint32_t List_1__ctor_m446022677_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Add_m1311792172_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Contains_m3717811284_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_IndexOf_m3696676247_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Insert_m159282227_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_Remove_m997133631_MetadataUsageId;
-extern const uint32_t List_1_System_Collections_IList_set_Item_m470242416_MetadataUsageId;
-extern const uint32_t List_1_AddEnumerable_m2724989594_MetadataUsageId;
-extern const uint32_t List_1_CheckMatch_m67824902_MetadataUsageId;
-extern const uint32_t List_1_CheckIndex_m3636898580_MetadataUsageId;
-extern const uint32_t List_1_CheckCollection_m487824007_MetadataUsageId;
-extern const uint32_t List_1_RemoveAt_m3518997255_MetadataUsageId;
-extern const uint32_t List_1_set_Capacity_m1977188119_MetadataUsageId;
-extern const uint32_t List_1_get_Item_m200663048_MetadataUsageId;
-extern const uint32_t List_1_set_Item_m658432263_MetadataUsageId;
-extern const uint32_t List_1__ctor_m3376067838_MetadataUsageId;
 extern const uint32_t List_1_System_Collections_IList_Add_m2280769760_MetadataUsageId;
 extern const uint32_t List_1_System_Collections_IList_Contains_m353431064_MetadataUsageId;
 extern const uint32_t List_1_System_Collections_IList_IndexOf_m2444653486_MetadataUsageId;
 extern const uint32_t List_1_System_Collections_IList_Insert_m955419632_MetadataUsageId;
 extern const uint32_t List_1_System_Collections_IList_Remove_m248696441_MetadataUsageId;
+extern String_t* _stringLiteral3493618073;
 extern const uint32_t List_1_System_Collections_IList_set_Item_m4221377313_MetadataUsageId;
+extern RuntimeClass* IEnumerator_t1853284238_il2cpp_TypeInfo_var;
+extern RuntimeClass* IDisposable_t3640265483_il2cpp_TypeInfo_var;
 extern const uint32_t List_1_AddEnumerable_m2295992518_MetadataUsageId;
+extern RuntimeClass* ArgumentNullException_t1615371798_il2cpp_TypeInfo_var;
+extern String_t* _stringLiteral461028519;
 extern const uint32_t List_1_CheckMatch_m2544320858_MetadataUsageId;
+extern String_t* _stringLiteral797640427;
 extern const uint32_t List_1_CheckIndex_m3933537097_MetadataUsageId;
+extern String_t* _stringLiteral3723644332;
 extern const uint32_t List_1_CheckCollection_m3678196246_MetadataUsageId;
 extern const uint32_t List_1_RemoveAt_m3304170338_MetadataUsageId;
 extern const uint32_t List_1_set_Capacity_m749715762_MetadataUsageId;
@@ -474,22 +426,15 @@ extern const uint32_t Stack_1_System_Collections_ICollection_CopyTo_m1056090330_
 extern const uint32_t Stack_1_Peek_m1714688658_MetadataUsageId;
 extern const uint32_t Stack_1_Pop_m756553478_MetadataUsageId;
 extern RuntimeClass* ICollection_t3904884886_il2cpp_TypeInfo_var;
-extern const uint32_t Collection_1__ctor_m1363846025_MetadataUsageId;
-extern const uint32_t Collection_1_System_Collections_ICollection_CopyTo_m377105888_MetadataUsageId;
-extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
-extern const uint32_t Collection_1_IsValidItem_m2153011546_MetadataUsageId;
-extern const uint32_t Collection_1_ConvertItem_m2768244654_MetadataUsageId;
-extern RuntimeClass* NotSupportedException_t1314879016_il2cpp_TypeInfo_var;
-extern const uint32_t Collection_1_CheckWritable_m536377321_MetadataUsageId;
-extern const uint32_t Collection_1_IsSynchronized_m3933603330_MetadataUsageId;
-extern RuntimeClass* IList_t2094931216_il2cpp_TypeInfo_var;
-extern const uint32_t Collection_1_IsFixedSize_m4111187689_MetadataUsageId;
 extern const uint32_t Collection_1__ctor_m3341257071_MetadataUsageId;
 extern const uint32_t Collection_1_System_Collections_ICollection_CopyTo_m1205472272_MetadataUsageId;
+extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 extern const uint32_t Collection_1_IsValidItem_m3080586124_MetadataUsageId;
 extern const uint32_t Collection_1_ConvertItem_m3668799111_MetadataUsageId;
+extern RuntimeClass* NotSupportedException_t1314879016_il2cpp_TypeInfo_var;
 extern const uint32_t Collection_1_CheckWritable_m1823541104_MetadataUsageId;
 extern const uint32_t Collection_1_IsSynchronized_m3542739234_MetadataUsageId;
+extern RuntimeClass* IList_t2094931216_il2cpp_TypeInfo_var;
 extern const uint32_t Collection_1_IsFixedSize_m3012843063_MetadataUsageId;
 extern const uint32_t Collection_1__ctor_m627519480_MetadataUsageId;
 extern const uint32_t Collection_1_System_Collections_ICollection_CopyTo_m46221116_MetadataUsageId;
@@ -590,22 +535,6 @@ extern const uint32_t Collection_1_CheckWritable_m3030056284_MetadataUsageId;
 extern const uint32_t Collection_1_IsSynchronized_m1144527248_MetadataUsageId;
 extern const uint32_t Collection_1_IsFixedSize_m1882210116_MetadataUsageId;
 extern String_t* _stringLiteral3941568111;
-extern const uint32_t ReadOnlyCollection_1__ctor_m2690749880_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3256157916_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m291320990_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2864801492_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2021900705_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m4012527384_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3825077342_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3493890463_MetadataUsageId;
-extern RuntimeClass* IEnumerable_t1941168011_il2cpp_TypeInfo_var;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m802507738_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3843785273_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m1031087992_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m3116794153_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m2527924755_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3373069904_MetadataUsageId;
-extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m3150985466_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1__ctor_m1345363288_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3377900538_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m1597493784_MetadataUsageId;
@@ -614,6 +543,7 @@ extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectio
 extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2478755775_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1713768980_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3158690403_MetadataUsageId;
+extern RuntimeClass* IEnumerable_t1941168011_il2cpp_TypeInfo_var;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3304524126_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1880131683_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m868794620_MetadataUsageId;
@@ -666,15 +596,132 @@ extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m1097
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m4129318771_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2129436005_MetadataUsageId;
 extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m4166186676_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m4279684014_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m1738170497_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4209207589_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1480742963_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1364299481_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m9618945_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3209059215_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2527663815_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3042843502_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3968477706_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m2007013334_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m2797533731_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m1910476269_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m362591173_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m4015530489_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m2766815925_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m69722965_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3700426865_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3435413875_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1760770631_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3933896072_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m375376101_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2643246984_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m436360262_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m564301405_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m417468276_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m634799052_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m1472063226_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m422909114_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m70952451_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m77218408_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2386940333_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2102011098_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3804866210_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4177779688_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3171070954_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m711370667_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2715087453_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1671097018_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2776498952_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m1076810235_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m2216746332_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m136266917_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2323497237_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m2513951121_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m3455572340_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2585951131_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2760721383_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2489506856_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2007407359_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2431705982_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1584697503_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2672196987_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2762559519_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2305603000_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m3591436538_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m177536056_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m4169110229_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m214957151_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m2162444692_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m2706325984_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4137362799_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3451551308_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1121807192_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4072504734_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3849058645_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m4156940443_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m1092095998_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2505713430_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1349101077_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m4022532825_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m2868364412_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m3469490059_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1286790069_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m3570269385_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m2338137125_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2451728105_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4167983473_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m447088589_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2211264472_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2506377382_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1620609838_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3448148224_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1905081102_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2898257908_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m12445504_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m923045110_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m2324089221_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m4258434872_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m1538987737_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m3989322201_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3437279820_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m585611446_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2194343917_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m401245573_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m400808413_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2769719733_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m353321451_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2781605075_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m4240023232_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m687220435_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m134149130_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m913116894_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3413874437_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m3352062191_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1__ctor_m1807868317_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4030875132_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m1551418550_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1818924748_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1426243480_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3317217538_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m904536990_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m546059009_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2136218964_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1986911293_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Clear_m4215575252_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Insert_m2928873627_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_Remove_m2434650390_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1518119111_MetadataUsageId;
+extern const uint32_t ReadOnlyCollection_1_System_Collections_IList_set_Item_m1559106988_MetadataUsageId;
 
-struct Vector2U5BU5D_t1457185986;
-struct Vector3U5BU5D_t1718750761;
 struct Vector4U5BU5D_t934056436;
 struct ARHitTestResultU5BU5D_t3623927455;
 struct UnityARVideoFormatU5BU5D_t3086264048;
 struct ObjectU5BU5D_t2843939325;
 struct WorkRequestU5BU5D_t3723878365;
-struct KeyValuePair_2U5BU5D_t3002675950;
 struct Int32U5BU5D_t385246372;
 struct CustomAttributeNamedArgumentU5BU5D_t3710464795;
 struct CustomAttributeTypedArgumentU5BU5D_t1465843424;
@@ -684,6 +731,8 @@ struct RaycastResultU5BU5D_t1128832444;
 struct UICharInfoU5BU5D_t928762055;
 struct UILineInfoU5BU5D_t1655937503;
 struct UIVertexU5BU5D_t1981460040;
+struct Vector2U5BU5D_t1457185986;
+struct Vector3U5BU5D_t1718750761;
 
 
 #ifndef RUNTIMEOBJECT_H
@@ -715,438 +764,6 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
-#ifndef COLLECTION_1_T3527188924_H
-#define COLLECTION_1_T3527188924_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeNamedArgument>
-struct  Collection_1_t3527188924  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t3527188924, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t3527188924, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T3527188924_H
-#ifndef LIST_1_T1759940452_H
-#define LIST_1_T1759940452_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
-struct  List_1_t1759940452  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	CustomAttributeNamedArgumentU5BU5D_t3710464795* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____items_1)); }
-	inline CustomAttributeNamedArgumentU5BU5D_t3710464795* get__items_1() const { return ____items_1; }
-	inline CustomAttributeNamedArgumentU5BU5D_t3710464795** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(CustomAttributeNamedArgumentU5BU5D_t3710464795* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t1759940452_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	CustomAttributeNamedArgumentU5BU5D_t3710464795* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1759940452_StaticFields, ___EmptyArray_4)); }
-	inline CustomAttributeNamedArgumentU5BU5D_t3710464795* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline CustomAttributeNamedArgumentU5BU5D_t3710464795** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(CustomAttributeNamedArgumentU5BU5D_t3710464795* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T1759940452_H
-#ifndef COLLECTION_1_T1667506075_H
-#define COLLECTION_1_T1667506075_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>
-struct  Collection_1_t1667506075  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1667506075, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1667506075, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T1667506075_H
-#ifndef LIST_1_T4195224899_H
-#define LIST_1_T4195224899_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
-struct  List_1_t4195224899  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	CustomAttributeTypedArgumentU5BU5D_t1465843424* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____items_1)); }
-	inline CustomAttributeTypedArgumentU5BU5D_t1465843424* get__items_1() const { return ____items_1; }
-	inline CustomAttributeTypedArgumentU5BU5D_t1465843424** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(CustomAttributeTypedArgumentU5BU5D_t1465843424* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t4195224899_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	CustomAttributeTypedArgumentU5BU5D_t1465843424* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t4195224899_StaticFields, ___EmptyArray_4)); }
-	inline CustomAttributeTypedArgumentU5BU5D_t1465843424* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline CustomAttributeTypedArgumentU5BU5D_t1465843424** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(CustomAttributeTypedArgumentU5BU5D_t1465843424* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T4195224899_H
-#ifndef COLLECTION_1_T530333749_H
-#define COLLECTION_1_T530333749_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<UnityEngine.BeforeRenderHelper/OrderBlock>
-struct  Collection_1_t530333749  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t530333749, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t530333749, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T530333749_H
-#ifndef LIST_1_T3058052573_H
-#define LIST_1_T3058052573_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>
-struct  List_1_t3058052573  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	OrderBlockU5BU5D_t2389202590* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____items_1)); }
-	inline OrderBlockU5BU5D_t2389202590* get__items_1() const { return ____items_1; }
-	inline OrderBlockU5BU5D_t2389202590** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(OrderBlockU5BU5D_t2389202590* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t3058052573_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	OrderBlockU5BU5D_t2389202590* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3058052573_StaticFields, ___EmptyArray_4)); }
-	inline OrderBlockU5BU5D_t2389202590* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline OrderBlockU5BU5D_t2389202590** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(OrderBlockU5BU5D_t2389202590* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T3058052573_H
-#ifndef COLLECTION_1_T1544857210_H
-#define COLLECTION_1_T1544857210_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<UnityEngine.Color32>
-struct  Collection_1_t1544857210  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1544857210, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1544857210, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T1544857210_H
-#ifndef LIST_1_T4072576034_H
-#define LIST_1_T4072576034_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct  List_1_t4072576034  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Color32U5BU5D_t3850468773* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____items_1)); }
-	inline Color32U5BU5D_t3850468773* get__items_1() const { return ____items_1; }
-	inline Color32U5BU5D_t3850468773** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Color32U5BU5D_t3850468773* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t4072576034_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Color32U5BU5D_t3850468773* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t4072576034_StaticFields, ___EmptyArray_4)); }
-	inline Color32U5BU5D_t3850468773* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Color32U5BU5D_t3850468773** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Color32U5BU5D_t3850468773* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T4072576034_H
 #ifndef COLLECTION_1_T2304662767_H
 #define COLLECTION_1_T2304662767_H
 #ifdef __clang__
@@ -1188,537 +805,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLLECTION_1_T2304662767_H
-#ifndef LIST_1_T257213610_H
-#define LIST_1_T257213610_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Object>
-struct  List_1_t257213610  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	ObjectU5BU5D_t2843939325* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____items_1)); }
-	inline ObjectU5BU5D_t2843939325* get__items_1() const { return ____items_1; }
-	inline ObjectU5BU5D_t2843939325** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(ObjectU5BU5D_t2843939325* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t257213610_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	ObjectU5BU5D_t2843939325* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t257213610_StaticFields, ___EmptyArray_4)); }
-	inline ObjectU5BU5D_t2843939325* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline ObjectU5BU5D_t2843939325** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(ObjectU5BU5D_t2843939325* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T257213610_H
-#ifndef COMPARER_1_T3444209663_H
-#define COMPARER_1_T3444209663_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<UnityEngine.XR.iOS.UnityARVideoFormat>
-struct  Comparer_1_t3444209663  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t3444209663_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t3444209663 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t3444209663_StaticFields, ____default_0)); }
-	inline Comparer_1_t3444209663 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t3444209663 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t3444209663 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T3444209663_H
-#ifndef QUEUE_1_T2926365658_H
-#define QUEUE_1_T2926365658_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Queue`1<System.Object>
-struct  Queue_1_t2926365658  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.Queue`1::_array
-	ObjectU5BU5D_t2843939325* ____array_0;
-	// System.Int32 System.Collections.Generic.Queue`1::_head
-	int32_t ____head_1;
-	// System.Int32 System.Collections.Generic.Queue`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.Queue`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____array_0)); }
-	inline ObjectU5BU5D_t2843939325* get__array_0() const { return ____array_0; }
-	inline ObjectU5BU5D_t2843939325** get_address_of__array_0() { return &____array_0; }
-	inline void set__array_0(ObjectU5BU5D_t2843939325* value)
-	{
-		____array_0 = value;
-		Il2CppCodeGenWriteBarrier((&____array_0), value);
-	}
-
-	inline static int32_t get_offset_of__head_1() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____head_1)); }
-	inline int32_t get__head_1() const { return ____head_1; }
-	inline int32_t* get_address_of__head_1() { return &____head_1; }
-	inline void set__head_1(int32_t value)
-	{
-		____head_1 = value;
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // QUEUE_1_T2926365658_H
-#ifndef QUEUE_1_T1200778106_H
-#define QUEUE_1_T1200778106_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Queue`1<UnityEngine.UnitySynchronizationContext/WorkRequest>
-struct  Queue_1_t1200778106  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.Queue`1::_array
-	WorkRequestU5BU5D_t3723878365* ____array_0;
-	// System.Int32 System.Collections.Generic.Queue`1::_head
-	int32_t ____head_1;
-	// System.Int32 System.Collections.Generic.Queue`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.Queue`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____array_0)); }
-	inline WorkRequestU5BU5D_t3723878365* get__array_0() const { return ____array_0; }
-	inline WorkRequestU5BU5D_t3723878365** get_address_of__array_0() { return &____array_0; }
-	inline void set__array_0(WorkRequestU5BU5D_t3723878365* value)
-	{
-		____array_0 = value;
-		Il2CppCodeGenWriteBarrier((&____array_0), value);
-	}
-
-	inline static int32_t get_offset_of__head_1() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____head_1)); }
-	inline int32_t get__head_1() const { return ____head_1; }
-	inline int32_t* get_address_of__head_1() { return &____head_1; }
-	inline void set__head_1(int32_t value)
-	{
-		____head_1 = value;
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // QUEUE_1_T1200778106_H
-#ifndef STACK_1_T3923495619_H
-#define STACK_1_T3923495619_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Stack`1<System.Object>
-struct  Stack_1_t3923495619  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.Stack`1::_array
-	ObjectU5BU5D_t2843939325* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1::_size
-	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1::_version
-	int32_t ____version_2;
-
-public:
-	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____array_0)); }
-	inline ObjectU5BU5D_t2843939325* get__array_0() const { return ____array_0; }
-	inline ObjectU5BU5D_t2843939325** get_address_of__array_0() { return &____array_0; }
-	inline void set__array_0(ObjectU5BU5D_t2843939325* value)
-	{
-		____array_0 = value;
-		Il2CppCodeGenWriteBarrier((&____array_0), value);
-	}
-
-	inline static int32_t get_offset_of__size_1() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____size_1)); }
-	inline int32_t get__size_1() const { return ____size_1; }
-	inline int32_t* get_address_of__size_1() { return &____size_1; }
-	inline void set__size_1(int32_t value)
-	{
-		____size_1 = value;
-	}
-
-	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____version_2)); }
-	inline int32_t get__version_2() const { return ____version_2; }
-	inline int32_t* get_address_of__version_2() { return &____version_2; }
-	inline void set__version_2(int32_t value)
-	{
-		____version_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // STACK_1_T3923495619_H
-#ifndef COLLECTION_1_T991591973_H
-#define COLLECTION_1_T991591973_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct  Collection_1_t991591973  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t991591973, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t991591973, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T991591973_H
-#ifndef LIST_1_T3519310797_H
-#define LIST_1_T3519310797_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct  List_1_t3519310797  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	KeyValuePair_2U5BU5D_t3002675950* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3519310797, ____items_1)); }
-	inline KeyValuePair_2U5BU5D_t3002675950* get__items_1() const { return ____items_1; }
-	inline KeyValuePair_2U5BU5D_t3002675950** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(KeyValuePair_2U5BU5D_t3002675950* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3519310797, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3519310797, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t3519310797_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	KeyValuePair_2U5BU5D_t3002675950* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3519310797_StaticFields, ___EmptyArray_4)); }
-	inline KeyValuePair_2U5BU5D_t3002675950* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline KeyValuePair_2U5BU5D_t3002675950** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(KeyValuePair_2U5BU5D_t3002675950* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T3519310797_H
-#ifndef COLLECTION_1_T1895301671_H
-#define COLLECTION_1_T1895301671_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<System.Int32>
-struct  Collection_1_t1895301671  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1895301671, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1895301671, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T1895301671_H
-#ifndef LIST_1_T128053199_H
-#define LIST_1_T128053199_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t128053199  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Int32U5BU5D_t385246372* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____items_1)); }
-	inline Int32U5BU5D_t385246372* get__items_1() const { return ____items_1; }
-	inline Int32U5BU5D_t385246372** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Int32U5BU5D_t385246372* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t128053199_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Int32U5BU5D_t385246372* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t128053199_StaticFields, ___EmptyArray_4)); }
-	inline Int32U5BU5D_t385246372* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Int32U5BU5D_t385246372** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Int32U5BU5D_t385246372* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T128053199_H
-#ifndef COLLECTION_1_T2024462082_H
-#define COLLECTION_1_T2024462082_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<System.Object>
-struct  Collection_1_t2024462082  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t2024462082, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t2024462082, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T2024462082_H
 #ifndef LIST_1_T537414295_H
 #define LIST_1_T537414295_H
 #ifdef __clang__
@@ -1786,424 +872,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LIST_1_T537414295_H
-#ifndef COLLECTION_1_T888810699_H
-#define COLLECTION_1_T888810699_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<UnityEngine.XR.iOS.UnityARVideoFormat>
-struct  Collection_1_t888810699  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t888810699, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t888810699, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T888810699_H
-#ifndef READONLYCOLLECTION_1_T3259812342_H
-#define READONLYCOLLECTION_1_T3259812342_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>
-struct  ReadOnlyCollection_1_t3259812342  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3259812342, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T3259812342_H
-#ifndef READONLYCOLLECTION_1_T4163522040_H
-#define READONLYCOLLECTION_1_T4163522040_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
-struct  ReadOnlyCollection_1_t4163522040  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t4163522040, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T4163522040_H
-#ifndef READONLYCOLLECTION_1_T4292682451_H
-#define READONLYCOLLECTION_1_T4292682451_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
-struct  ReadOnlyCollection_1_t4292682451  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t4292682451, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T4292682451_H
-#ifndef READONLYCOLLECTION_1_T1500441997_H
-#define READONLYCOLLECTION_1_T1500441997_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>
-struct  ReadOnlyCollection_1_t1500441997  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t1500441997, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T1500441997_H
-#ifndef READONLYCOLLECTION_1_T3935726444_H
-#define READONLYCOLLECTION_1_T3935726444_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>
-struct  ReadOnlyCollection_1_t3935726444  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3935726444, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T3935726444_H
-#ifndef VALUETYPE_T3640485471_H
-#define VALUETYPE_T3640485471_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ValueType
-struct  ValueType_t3640485471  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t3640485471_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.ValueType
-struct ValueType_t3640485471_marshaled_com
-{
-};
-#endif // VALUETYPE_T3640485471_H
-#ifndef MEMBERINFO_T_H
-#define MEMBERINFO_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MEMBERINFO_T_H
-#ifndef EXCEPTION_T_H
-#define EXCEPTION_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Exception
-struct  Exception_t  : public RuntimeObject
-{
-public:
-	// System.IntPtr[] System.Exception::trace_ips
-	IntPtrU5BU5D_t4013366056* ___trace_ips_0;
-	// System.Exception System.Exception::inner_exception
-	Exception_t * ___inner_exception_1;
-	// System.String System.Exception::message
-	String_t* ___message_2;
-	// System.String System.Exception::help_link
-	String_t* ___help_link_3;
-	// System.String System.Exception::class_name
-	String_t* ___class_name_4;
-	// System.String System.Exception::stack_trace
-	String_t* ___stack_trace_5;
-	// System.String System.Exception::_remoteStackTraceString
-	String_t* ____remoteStackTraceString_6;
-	// System.Int32 System.Exception::remote_stack_index
-	int32_t ___remote_stack_index_7;
-	// System.Int32 System.Exception::hresult
-	int32_t ___hresult_8;
-	// System.String System.Exception::source
-	String_t* ___source_9;
-	// System.Collections.IDictionary System.Exception::_data
-	RuntimeObject* ____data_10;
-
-public:
-	inline static int32_t get_offset_of_trace_ips_0() { return static_cast<int32_t>(offsetof(Exception_t, ___trace_ips_0)); }
-	inline IntPtrU5BU5D_t4013366056* get_trace_ips_0() const { return ___trace_ips_0; }
-	inline IntPtrU5BU5D_t4013366056** get_address_of_trace_ips_0() { return &___trace_ips_0; }
-	inline void set_trace_ips_0(IntPtrU5BU5D_t4013366056* value)
-	{
-		___trace_ips_0 = value;
-		Il2CppCodeGenWriteBarrier((&___trace_ips_0), value);
-	}
-
-	inline static int32_t get_offset_of_inner_exception_1() { return static_cast<int32_t>(offsetof(Exception_t, ___inner_exception_1)); }
-	inline Exception_t * get_inner_exception_1() const { return ___inner_exception_1; }
-	inline Exception_t ** get_address_of_inner_exception_1() { return &___inner_exception_1; }
-	inline void set_inner_exception_1(Exception_t * value)
-	{
-		___inner_exception_1 = value;
-		Il2CppCodeGenWriteBarrier((&___inner_exception_1), value);
-	}
-
-	inline static int32_t get_offset_of_message_2() { return static_cast<int32_t>(offsetof(Exception_t, ___message_2)); }
-	inline String_t* get_message_2() const { return ___message_2; }
-	inline String_t** get_address_of_message_2() { return &___message_2; }
-	inline void set_message_2(String_t* value)
-	{
-		___message_2 = value;
-		Il2CppCodeGenWriteBarrier((&___message_2), value);
-	}
-
-	inline static int32_t get_offset_of_help_link_3() { return static_cast<int32_t>(offsetof(Exception_t, ___help_link_3)); }
-	inline String_t* get_help_link_3() const { return ___help_link_3; }
-	inline String_t** get_address_of_help_link_3() { return &___help_link_3; }
-	inline void set_help_link_3(String_t* value)
-	{
-		___help_link_3 = value;
-		Il2CppCodeGenWriteBarrier((&___help_link_3), value);
-	}
-
-	inline static int32_t get_offset_of_class_name_4() { return static_cast<int32_t>(offsetof(Exception_t, ___class_name_4)); }
-	inline String_t* get_class_name_4() const { return ___class_name_4; }
-	inline String_t** get_address_of_class_name_4() { return &___class_name_4; }
-	inline void set_class_name_4(String_t* value)
-	{
-		___class_name_4 = value;
-		Il2CppCodeGenWriteBarrier((&___class_name_4), value);
-	}
-
-	inline static int32_t get_offset_of_stack_trace_5() { return static_cast<int32_t>(offsetof(Exception_t, ___stack_trace_5)); }
-	inline String_t* get_stack_trace_5() const { return ___stack_trace_5; }
-	inline String_t** get_address_of_stack_trace_5() { return &___stack_trace_5; }
-	inline void set_stack_trace_5(String_t* value)
-	{
-		___stack_trace_5 = value;
-		Il2CppCodeGenWriteBarrier((&___stack_trace_5), value);
-	}
-
-	inline static int32_t get_offset_of__remoteStackTraceString_6() { return static_cast<int32_t>(offsetof(Exception_t, ____remoteStackTraceString_6)); }
-	inline String_t* get__remoteStackTraceString_6() const { return ____remoteStackTraceString_6; }
-	inline String_t** get_address_of__remoteStackTraceString_6() { return &____remoteStackTraceString_6; }
-	inline void set__remoteStackTraceString_6(String_t* value)
-	{
-		____remoteStackTraceString_6 = value;
-		Il2CppCodeGenWriteBarrier((&____remoteStackTraceString_6), value);
-	}
-
-	inline static int32_t get_offset_of_remote_stack_index_7() { return static_cast<int32_t>(offsetof(Exception_t, ___remote_stack_index_7)); }
-	inline int32_t get_remote_stack_index_7() const { return ___remote_stack_index_7; }
-	inline int32_t* get_address_of_remote_stack_index_7() { return &___remote_stack_index_7; }
-	inline void set_remote_stack_index_7(int32_t value)
-	{
-		___remote_stack_index_7 = value;
-	}
-
-	inline static int32_t get_offset_of_hresult_8() { return static_cast<int32_t>(offsetof(Exception_t, ___hresult_8)); }
-	inline int32_t get_hresult_8() const { return ___hresult_8; }
-	inline int32_t* get_address_of_hresult_8() { return &___hresult_8; }
-	inline void set_hresult_8(int32_t value)
-	{
-		___hresult_8 = value;
-	}
-
-	inline static int32_t get_offset_of_source_9() { return static_cast<int32_t>(offsetof(Exception_t, ___source_9)); }
-	inline String_t* get_source_9() const { return ___source_9; }
-	inline String_t** get_address_of_source_9() { return &___source_9; }
-	inline void set_source_9(String_t* value)
-	{
-		___source_9 = value;
-		Il2CppCodeGenWriteBarrier((&___source_9), value);
-	}
-
-	inline static int32_t get_offset_of__data_10() { return static_cast<int32_t>(offsetof(Exception_t, ____data_10)); }
-	inline RuntimeObject* get__data_10() const { return ____data_10; }
-	inline RuntimeObject** get_address_of__data_10() { return &____data_10; }
-	inline void set__data_10(RuntimeObject* value)
-	{
-		____data_10 = value;
-		Il2CppCodeGenWriteBarrier((&____data_10), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EXCEPTION_T_H
-#ifndef COLLECTION_1_T223379848_H
-#define COLLECTION_1_T223379848_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.ObjectModel.Collection`1<UnityEngine.XR.iOS.ARHitTestResult>
-struct  Collection_1_t223379848  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
-	RuntimeObject* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
-	RuntimeObject * ___syncRoot_1;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t223379848, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-
-	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t223379848, ___syncRoot_1)); }
-	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
-	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
-	inline void set_syncRoot_1(RuntimeObject * value)
-	{
-		___syncRoot_1 = value;
-		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLLECTION_1_T223379848_H
 #ifndef COLLECTION_1_T3314824320_H
 #define COLLECTION_1_T3314824320_H
 #ifdef __clang__
@@ -2569,6 +1237,1009 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLLECTION_1_T1100585441_H
+#ifndef LIST_1_T4072576034_H
+#define LIST_1_T4072576034_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.Color32>
+struct  List_1_t4072576034  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	Color32U5BU5D_t3850468773* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____items_1)); }
+	inline Color32U5BU5D_t3850468773* get__items_1() const { return ____items_1; }
+	inline Color32U5BU5D_t3850468773** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Color32U5BU5D_t3850468773* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t4072576034, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t4072576034_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Color32U5BU5D_t3850468773* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t4072576034_StaticFields, ___EmptyArray_4)); }
+	inline Color32U5BU5D_t3850468773* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Color32U5BU5D_t3850468773** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Color32U5BU5D_t3850468773* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T4072576034_H
+#ifndef COLLECTION_1_T2024462082_H
+#define COLLECTION_1_T2024462082_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<System.Object>
+struct  Collection_1_t2024462082  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t2024462082, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t2024462082, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T2024462082_H
+#ifndef LIST_1_T257213610_H
+#define LIST_1_T257213610_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Object>
+struct  List_1_t257213610  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t2843939325* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____items_1)); }
+	inline ObjectU5BU5D_t2843939325* get__items_1() const { return ____items_1; }
+	inline ObjectU5BU5D_t2843939325** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(ObjectU5BU5D_t2843939325* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t257213610, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t257213610_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ObjectU5BU5D_t2843939325* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t257213610_StaticFields, ___EmptyArray_4)); }
+	inline ObjectU5BU5D_t2843939325* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline ObjectU5BU5D_t2843939325** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(ObjectU5BU5D_t2843939325* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T257213610_H
+#ifndef COLLECTION_1_T3527188924_H
+#define COLLECTION_1_T3527188924_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeNamedArgument>
+struct  Collection_1_t3527188924  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t3527188924, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t3527188924, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T3527188924_H
+#ifndef LIST_1_T1759940452_H
+#define LIST_1_T1759940452_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
+struct  List_1_t1759940452  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	CustomAttributeNamedArgumentU5BU5D_t3710464795* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____items_1)); }
+	inline CustomAttributeNamedArgumentU5BU5D_t3710464795* get__items_1() const { return ____items_1; }
+	inline CustomAttributeNamedArgumentU5BU5D_t3710464795** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(CustomAttributeNamedArgumentU5BU5D_t3710464795* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1759940452, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t1759940452_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	CustomAttributeNamedArgumentU5BU5D_t3710464795* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1759940452_StaticFields, ___EmptyArray_4)); }
+	inline CustomAttributeNamedArgumentU5BU5D_t3710464795* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline CustomAttributeNamedArgumentU5BU5D_t3710464795** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(CustomAttributeNamedArgumentU5BU5D_t3710464795* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T1759940452_H
+#ifndef COLLECTION_1_T1667506075_H
+#define COLLECTION_1_T1667506075_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>
+struct  Collection_1_t1667506075  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1667506075, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1667506075, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T1667506075_H
+#ifndef LIST_1_T4195224899_H
+#define LIST_1_T4195224899_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
+struct  List_1_t4195224899  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	CustomAttributeTypedArgumentU5BU5D_t1465843424* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____items_1)); }
+	inline CustomAttributeTypedArgumentU5BU5D_t1465843424* get__items_1() const { return ____items_1; }
+	inline CustomAttributeTypedArgumentU5BU5D_t1465843424** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(CustomAttributeTypedArgumentU5BU5D_t1465843424* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t4195224899, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t4195224899_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	CustomAttributeTypedArgumentU5BU5D_t1465843424* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t4195224899_StaticFields, ___EmptyArray_4)); }
+	inline CustomAttributeTypedArgumentU5BU5D_t1465843424* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline CustomAttributeTypedArgumentU5BU5D_t1465843424** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(CustomAttributeTypedArgumentU5BU5D_t1465843424* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T4195224899_H
+#ifndef COLLECTION_1_T530333749_H
+#define COLLECTION_1_T530333749_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<UnityEngine.BeforeRenderHelper/OrderBlock>
+struct  Collection_1_t530333749  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t530333749, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t530333749, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T530333749_H
+#ifndef LIST_1_T3058052573_H
+#define LIST_1_T3058052573_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock>
+struct  List_1_t3058052573  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	OrderBlockU5BU5D_t2389202590* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____items_1)); }
+	inline OrderBlockU5BU5D_t2389202590* get__items_1() const { return ____items_1; }
+	inline OrderBlockU5BU5D_t2389202590** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(OrderBlockU5BU5D_t2389202590* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3058052573, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t3058052573_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	OrderBlockU5BU5D_t2389202590* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3058052573_StaticFields, ___EmptyArray_4)); }
+	inline OrderBlockU5BU5D_t2389202590* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline OrderBlockU5BU5D_t2389202590** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(OrderBlockU5BU5D_t2389202590* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T3058052573_H
+#ifndef COLLECTION_1_T1544857210_H
+#define COLLECTION_1_T1544857210_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<UnityEngine.Color32>
+struct  Collection_1_t1544857210  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1544857210, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1544857210, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T1544857210_H
+#ifndef LIST_1_T3628304265_H
+#define LIST_1_T3628304265_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.Vector2>
+struct  List_1_t3628304265  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	Vector2U5BU5D_t1457185986* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____items_1)); }
+	inline Vector2U5BU5D_t1457185986* get__items_1() const { return ____items_1; }
+	inline Vector2U5BU5D_t1457185986** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Vector2U5BU5D_t1457185986* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t3628304265_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Vector2U5BU5D_t1457185986* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3628304265_StaticFields, ___EmptyArray_4)); }
+	inline Vector2U5BU5D_t1457185986* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Vector2U5BU5D_t1457185986** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Vector2U5BU5D_t1457185986* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T3628304265_H
+#ifndef READONLYCOLLECTION_1_T277915840_H
+#define READONLYCOLLECTION_1_T277915840_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>
+struct  ReadOnlyCollection_1_t277915840  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t277915840, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T277915840_H
+#ifndef READONLYCOLLECTION_1_T1288077393_H
+#define READONLYCOLLECTION_1_T1288077393_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>
+struct  ReadOnlyCollection_1_t1288077393  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t1288077393, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T1288077393_H
+#ifndef READONLYCOLLECTION_1_T1112875801_H
+#define READONLYCOLLECTION_1_T1112875801_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>
+struct  ReadOnlyCollection_1_t1112875801  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t1112875801, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T1112875801_H
+#ifndef READONLYCOLLECTION_1_T975106596_H
+#define READONLYCOLLECTION_1_T975106596_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>
+struct  ReadOnlyCollection_1_t975106596  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t975106596, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T975106596_H
+#ifndef READONLYCOLLECTION_1_T3368805810_H
+#define READONLYCOLLECTION_1_T3368805810_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>
+struct  ReadOnlyCollection_1_t3368805810  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3368805810, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T3368805810_H
+#ifndef READONLYCOLLECTION_1_T639922455_H
+#define READONLYCOLLECTION_1_T639922455_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>
+struct  ReadOnlyCollection_1_t639922455  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t639922455, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T639922455_H
+#ifndef VALUETYPE_T3640485471_H
+#define VALUETYPE_T3640485471_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct  ValueType_t3640485471  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t3640485471_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t3640485471_marshaled_com
+{
+};
+#endif // VALUETYPE_T3640485471_H
+#ifndef MEMBERINFO_T_H
+#define MEMBERINFO_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MemberInfo
+struct  MemberInfo_t  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERINFO_T_H
+#ifndef EXCEPTION_T_H
+#define EXCEPTION_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Exception
+struct  Exception_t  : public RuntimeObject
+{
+public:
+	// System.IntPtr[] System.Exception::trace_ips
+	IntPtrU5BU5D_t4013366056* ___trace_ips_0;
+	// System.Exception System.Exception::inner_exception
+	Exception_t * ___inner_exception_1;
+	// System.String System.Exception::message
+	String_t* ___message_2;
+	// System.String System.Exception::help_link
+	String_t* ___help_link_3;
+	// System.String System.Exception::class_name
+	String_t* ___class_name_4;
+	// System.String System.Exception::stack_trace
+	String_t* ___stack_trace_5;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_6;
+	// System.Int32 System.Exception::remote_stack_index
+	int32_t ___remote_stack_index_7;
+	// System.Int32 System.Exception::hresult
+	int32_t ___hresult_8;
+	// System.String System.Exception::source
+	String_t* ___source_9;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_10;
+
+public:
+	inline static int32_t get_offset_of_trace_ips_0() { return static_cast<int32_t>(offsetof(Exception_t, ___trace_ips_0)); }
+	inline IntPtrU5BU5D_t4013366056* get_trace_ips_0() const { return ___trace_ips_0; }
+	inline IntPtrU5BU5D_t4013366056** get_address_of_trace_ips_0() { return &___trace_ips_0; }
+	inline void set_trace_ips_0(IntPtrU5BU5D_t4013366056* value)
+	{
+		___trace_ips_0 = value;
+		Il2CppCodeGenWriteBarrier((&___trace_ips_0), value);
+	}
+
+	inline static int32_t get_offset_of_inner_exception_1() { return static_cast<int32_t>(offsetof(Exception_t, ___inner_exception_1)); }
+	inline Exception_t * get_inner_exception_1() const { return ___inner_exception_1; }
+	inline Exception_t ** get_address_of_inner_exception_1() { return &___inner_exception_1; }
+	inline void set_inner_exception_1(Exception_t * value)
+	{
+		___inner_exception_1 = value;
+		Il2CppCodeGenWriteBarrier((&___inner_exception_1), value);
+	}
+
+	inline static int32_t get_offset_of_message_2() { return static_cast<int32_t>(offsetof(Exception_t, ___message_2)); }
+	inline String_t* get_message_2() const { return ___message_2; }
+	inline String_t** get_address_of_message_2() { return &___message_2; }
+	inline void set_message_2(String_t* value)
+	{
+		___message_2 = value;
+		Il2CppCodeGenWriteBarrier((&___message_2), value);
+	}
+
+	inline static int32_t get_offset_of_help_link_3() { return static_cast<int32_t>(offsetof(Exception_t, ___help_link_3)); }
+	inline String_t* get_help_link_3() const { return ___help_link_3; }
+	inline String_t** get_address_of_help_link_3() { return &___help_link_3; }
+	inline void set_help_link_3(String_t* value)
+	{
+		___help_link_3 = value;
+		Il2CppCodeGenWriteBarrier((&___help_link_3), value);
+	}
+
+	inline static int32_t get_offset_of_class_name_4() { return static_cast<int32_t>(offsetof(Exception_t, ___class_name_4)); }
+	inline String_t* get_class_name_4() const { return ___class_name_4; }
+	inline String_t** get_address_of_class_name_4() { return &___class_name_4; }
+	inline void set_class_name_4(String_t* value)
+	{
+		___class_name_4 = value;
+		Il2CppCodeGenWriteBarrier((&___class_name_4), value);
+	}
+
+	inline static int32_t get_offset_of_stack_trace_5() { return static_cast<int32_t>(offsetof(Exception_t, ___stack_trace_5)); }
+	inline String_t* get_stack_trace_5() const { return ___stack_trace_5; }
+	inline String_t** get_address_of_stack_trace_5() { return &___stack_trace_5; }
+	inline void set_stack_trace_5(String_t* value)
+	{
+		___stack_trace_5 = value;
+		Il2CppCodeGenWriteBarrier((&___stack_trace_5), value);
+	}
+
+	inline static int32_t get_offset_of__remoteStackTraceString_6() { return static_cast<int32_t>(offsetof(Exception_t, ____remoteStackTraceString_6)); }
+	inline String_t* get__remoteStackTraceString_6() const { return ____remoteStackTraceString_6; }
+	inline String_t** get_address_of__remoteStackTraceString_6() { return &____remoteStackTraceString_6; }
+	inline void set__remoteStackTraceString_6(String_t* value)
+	{
+		____remoteStackTraceString_6 = value;
+		Il2CppCodeGenWriteBarrier((&____remoteStackTraceString_6), value);
+	}
+
+	inline static int32_t get_offset_of_remote_stack_index_7() { return static_cast<int32_t>(offsetof(Exception_t, ___remote_stack_index_7)); }
+	inline int32_t get_remote_stack_index_7() const { return ___remote_stack_index_7; }
+	inline int32_t* get_address_of_remote_stack_index_7() { return &___remote_stack_index_7; }
+	inline void set_remote_stack_index_7(int32_t value)
+	{
+		___remote_stack_index_7 = value;
+	}
+
+	inline static int32_t get_offset_of_hresult_8() { return static_cast<int32_t>(offsetof(Exception_t, ___hresult_8)); }
+	inline int32_t get_hresult_8() const { return ___hresult_8; }
+	inline int32_t* get_address_of_hresult_8() { return &___hresult_8; }
+	inline void set_hresult_8(int32_t value)
+	{
+		___hresult_8 = value;
+	}
+
+	inline static int32_t get_offset_of_source_9() { return static_cast<int32_t>(offsetof(Exception_t, ___source_9)); }
+	inline String_t* get_source_9() const { return ___source_9; }
+	inline String_t** get_address_of_source_9() { return &___source_9; }
+	inline void set_source_9(String_t* value)
+	{
+		___source_9 = value;
+		Il2CppCodeGenWriteBarrier((&___source_9), value);
+	}
+
+	inline static int32_t get_offset_of__data_10() { return static_cast<int32_t>(offsetof(Exception_t, ____data_10)); }
+	inline RuntimeObject* get__data_10() const { return ____data_10; }
+	inline RuntimeObject** get_address_of__data_10() { return &____data_10; }
+	inline void set__data_10(RuntimeObject* value)
+	{
+		____data_10 = value;
+		Il2CppCodeGenWriteBarrier((&____data_10), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EXCEPTION_T_H
+#ifndef READONLYCOLLECTION_1_T3813077579_H
+#define READONLYCOLLECTION_1_T3813077579_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>
+struct  ReadOnlyCollection_1_t3813077579  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3813077579, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T3813077579_H
 #ifndef COLLECTION_1_T2666669382_H
 #define COLLECTION_1_T2666669382_H
 #ifdef __clang__
@@ -2610,6 +2281,73 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLLECTION_1_T2666669382_H
+#ifndef LIST_1_T899420910_H
+#define LIST_1_T899420910_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.Vector3>
+struct  List_1_t899420910  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	Vector3U5BU5D_t1718750761* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____items_1)); }
+	inline Vector3U5BU5D_t1718750761* get__items_1() const { return ____items_1; }
+	inline Vector3U5BU5D_t1718750761** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Vector3U5BU5D_t1718750761* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t899420910_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Vector3U5BU5D_t1718750761* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t899420910_StaticFields, ___EmptyArray_4)); }
+	inline Vector3U5BU5D_t1718750761* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Vector3U5BU5D_t1718750761** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Vector3U5BU5D_t1718750761* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T899420910_H
 #ifndef COLLECTION_1_T2263384855_H
 #define COLLECTION_1_T2263384855_H
 #ifdef __clang__
@@ -2651,6 +2389,402 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLLECTION_1_T2263384855_H
+#ifndef COLLECTION_1_T223379848_H
+#define COLLECTION_1_T223379848_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  Collection_1_t223379848  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t223379848, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t223379848, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T223379848_H
+#ifndef COLLECTION_1_T888810699_H
+#define COLLECTION_1_T888810699_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.Collection`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  Collection_1_t888810699  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t888810699, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t888810699, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
+	{
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLECTION_1_T888810699_H
+#ifndef READONLYCOLLECTION_1_T4163522040_H
+#define READONLYCOLLECTION_1_T4163522040_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>
+struct  ReadOnlyCollection_1_t4163522040  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t4163522040, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T4163522040_H
+#ifndef READONLYCOLLECTION_1_T4292682451_H
+#define READONLYCOLLECTION_1_T4292682451_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
+struct  ReadOnlyCollection_1_t4292682451  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t4292682451, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T4292682451_H
+#ifndef READONLYCOLLECTION_1_T1500441997_H
+#define READONLYCOLLECTION_1_T1500441997_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeNamedArgument>
+struct  ReadOnlyCollection_1_t1500441997  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t1500441997, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T1500441997_H
+#ifndef READONLYCOLLECTION_1_T3935726444_H
+#define READONLYCOLLECTION_1_T3935726444_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Reflection.CustomAttributeTypedArgument>
+struct  ReadOnlyCollection_1_t3935726444  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3935726444, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T3935726444_H
+#ifndef READONLYCOLLECTION_1_T2798554118_H
+#define READONLYCOLLECTION_1_T2798554118_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>
+struct  ReadOnlyCollection_1_t2798554118  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+
+public:
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t2798554118, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
+	{
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // READONLYCOLLECTION_1_T2798554118_H
+#ifndef LIST_1_T128053199_H
+#define LIST_1_T128053199_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Int32>
+struct  List_1_t128053199  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	Int32U5BU5D_t385246372* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____items_1)); }
+	inline Int32U5BU5D_t385246372* get__items_1() const { return ____items_1; }
+	inline Int32U5BU5D_t385246372** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Int32U5BU5D_t385246372* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t128053199, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t128053199_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Int32U5BU5D_t385246372* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t128053199_StaticFields, ___EmptyArray_4)); }
+	inline Int32U5BU5D_t385246372* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Int32U5BU5D_t385246372** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Int32U5BU5D_t385246372* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T128053199_H
+#ifndef QUEUE_1_T2926365658_H
+#define QUEUE_1_T2926365658_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Queue`1<System.Object>
+struct  Queue_1_t2926365658  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.Queue`1::_array
+	ObjectU5BU5D_t2843939325* ____array_0;
+	// System.Int32 System.Collections.Generic.Queue`1::_head
+	int32_t ____head_1;
+	// System.Int32 System.Collections.Generic.Queue`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.Queue`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____array_0)); }
+	inline ObjectU5BU5D_t2843939325* get__array_0() const { return ____array_0; }
+	inline ObjectU5BU5D_t2843939325** get_address_of__array_0() { return &____array_0; }
+	inline void set__array_0(ObjectU5BU5D_t2843939325* value)
+	{
+		____array_0 = value;
+		Il2CppCodeGenWriteBarrier((&____array_0), value);
+	}
+
+	inline static int32_t get_offset_of__head_1() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____head_1)); }
+	inline int32_t get__head_1() const { return ____head_1; }
+	inline int32_t* get_address_of__head_1() { return &____head_1; }
+	inline void set__head_1(int32_t value)
+	{
+		____head_1 = value;
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(Queue_1_t2926365658, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // QUEUE_1_T2926365658_H
+#ifndef COMPARER_1_T3444209663_H
+#define COMPARER_1_T3444209663_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  Comparer_1_t3444209663  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t3444209663_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t3444209663 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t3444209663_StaticFields, ____default_0)); }
+	inline Comparer_1_t3444209663 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t3444209663 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t3444209663 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T3444209663_H
 #ifndef READONLYCOLLECTION_1_T3157031068_H
 #define READONLYCOLLECTION_1_T3157031068_H
 #ifdef __clang__
@@ -2681,6 +2815,110 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // READONLYCOLLECTION_1_T3157031068_H
+#ifndef LIST_1_T3416529523_H
+#define LIST_1_T3416529523_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  List_1_t3416529523  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	UnityARVideoFormatU5BU5D_t3086264048* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____items_1)); }
+	inline UnityARVideoFormatU5BU5D_t3086264048* get__items_1() const { return ____items_1; }
+	inline UnityARVideoFormatU5BU5D_t3086264048** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(UnityARVideoFormatU5BU5D_t3086264048* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t3416529523_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	UnityARVideoFormatU5BU5D_t3086264048* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3416529523_StaticFields, ___EmptyArray_4)); }
+	inline UnityARVideoFormatU5BU5D_t3086264048* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline UnityARVideoFormatU5BU5D_t3086264048** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(UnityARVideoFormatU5BU5D_t3086264048* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T3416529523_H
+#ifndef COMPARER_1_T2778778812_H
+#define COMPARER_1_T2778778812_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  Comparer_1_t2778778812  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t2778778812_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t2778778812 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2778778812_StaticFields, ____default_0)); }
+	inline Comparer_1_t2778778812 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t2778778812 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t2778778812 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T2778778812_H
 #ifndef READONLYCOLLECTION_1_T2491600217_H
 #define READONLYCOLLECTION_1_T2491600217_H
 #ifdef __clang__
@@ -2845,177 +3083,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // READONLYCOLLECTION_1_T236637928_H
-#ifndef LIST_1_T496136383_H
-#define LIST_1_T496136383_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct  List_1_t496136383  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Vector4U5BU5D_t934056436* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____items_1)); }
-	inline Vector4U5BU5D_t934056436* get__items_1() const { return ____items_1; }
-	inline Vector4U5BU5D_t934056436** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector4U5BU5D_t934056436* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t496136383_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector4U5BU5D_t934056436* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t496136383_StaticFields, ___EmptyArray_4)); }
-	inline Vector4U5BU5D_t934056436* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector4U5BU5D_t934056436** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector4U5BU5D_t934056436* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T496136383_H
-#ifndef COMPARER_1_T927101050_H
-#define COMPARER_1_T927101050_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<UnityEngine.Vector3>
-struct  Comparer_1_t927101050  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t927101050_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t927101050 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t927101050_StaticFields, ____default_0)); }
-	inline Comparer_1_t927101050 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t927101050 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t927101050 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T927101050_H
-#ifndef LIST_1_T3628304265_H
-#define LIST_1_T3628304265_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Vector2>
-struct  List_1_t3628304265  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Vector2U5BU5D_t1457185986* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____items_1)); }
-	inline Vector2U5BU5D_t1457185986* get__items_1() const { return ____items_1; }
-	inline Vector2U5BU5D_t1457185986** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector2U5BU5D_t1457185986* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3628304265, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t3628304265_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector2U5BU5D_t1457185986* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3628304265_StaticFields, ___EmptyArray_4)); }
-	inline Vector2U5BU5D_t1457185986* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector2U5BU5D_t1457185986** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector2U5BU5D_t1457185986* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T3628304265_H
 #ifndef STRING_T_H
 #define STRING_T_H
 #ifdef __clang__
@@ -3083,103 +3150,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STRING_T_H
-#ifndef READONLYCOLLECTION_1_T3368805810_H
-#define READONLYCOLLECTION_1_T3368805810_H
+#ifndef LIST_1_T496136383_H
+#define LIST_1_T496136383_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>
-struct  ReadOnlyCollection_1_t3368805810  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t3368805810, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T3368805810_H
-#ifndef COMPARER_1_T3655984405_H
-#define COMPARER_1_T3655984405_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<UnityEngine.Vector2>
-struct  Comparer_1_t3655984405  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t3655984405_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t3655984405 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t3655984405_StaticFields, ____default_0)); }
-	inline Comparer_1_t3655984405 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t3655984405 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t3655984405 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T3655984405_H
-#ifndef LIST_1_T899420910_H
-#define LIST_1_T899420910_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct  List_1_t899420910  : public RuntimeObject
+// System.Collections.Generic.List`1<UnityEngine.Vector4>
+struct  List_1_t496136383  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
-	Vector3U5BU5D_t1718750761* ____items_1;
+	Vector4U5BU5D_t934056436* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____items_1)); }
-	inline Vector3U5BU5D_t1718750761* get__items_1() const { return ____items_1; }
-	inline Vector3U5BU5D_t1718750761** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector3U5BU5D_t1718750761* value)
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____items_1)); }
+	inline Vector4U5BU5D_t934056436* get__items_1() const { return ____items_1; }
+	inline Vector4U5BU5D_t934056436** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(Vector4U5BU5D_t934056436* value)
 	{
 		____items_1 = value;
 		Il2CppCodeGenWriteBarrier((&____items_1), value);
 	}
 
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____size_2)); }
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____size_2)); }
 	inline int32_t get__size_2() const { return ____size_2; }
 	inline int32_t* get_address_of__size_2() { return &____size_2; }
 	inline void set__size_2(int32_t value)
@@ -3187,7 +3187,7 @@ public:
 		____size_2 = value;
 	}
 
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t899420910, ____version_3)); }
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t496136383, ____version_3)); }
 	inline int32_t get__version_3() const { return ____version_3; }
 	inline int32_t* get_address_of__version_3() { return &____version_3; }
 	inline void set__version_3(int32_t value)
@@ -3196,17 +3196,17 @@ public:
 	}
 };
 
-struct List_1_t899420910_StaticFields
+struct List_1_t496136383_StaticFields
 {
 public:
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector3U5BU5D_t1718750761* ___EmptyArray_4;
+	Vector4U5BU5D_t934056436* ___EmptyArray_4;
 
 public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t899420910_StaticFields, ___EmptyArray_4)); }
-	inline Vector3U5BU5D_t1718750761* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector3U5BU5D_t1718750761** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector3U5BU5D_t1718750761* value)
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t496136383_StaticFields, ___EmptyArray_4)); }
+	inline Vector4U5BU5D_t934056436* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline Vector4U5BU5D_t934056436** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(Vector4U5BU5D_t934056436* value)
 	{
 		___EmptyArray_4 = value;
 		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
@@ -3216,104 +3216,47 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LIST_1_T899420910_H
-#ifndef READONLYCOLLECTION_1_T639922455_H
-#define READONLYCOLLECTION_1_T639922455_H
+#endif // LIST_1_T496136383_H
+#ifndef QUEUE_1_T1200778106_H
+#define QUEUE_1_T1200778106_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>
-struct  ReadOnlyCollection_1_t639922455  : public RuntimeObject
+// System.Collections.Generic.Queue`1<UnityEngine.UnitySynchronizationContext/WorkRequest>
+struct  Queue_1_t1200778106  : public RuntimeObject
 {
 public:
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
-	RuntimeObject* ___list_0;
-
-public:
-	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(ReadOnlyCollection_1_t639922455, ___list_0)); }
-	inline RuntimeObject* get_list_0() const { return ___list_0; }
-	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
-	inline void set_list_0(RuntimeObject* value)
-	{
-		___list_0 = value;
-		Il2CppCodeGenWriteBarrier((&___list_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // READONLYCOLLECTION_1_T639922455_H
-#ifndef COMPARER_1_T2778778812_H
-#define COMPARER_1_T2778778812_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<UnityEngine.XR.iOS.ARHitTestResult>
-struct  Comparer_1_t2778778812  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t2778778812_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t2778778812 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2778778812_StaticFields, ____default_0)); }
-	inline Comparer_1_t2778778812 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t2778778812 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t2778778812 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T2778778812_H
-#ifndef LIST_1_T3416529523_H
-#define LIST_1_T3416529523_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.XR.iOS.UnityARVideoFormat>
-struct  List_1_t3416529523  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	UnityARVideoFormatU5BU5D_t3086264048* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
+	// T[] System.Collections.Generic.Queue`1::_array
+	WorkRequestU5BU5D_t3723878365* ____array_0;
+	// System.Int32 System.Collections.Generic.Queue`1::_head
+	int32_t ____head_1;
+	// System.Int32 System.Collections.Generic.Queue`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
+	// System.Int32 System.Collections.Generic.Queue`1::_version
 	int32_t ____version_3;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____items_1)); }
-	inline UnityARVideoFormatU5BU5D_t3086264048* get__items_1() const { return ____items_1; }
-	inline UnityARVideoFormatU5BU5D_t3086264048** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(UnityARVideoFormatU5BU5D_t3086264048* value)
+	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____array_0)); }
+	inline WorkRequestU5BU5D_t3723878365* get__array_0() const { return ____array_0; }
+	inline WorkRequestU5BU5D_t3723878365** get_address_of__array_0() { return &____array_0; }
+	inline void set__array_0(WorkRequestU5BU5D_t3723878365* value)
 	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
+		____array_0 = value;
+		Il2CppCodeGenWriteBarrier((&____array_0), value);
 	}
 
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____size_2)); }
+	inline static int32_t get_offset_of__head_1() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____head_1)); }
+	inline int32_t get__head_1() const { return ____head_1; }
+	inline int32_t* get_address_of__head_1() { return &____head_1; }
+	inline void set__head_1(int32_t value)
+	{
+		____head_1 = value;
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____size_2)); }
 	inline int32_t get__size_2() const { return ____size_2; }
 	inline int32_t* get_address_of__size_2() { return &____size_2; }
 	inline void set__size_2(int32_t value)
@@ -3321,7 +3264,7 @@ public:
 		____size_2 = value;
 	}
 
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3416529523, ____version_3)); }
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(Queue_1_t1200778106, ____version_3)); }
 	inline int32_t get__version_3() const { return ____version_3; }
 	inline int32_t* get_address_of__version_3() { return &____version_3; }
 	inline void set__version_3(int32_t value)
@@ -3330,77 +3273,146 @@ public:
 	}
 };
 
-struct List_1_t3416529523_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	UnityARVideoFormatU5BU5D_t3086264048* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3416529523_StaticFields, ___EmptyArray_4)); }
-	inline UnityARVideoFormatU5BU5D_t3086264048* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline UnityARVideoFormatU5BU5D_t3086264048** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(UnityARVideoFormatU5BU5D_t3086264048* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LIST_1_T3416529523_H
-#ifndef ENUMERATOR_T3588277760_H
-#define ENUMERATOR_T3588277760_H
+#endif // QUEUE_1_T1200778106_H
+#ifndef COLLECTION_1_T1895301671_H
+#define COLLECTION_1_T1895301671_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.Queue`1/Enumerator<System.Object>
-struct  Enumerator_t3588277760 
+// System.Collections.ObjectModel.Collection`1<System.Int32>
+struct  Collection_1_t1895301671  : public RuntimeObject
 {
 public:
-	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::q
-	Queue_1_t2926365658 * ___q_0;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::idx
-	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::ver
-	int32_t ___ver_2;
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
+	RuntimeObject * ___syncRoot_1;
 
 public:
-	inline static int32_t get_offset_of_q_0() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___q_0)); }
-	inline Queue_1_t2926365658 * get_q_0() const { return ___q_0; }
-	inline Queue_1_t2926365658 ** get_address_of_q_0() { return &___q_0; }
-	inline void set_q_0(Queue_1_t2926365658 * value)
+	inline static int32_t get_offset_of_list_0() { return static_cast<int32_t>(offsetof(Collection_1_t1895301671, ___list_0)); }
+	inline RuntimeObject* get_list_0() const { return ___list_0; }
+	inline RuntimeObject** get_address_of_list_0() { return &___list_0; }
+	inline void set_list_0(RuntimeObject* value)
 	{
-		___q_0 = value;
-		Il2CppCodeGenWriteBarrier((&___q_0), value);
+		___list_0 = value;
+		Il2CppCodeGenWriteBarrier((&___list_0), value);
 	}
 
-	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___idx_1)); }
-	inline int32_t get_idx_1() const { return ___idx_1; }
-	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
-	inline void set_idx_1(int32_t value)
+	inline static int32_t get_offset_of_syncRoot_1() { return static_cast<int32_t>(offsetof(Collection_1_t1895301671, ___syncRoot_1)); }
+	inline RuntimeObject * get_syncRoot_1() const { return ___syncRoot_1; }
+	inline RuntimeObject ** get_address_of_syncRoot_1() { return &___syncRoot_1; }
+	inline void set_syncRoot_1(RuntimeObject * value)
 	{
-		___idx_1 = value;
-	}
-
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
-	{
-		___ver_2 = value;
+		___syncRoot_1 = value;
+		Il2CppCodeGenWriteBarrier((&___syncRoot_1), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T3588277760_H
+#endif // COLLECTION_1_T1895301671_H
+#ifndef STACK_1_T3923495619_H
+#define STACK_1_T3923495619_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Stack`1<System.Object>
+struct  Stack_1_t3923495619  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.Stack`1::_array
+	ObjectU5BU5D_t2843939325* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
+	int32_t ____size_1;
+	// System.Int32 System.Collections.Generic.Stack`1::_version
+	int32_t ____version_2;
+
+public:
+	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____array_0)); }
+	inline ObjectU5BU5D_t2843939325* get__array_0() const { return ____array_0; }
+	inline ObjectU5BU5D_t2843939325** get_address_of__array_0() { return &____array_0; }
+	inline void set__array_0(ObjectU5BU5D_t2843939325* value)
+	{
+		____array_0 = value;
+		Il2CppCodeGenWriteBarrier((&____array_0), value);
+	}
+
+	inline static int32_t get_offset_of__size_1() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____size_1)); }
+	inline int32_t get__size_1() const { return ____size_1; }
+	inline int32_t* get_address_of__size_1() { return &____size_1; }
+	inline void set__size_1(int32_t value)
+	{
+		____size_1 = value;
+	}
+
+	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Stack_1_t3923495619, ____version_2)); }
+	inline int32_t get__version_2() const { return ____version_2; }
+	inline int32_t* get_address_of__version_2() { return &____version_2; }
+	inline void set__version_2(int32_t value)
+	{
+		____version_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // STACK_1_T3923495619_H
+#ifndef ENUM_T4135868527_H
+#define ENUM_T4135868527_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Enum
+struct  Enum_t4135868527  : public ValueType_t3640485471
+{
+public:
+
+public:
+};
+
+struct Enum_t4135868527_StaticFields
+{
+public:
+	// System.Char[] System.Enum::split_char
+	CharU5BU5D_t3528271667* ___split_char_0;
+
+public:
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t4135868527_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t3528271667* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t3528271667** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t3528271667* value)
+	{
+		___split_char_0 = value;
+		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t4135868527_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t4135868527_marshaled_com
+{
+};
+#endif // ENUM_T4135868527_H
 #ifndef VECTOR3_T3722313464_H
 #define VECTOR3_T3722313464_H
 #ifdef __clang__
@@ -3556,211 +3568,36 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR3_T3722313464_H
-#ifndef COLOR32_T2600501292_H
-#define COLOR32_T2600501292_H
+#ifndef ENUMERATOR_T1142515742_H
+#define ENUMERATOR_T1142515742_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Color32
-struct  Color32_t2600501292 
+// System.Collections.Generic.Stack`1/Enumerator<System.Object>
+struct  Enumerator_t1142515742 
 {
 public:
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int32 UnityEngine.Color32::rgba
-			int32_t ___rgba_0;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int32_t ___rgba_0_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Byte UnityEngine.Color32::r
-			uint8_t ___r_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			uint8_t ___r_1_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___g_2_OffsetPadding[1];
-			// System.Byte UnityEngine.Color32::g
-			uint8_t ___g_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___g_2_OffsetPadding_forAlignmentOnly[1];
-			uint8_t ___g_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___b_3_OffsetPadding[2];
-			// System.Byte UnityEngine.Color32::b
-			uint8_t ___b_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___b_3_OffsetPadding_forAlignmentOnly[2];
-			uint8_t ___b_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___a_4_OffsetPadding[3];
-			// System.Byte UnityEngine.Color32::a
-			uint8_t ___a_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___a_4_OffsetPadding_forAlignmentOnly[3];
-			uint8_t ___a_4_forAlignmentOnly;
-		};
-	};
-
-public:
-	inline static int32_t get_offset_of_rgba_0() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___rgba_0)); }
-	inline int32_t get_rgba_0() const { return ___rgba_0; }
-	inline int32_t* get_address_of_rgba_0() { return &___rgba_0; }
-	inline void set_rgba_0(int32_t value)
-	{
-		___rgba_0 = value;
-	}
-
-	inline static int32_t get_offset_of_r_1() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___r_1)); }
-	inline uint8_t get_r_1() const { return ___r_1; }
-	inline uint8_t* get_address_of_r_1() { return &___r_1; }
-	inline void set_r_1(uint8_t value)
-	{
-		___r_1 = value;
-	}
-
-	inline static int32_t get_offset_of_g_2() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___g_2)); }
-	inline uint8_t get_g_2() const { return ___g_2; }
-	inline uint8_t* get_address_of_g_2() { return &___g_2; }
-	inline void set_g_2(uint8_t value)
-	{
-		___g_2 = value;
-	}
-
-	inline static int32_t get_offset_of_b_3() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___b_3)); }
-	inline uint8_t get_b_3() const { return ___b_3; }
-	inline uint8_t* get_address_of_b_3() { return &___b_3; }
-	inline void set_b_3(uint8_t value)
-	{
-		___b_3 = value;
-	}
-
-	inline static int32_t get_offset_of_a_4() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___a_4)); }
-	inline uint8_t get_a_4() const { return ___a_4; }
-	inline uint8_t* get_address_of_a_4() { return &___a_4; }
-	inline void set_a_4(uint8_t value)
-	{
-		___a_4 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLOR32_T2600501292_H
-#ifndef ORDERBLOCK_T1585977831_H
-#define ORDERBLOCK_T1585977831_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.BeforeRenderHelper/OrderBlock
-struct  OrderBlock_t1585977831 
-{
-public:
-	// System.Int32 UnityEngine.BeforeRenderHelper/OrderBlock::order
-	int32_t ___order_0;
-	// UnityEngine.Events.UnityAction UnityEngine.BeforeRenderHelper/OrderBlock::callback
-	UnityAction_t3245792599 * ___callback_1;
-
-public:
-	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(OrderBlock_t1585977831, ___order_0)); }
-	inline int32_t get_order_0() const { return ___order_0; }
-	inline int32_t* get_address_of_order_0() { return &___order_0; }
-	inline void set_order_0(int32_t value)
-	{
-		___order_0 = value;
-	}
-
-	inline static int32_t get_offset_of_callback_1() { return static_cast<int32_t>(offsetof(OrderBlock_t1585977831, ___callback_1)); }
-	inline UnityAction_t3245792599 * get_callback_1() const { return ___callback_1; }
-	inline UnityAction_t3245792599 ** get_address_of_callback_1() { return &___callback_1; }
-	inline void set_callback_1(UnityAction_t3245792599 * value)
-	{
-		___callback_1 = value;
-		Il2CppCodeGenWriteBarrier((&___callback_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.BeforeRenderHelper/OrderBlock
-struct OrderBlock_t1585977831_marshaled_pinvoke
-{
-	int32_t ___order_0;
-	Il2CppMethodPointer ___callback_1;
-};
-// Native definition for COM marshalling of UnityEngine.BeforeRenderHelper/OrderBlock
-struct OrderBlock_t1585977831_marshaled_com
-{
-	int32_t ___order_0;
-	Il2CppMethodPointer ___callback_1;
-};
-#endif // ORDERBLOCK_T1585977831_H
-#ifndef ENUMERATOR_T1862690208_H
-#define ENUMERATOR_T1862690208_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Queue`1/Enumerator<UnityEngine.UnitySynchronizationContext/WorkRequest>
-struct  Enumerator_t1862690208 
-{
-public:
-	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::q
-	Queue_1_t1200778106 * ___q_0;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::idx
+	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator::parent
+	Stack_1_t3923495619 * ___parent_0;
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::idx
 	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::ver
-	int32_t ___ver_2;
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::_version
+	int32_t ____version_2;
 
 public:
-	inline static int32_t get_offset_of_q_0() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___q_0)); }
-	inline Queue_1_t1200778106 * get_q_0() const { return ___q_0; }
-	inline Queue_1_t1200778106 ** get_address_of_q_0() { return &___q_0; }
-	inline void set_q_0(Queue_1_t1200778106 * value)
+	inline static int32_t get_offset_of_parent_0() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ___parent_0)); }
+	inline Stack_1_t3923495619 * get_parent_0() const { return ___parent_0; }
+	inline Stack_1_t3923495619 ** get_address_of_parent_0() { return &___parent_0; }
+	inline void set_parent_0(Stack_1_t3923495619 * value)
 	{
-		___q_0 = value;
-		Il2CppCodeGenWriteBarrier((&___q_0), value);
+		___parent_0 = value;
+		Il2CppCodeGenWriteBarrier((&___parent_0), value);
 	}
 
-	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___idx_1)); }
+	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ___idx_1)); }
 	inline int32_t get_idx_1() const { return ___idx_1; }
 	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
 	inline void set_idx_1(int32_t value)
@@ -3768,183 +3605,201 @@ public:
 		___idx_1 = value;
 	}
 
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
+	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ____version_2)); }
+	inline int32_t get__version_2() const { return ____version_2; }
+	inline int32_t* get_address_of__version_2() { return &____version_2; }
+	inline void set__version_2(int32_t value)
 	{
-		___ver_2 = value;
+		____version_2 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T1862690208_H
-#ifndef VECTOR4_T3319028937_H
-#define VECTOR4_T3319028937_H
+#endif // ENUMERATOR_T1142515742_H
+#ifndef VECTOR2_T2156229523_H
+#define VECTOR2_T2156229523_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Vector4
-struct  Vector4_t3319028937 
+// UnityEngine.Vector2
+struct  Vector2_t2156229523 
 {
 public:
-	// System.Single UnityEngine.Vector4::x
-	float ___x_1;
-	// System.Single UnityEngine.Vector4::y
-	float ___y_2;
-	// System.Single UnityEngine.Vector4::z
-	float ___z_3;
-	// System.Single UnityEngine.Vector4::w
-	float ___w_4;
+	// System.Single UnityEngine.Vector2::x
+	float ___x_0;
+	// System.Single UnityEngine.Vector2::y
+	float ___y_1;
 
 public:
-	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___x_1)); }
-	inline float get_x_1() const { return ___x_1; }
-	inline float* get_address_of_x_1() { return &___x_1; }
-	inline void set_x_1(float value)
+	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___x_0)); }
+	inline float get_x_0() const { return ___x_0; }
+	inline float* get_address_of_x_0() { return &___x_0; }
+	inline void set_x_0(float value)
 	{
-		___x_1 = value;
+		___x_0 = value;
 	}
 
-	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___y_2)); }
-	inline float get_y_2() const { return ___y_2; }
-	inline float* get_address_of_y_2() { return &___y_2; }
-	inline void set_y_2(float value)
+	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___y_1)); }
+	inline float get_y_1() const { return ___y_1; }
+	inline float* get_address_of_y_1() { return &___y_1; }
+	inline void set_y_1(float value)
 	{
-		___y_2 = value;
-	}
-
-	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___z_3)); }
-	inline float get_z_3() const { return ___z_3; }
-	inline float* get_address_of_z_3() { return &___z_3; }
-	inline void set_z_3(float value)
-	{
-		___z_3 = value;
-	}
-
-	inline static int32_t get_offset_of_w_4() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___w_4)); }
-	inline float get_w_4() const { return ___w_4; }
-	inline float* get_address_of_w_4() { return &___w_4; }
-	inline void set_w_4(float value)
-	{
-		___w_4 = value;
+		___y_1 = value;
 	}
 };
 
-struct Vector4_t3319028937_StaticFields
+struct Vector2_t2156229523_StaticFields
 {
 public:
-	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
-	Vector4_t3319028937  ___zeroVector_5;
-	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
-	Vector4_t3319028937  ___oneVector_6;
-	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
-	Vector4_t3319028937  ___positiveInfinityVector_7;
-	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
-	Vector4_t3319028937  ___negativeInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t2156229523  ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t2156229523  ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t2156229523  ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t2156229523  ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t2156229523  ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t2156229523  ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t2156229523  ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t2156229523  ___negativeInfinityVector_9;
 
 public:
-	inline static int32_t get_offset_of_zeroVector_5() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___zeroVector_5)); }
-	inline Vector4_t3319028937  get_zeroVector_5() const { return ___zeroVector_5; }
-	inline Vector4_t3319028937 * get_address_of_zeroVector_5() { return &___zeroVector_5; }
-	inline void set_zeroVector_5(Vector4_t3319028937  value)
+	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___zeroVector_2)); }
+	inline Vector2_t2156229523  get_zeroVector_2() const { return ___zeroVector_2; }
+	inline Vector2_t2156229523 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
+	inline void set_zeroVector_2(Vector2_t2156229523  value)
 	{
-		___zeroVector_5 = value;
+		___zeroVector_2 = value;
 	}
 
-	inline static int32_t get_offset_of_oneVector_6() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___oneVector_6)); }
-	inline Vector4_t3319028937  get_oneVector_6() const { return ___oneVector_6; }
-	inline Vector4_t3319028937 * get_address_of_oneVector_6() { return &___oneVector_6; }
-	inline void set_oneVector_6(Vector4_t3319028937  value)
+	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___oneVector_3)); }
+	inline Vector2_t2156229523  get_oneVector_3() const { return ___oneVector_3; }
+	inline Vector2_t2156229523 * get_address_of_oneVector_3() { return &___oneVector_3; }
+	inline void set_oneVector_3(Vector2_t2156229523  value)
 	{
-		___oneVector_6 = value;
+		___oneVector_3 = value;
 	}
 
-	inline static int32_t get_offset_of_positiveInfinityVector_7() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___positiveInfinityVector_7)); }
-	inline Vector4_t3319028937  get_positiveInfinityVector_7() const { return ___positiveInfinityVector_7; }
-	inline Vector4_t3319028937 * get_address_of_positiveInfinityVector_7() { return &___positiveInfinityVector_7; }
-	inline void set_positiveInfinityVector_7(Vector4_t3319028937  value)
+	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___upVector_4)); }
+	inline Vector2_t2156229523  get_upVector_4() const { return ___upVector_4; }
+	inline Vector2_t2156229523 * get_address_of_upVector_4() { return &___upVector_4; }
+	inline void set_upVector_4(Vector2_t2156229523  value)
 	{
-		___positiveInfinityVector_7 = value;
+		___upVector_4 = value;
 	}
 
-	inline static int32_t get_offset_of_negativeInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___negativeInfinityVector_8)); }
-	inline Vector4_t3319028937  get_negativeInfinityVector_8() const { return ___negativeInfinityVector_8; }
-	inline Vector4_t3319028937 * get_address_of_negativeInfinityVector_8() { return &___negativeInfinityVector_8; }
-	inline void set_negativeInfinityVector_8(Vector4_t3319028937  value)
+	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___downVector_5)); }
+	inline Vector2_t2156229523  get_downVector_5() const { return ___downVector_5; }
+	inline Vector2_t2156229523 * get_address_of_downVector_5() { return &___downVector_5; }
+	inline void set_downVector_5(Vector2_t2156229523  value)
 	{
-		___negativeInfinityVector_8 = value;
+		___downVector_5 = value;
+	}
+
+	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___leftVector_6)); }
+	inline Vector2_t2156229523  get_leftVector_6() const { return ___leftVector_6; }
+	inline Vector2_t2156229523 * get_address_of_leftVector_6() { return &___leftVector_6; }
+	inline void set_leftVector_6(Vector2_t2156229523  value)
+	{
+		___leftVector_6 = value;
+	}
+
+	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___rightVector_7)); }
+	inline Vector2_t2156229523  get_rightVector_7() const { return ___rightVector_7; }
+	inline Vector2_t2156229523 * get_address_of_rightVector_7() { return &___rightVector_7; }
+	inline void set_rightVector_7(Vector2_t2156229523  value)
+	{
+		___rightVector_7 = value;
+	}
+
+	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___positiveInfinityVector_8)); }
+	inline Vector2_t2156229523  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
+	inline Vector2_t2156229523 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
+	inline void set_positiveInfinityVector_8(Vector2_t2156229523  value)
+	{
+		___positiveInfinityVector_8 = value;
+	}
+
+	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___negativeInfinityVector_9)); }
+	inline Vector2_t2156229523  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
+	inline Vector2_t2156229523 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
+	inline void set_negativeInfinityVector_9(Vector2_t2156229523  value)
+	{
+		___negativeInfinityVector_9 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR4_T3319028937_H
-#ifndef UILINEINFO_T4195266810_H
-#define UILINEINFO_T4195266810_H
+#endif // VECTOR2_T2156229523_H
+#ifndef BOOLEAN_T97287965_H
+#define BOOLEAN_T97287965_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.UILineInfo
-struct  UILineInfo_t4195266810 
+// System.Boolean
+struct  Boolean_t97287965 
 {
 public:
-	// System.Int32 UnityEngine.UILineInfo::startCharIdx
-	int32_t ___startCharIdx_0;
-	// System.Int32 UnityEngine.UILineInfo::height
-	int32_t ___height_1;
-	// System.Single UnityEngine.UILineInfo::topY
-	float ___topY_2;
-	// System.Single UnityEngine.UILineInfo::leading
-	float ___leading_3;
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_startCharIdx_0() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___startCharIdx_0)); }
-	inline int32_t get_startCharIdx_0() const { return ___startCharIdx_0; }
-	inline int32_t* get_address_of_startCharIdx_0() { return &___startCharIdx_0; }
-	inline void set_startCharIdx_0(int32_t value)
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t97287965, ___m_value_2)); }
+	inline bool get_m_value_2() const { return ___m_value_2; }
+	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(bool value)
 	{
-		___startCharIdx_0 = value;
+		___m_value_2 = value;
+	}
+};
+
+struct Boolean_t97287965_StaticFields
+{
+public:
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_0;
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_1;
+
+public:
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___FalseString_0)); }
+	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
+	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
+	inline void set_FalseString_0(String_t* value)
+	{
+		___FalseString_0 = value;
+		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
 	}
 
-	inline static int32_t get_offset_of_height_1() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___height_1)); }
-	inline int32_t get_height_1() const { return ___height_1; }
-	inline int32_t* get_address_of_height_1() { return &___height_1; }
-	inline void set_height_1(int32_t value)
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___TrueString_1)); }
+	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
+	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
+	inline void set_TrueString_1(String_t* value)
 	{
-		___height_1 = value;
-	}
-
-	inline static int32_t get_offset_of_topY_2() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___topY_2)); }
-	inline float get_topY_2() const { return ___topY_2; }
-	inline float* get_address_of_topY_2() { return &___topY_2; }
-	inline void set_topY_2(float value)
-	{
-		___topY_2 = value;
-	}
-
-	inline static int32_t get_offset_of_leading_3() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___leading_3)); }
-	inline float get_leading_3() const { return ___leading_3; }
-	inline float* get_address_of_leading_3() { return &___leading_3; }
-	inline void set_leading_3(float value)
-	{
-		___leading_3 = value;
+		___TrueString_1 = value;
+		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UILINEINFO_T4195266810_H
+#endif // BOOLEAN_T97287965_H
 #ifndef VOID_T1185182177_H
 #define VOID_T1185182177_H
 #ifdef __clang__
@@ -4235,131 +4090,111 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SYSTEMEXCEPTION_T176217640_H
-#ifndef VECTOR2_T2156229523_H
-#define VECTOR2_T2156229523_H
+#ifndef VECTOR4_T3319028937_H
+#define VECTOR4_T3319028937_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Vector2
-struct  Vector2_t2156229523 
+// UnityEngine.Vector4
+struct  Vector4_t3319028937 
 {
 public:
-	// System.Single UnityEngine.Vector2::x
-	float ___x_0;
-	// System.Single UnityEngine.Vector2::y
-	float ___y_1;
+	// System.Single UnityEngine.Vector4::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector4::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector4::z
+	float ___z_3;
+	// System.Single UnityEngine.Vector4::w
+	float ___w_4;
 
 public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
+	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___x_1)); }
+	inline float get_x_1() const { return ___x_1; }
+	inline float* get_address_of_x_1() { return &___x_1; }
+	inline void set_x_1(float value)
 	{
-		___x_0 = value;
+		___x_1 = value;
 	}
 
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2156229523, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
+	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___y_2)); }
+	inline float get_y_2() const { return ___y_2; }
+	inline float* get_address_of_y_2() { return &___y_2; }
+	inline void set_y_2(float value)
 	{
-		___y_1 = value;
+		___y_2 = value;
+	}
+
+	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___z_3)); }
+	inline float get_z_3() const { return ___z_3; }
+	inline float* get_address_of_z_3() { return &___z_3; }
+	inline void set_z_3(float value)
+	{
+		___z_3 = value;
+	}
+
+	inline static int32_t get_offset_of_w_4() { return static_cast<int32_t>(offsetof(Vector4_t3319028937, ___w_4)); }
+	inline float get_w_4() const { return ___w_4; }
+	inline float* get_address_of_w_4() { return &___w_4; }
+	inline void set_w_4(float value)
+	{
+		___w_4 = value;
 	}
 };
 
-struct Vector2_t2156229523_StaticFields
+struct Vector4_t3319028937_StaticFields
 {
 public:
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t2156229523  ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t2156229523  ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t2156229523  ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t2156229523  ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t2156229523  ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t2156229523  ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t2156229523  ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t2156229523  ___negativeInfinityVector_9;
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t3319028937  ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t3319028937  ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t3319028937  ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t3319028937  ___negativeInfinityVector_8;
 
 public:
-	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___zeroVector_2)); }
-	inline Vector2_t2156229523  get_zeroVector_2() const { return ___zeroVector_2; }
-	inline Vector2_t2156229523 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
-	inline void set_zeroVector_2(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_zeroVector_5() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___zeroVector_5)); }
+	inline Vector4_t3319028937  get_zeroVector_5() const { return ___zeroVector_5; }
+	inline Vector4_t3319028937 * get_address_of_zeroVector_5() { return &___zeroVector_5; }
+	inline void set_zeroVector_5(Vector4_t3319028937  value)
 	{
-		___zeroVector_2 = value;
+		___zeroVector_5 = value;
 	}
 
-	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___oneVector_3)); }
-	inline Vector2_t2156229523  get_oneVector_3() const { return ___oneVector_3; }
-	inline Vector2_t2156229523 * get_address_of_oneVector_3() { return &___oneVector_3; }
-	inline void set_oneVector_3(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_oneVector_6() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___oneVector_6)); }
+	inline Vector4_t3319028937  get_oneVector_6() const { return ___oneVector_6; }
+	inline Vector4_t3319028937 * get_address_of_oneVector_6() { return &___oneVector_6; }
+	inline void set_oneVector_6(Vector4_t3319028937  value)
 	{
-		___oneVector_3 = value;
+		___oneVector_6 = value;
 	}
 
-	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___upVector_4)); }
-	inline Vector2_t2156229523  get_upVector_4() const { return ___upVector_4; }
-	inline Vector2_t2156229523 * get_address_of_upVector_4() { return &___upVector_4; }
-	inline void set_upVector_4(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_positiveInfinityVector_7() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___positiveInfinityVector_7)); }
+	inline Vector4_t3319028937  get_positiveInfinityVector_7() const { return ___positiveInfinityVector_7; }
+	inline Vector4_t3319028937 * get_address_of_positiveInfinityVector_7() { return &___positiveInfinityVector_7; }
+	inline void set_positiveInfinityVector_7(Vector4_t3319028937  value)
 	{
-		___upVector_4 = value;
+		___positiveInfinityVector_7 = value;
 	}
 
-	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___downVector_5)); }
-	inline Vector2_t2156229523  get_downVector_5() const { return ___downVector_5; }
-	inline Vector2_t2156229523 * get_address_of_downVector_5() { return &___downVector_5; }
-	inline void set_downVector_5(Vector2_t2156229523  value)
+	inline static int32_t get_offset_of_negativeInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector4_t3319028937_StaticFields, ___negativeInfinityVector_8)); }
+	inline Vector4_t3319028937  get_negativeInfinityVector_8() const { return ___negativeInfinityVector_8; }
+	inline Vector4_t3319028937 * get_address_of_negativeInfinityVector_8() { return &___negativeInfinityVector_8; }
+	inline void set_negativeInfinityVector_8(Vector4_t3319028937  value)
 	{
-		___downVector_5 = value;
-	}
-
-	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___leftVector_6)); }
-	inline Vector2_t2156229523  get_leftVector_6() const { return ___leftVector_6; }
-	inline Vector2_t2156229523 * get_address_of_leftVector_6() { return &___leftVector_6; }
-	inline void set_leftVector_6(Vector2_t2156229523  value)
-	{
-		___leftVector_6 = value;
-	}
-
-	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___rightVector_7)); }
-	inline Vector2_t2156229523  get_rightVector_7() const { return ___rightVector_7; }
-	inline Vector2_t2156229523 * get_address_of_rightVector_7() { return &___rightVector_7; }
-	inline void set_rightVector_7(Vector2_t2156229523  value)
-	{
-		___rightVector_7 = value;
-	}
-
-	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___positiveInfinityVector_8)); }
-	inline Vector2_t2156229523  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
-	inline Vector2_t2156229523 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
-	inline void set_positiveInfinityVector_8(Vector2_t2156229523  value)
-	{
-		___positiveInfinityVector_8 = value;
-	}
-
-	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2156229523_StaticFields, ___negativeInfinityVector_9)); }
-	inline Vector2_t2156229523  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
-	inline Vector2_t2156229523 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
-	inline void set_negativeInfinityVector_9(Vector2_t2156229523  value)
-	{
-		___negativeInfinityVector_9 = value;
+		___negativeInfinityVector_8 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR2_T2156229523_H
+#endif // VECTOR4_T3319028937_H
 #ifndef INT32_T2950945753_H
 #define INT32_T2950945753_H
 #ifdef __clang__
@@ -4389,63 +4224,288 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INT32_T2950945753_H
-#ifndef BOOLEAN_T97287965_H
-#define BOOLEAN_T97287965_H
+#ifndef ENUMERATOR_T1862690208_H
+#define ENUMERATOR_T1862690208_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Boolean
-struct  Boolean_t97287965 
+// System.Collections.Generic.Queue`1/Enumerator<UnityEngine.UnitySynchronizationContext/WorkRequest>
+struct  Enumerator_t1862690208 
 {
 public:
-	// System.Boolean System.Boolean::m_value
-	bool ___m_value_2;
+	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::q
+	Queue_1_t1200778106 * ___q_0;
+	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::idx
+	int32_t ___idx_1;
+	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::ver
+	int32_t ___ver_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t97287965, ___m_value_2)); }
-	inline bool get_m_value_2() const { return ___m_value_2; }
-	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(bool value)
+	inline static int32_t get_offset_of_q_0() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___q_0)); }
+	inline Queue_1_t1200778106 * get_q_0() const { return ___q_0; }
+	inline Queue_1_t1200778106 ** get_address_of_q_0() { return &___q_0; }
+	inline void set_q_0(Queue_1_t1200778106 * value)
 	{
-		___m_value_2 = value;
-	}
-};
-
-struct Boolean_t97287965_StaticFields
-{
-public:
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_0;
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_1;
-
-public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___FalseString_0)); }
-	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
-	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
-	inline void set_FalseString_0(String_t* value)
-	{
-		___FalseString_0 = value;
-		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
+		___q_0 = value;
+		Il2CppCodeGenWriteBarrier((&___q_0), value);
 	}
 
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___TrueString_1)); }
-	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
-	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
-	inline void set_TrueString_1(String_t* value)
+	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___idx_1)); }
+	inline int32_t get_idx_1() const { return ___idx_1; }
+	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
+	inline void set_idx_1(int32_t value)
 	{
-		___TrueString_1 = value;
-		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
+		___idx_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1862690208, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BOOLEAN_T97287965_H
+#endif // ENUMERATOR_T1862690208_H
+#ifndef UILINEINFO_T4195266810_H
+#define UILINEINFO_T4195266810_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UILineInfo
+struct  UILineInfo_t4195266810 
+{
+public:
+	// System.Int32 UnityEngine.UILineInfo::startCharIdx
+	int32_t ___startCharIdx_0;
+	// System.Int32 UnityEngine.UILineInfo::height
+	int32_t ___height_1;
+	// System.Single UnityEngine.UILineInfo::topY
+	float ___topY_2;
+	// System.Single UnityEngine.UILineInfo::leading
+	float ___leading_3;
+
+public:
+	inline static int32_t get_offset_of_startCharIdx_0() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___startCharIdx_0)); }
+	inline int32_t get_startCharIdx_0() const { return ___startCharIdx_0; }
+	inline int32_t* get_address_of_startCharIdx_0() { return &___startCharIdx_0; }
+	inline void set_startCharIdx_0(int32_t value)
+	{
+		___startCharIdx_0 = value;
+	}
+
+	inline static int32_t get_offset_of_height_1() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___height_1)); }
+	inline int32_t get_height_1() const { return ___height_1; }
+	inline int32_t* get_address_of_height_1() { return &___height_1; }
+	inline void set_height_1(int32_t value)
+	{
+		___height_1 = value;
+	}
+
+	inline static int32_t get_offset_of_topY_2() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___topY_2)); }
+	inline float get_topY_2() const { return ___topY_2; }
+	inline float* get_address_of_topY_2() { return &___topY_2; }
+	inline void set_topY_2(float value)
+	{
+		___topY_2 = value;
+	}
+
+	inline static int32_t get_offset_of_leading_3() { return static_cast<int32_t>(offsetof(UILineInfo_t4195266810, ___leading_3)); }
+	inline float get_leading_3() const { return ___leading_3; }
+	inline float* get_address_of_leading_3() { return &___leading_3; }
+	inline void set_leading_3(float value)
+	{
+		___leading_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UILINEINFO_T4195266810_H
+#ifndef ENUMERATOR_T3588277760_H
+#define ENUMERATOR_T3588277760_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Queue`1/Enumerator<System.Object>
+struct  Enumerator_t3588277760 
+{
+public:
+	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::q
+	Queue_1_t2926365658 * ___q_0;
+	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::idx
+	int32_t ___idx_1;
+	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::ver
+	int32_t ___ver_2;
+
+public:
+	inline static int32_t get_offset_of_q_0() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___q_0)); }
+	inline Queue_1_t2926365658 * get_q_0() const { return ___q_0; }
+	inline Queue_1_t2926365658 ** get_address_of_q_0() { return &___q_0; }
+	inline void set_q_0(Queue_1_t2926365658 * value)
+	{
+		___q_0 = value;
+		Il2CppCodeGenWriteBarrier((&___q_0), value);
+	}
+
+	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___idx_1)); }
+	inline int32_t get_idx_1() const { return ___idx_1; }
+	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
+	inline void set_idx_1(int32_t value)
+	{
+		___idx_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t3588277760, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T3588277760_H
+#ifndef COLOR32_T2600501292_H
+#define COLOR32_T2600501292_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Color32
+struct  Color32_t2600501292 
+{
+public:
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 UnityEngine.Color32::rgba
+			int32_t ___rgba_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte UnityEngine.Color32::r
+			uint8_t ___r_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_2_OffsetPadding[1];
+			// System.Byte UnityEngine.Color32::g
+			uint8_t ___g_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_2_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_3_OffsetPadding[2];
+			// System.Byte UnityEngine.Color32::b
+			uint8_t ___b_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_3_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_4_OffsetPadding[3];
+			// System.Byte UnityEngine.Color32::a
+			uint8_t ___a_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_4_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_4_forAlignmentOnly;
+		};
+	};
+
+public:
+	inline static int32_t get_offset_of_rgba_0() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___rgba_0)); }
+	inline int32_t get_rgba_0() const { return ___rgba_0; }
+	inline int32_t* get_address_of_rgba_0() { return &___rgba_0; }
+	inline void set_rgba_0(int32_t value)
+	{
+		___rgba_0 = value;
+	}
+
+	inline static int32_t get_offset_of_r_1() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___r_1)); }
+	inline uint8_t get_r_1() const { return ___r_1; }
+	inline uint8_t* get_address_of_r_1() { return &___r_1; }
+	inline void set_r_1(uint8_t value)
+	{
+		___r_1 = value;
+	}
+
+	inline static int32_t get_offset_of_g_2() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___g_2)); }
+	inline uint8_t get_g_2() const { return ___g_2; }
+	inline uint8_t* get_address_of_g_2() { return &___g_2; }
+	inline void set_g_2(uint8_t value)
+	{
+		___g_2 = value;
+	}
+
+	inline static int32_t get_offset_of_b_3() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___b_3)); }
+	inline uint8_t get_b_3() const { return ___b_3; }
+	inline uint8_t* get_address_of_b_3() { return &___b_3; }
+	inline void set_b_3(uint8_t value)
+	{
+		___b_3 = value;
+	}
+
+	inline static int32_t get_offset_of_a_4() { return static_cast<int32_t>(offsetof(Color32_t2600501292, ___a_4)); }
+	inline uint8_t get_a_4() const { return ___a_4; }
+	inline uint8_t* get_address_of_a_4() { return &___a_4; }
+	inline void set_a_4(uint8_t value)
+	{
+		___a_4 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLOR32_T2600501292_H
 #ifndef CUSTOMATTRIBUTETYPEDARGUMENT_T2723150157_H
 #define CUSTOMATTRIBUTETYPEDARGUMENT_T2723150157_H
 #ifdef __clang__
@@ -4499,101 +4559,58 @@ struct CustomAttributeTypedArgument_t2723150157_marshaled_com
 	Il2CppIUnknown* ___value_1;
 };
 #endif // CUSTOMATTRIBUTETYPEDARGUMENT_T2723150157_H
-#ifndef ENUMERATOR_T1142515742_H
-#define ENUMERATOR_T1142515742_H
+#ifndef ORDERBLOCK_T1585977831_H
+#define ORDERBLOCK_T1585977831_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.Stack`1/Enumerator<System.Object>
-struct  Enumerator_t1142515742 
+// UnityEngine.BeforeRenderHelper/OrderBlock
+struct  OrderBlock_t1585977831 
 {
 public:
-	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator::parent
-	Stack_1_t3923495619 * ___parent_0;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::idx
-	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::_version
-	int32_t ____version_2;
+	// System.Int32 UnityEngine.BeforeRenderHelper/OrderBlock::order
+	int32_t ___order_0;
+	// UnityEngine.Events.UnityAction UnityEngine.BeforeRenderHelper/OrderBlock::callback
+	UnityAction_t3245792599 * ___callback_1;
 
 public:
-	inline static int32_t get_offset_of_parent_0() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ___parent_0)); }
-	inline Stack_1_t3923495619 * get_parent_0() const { return ___parent_0; }
-	inline Stack_1_t3923495619 ** get_address_of_parent_0() { return &___parent_0; }
-	inline void set_parent_0(Stack_1_t3923495619 * value)
+	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(OrderBlock_t1585977831, ___order_0)); }
+	inline int32_t get_order_0() const { return ___order_0; }
+	inline int32_t* get_address_of_order_0() { return &___order_0; }
+	inline void set_order_0(int32_t value)
 	{
-		___parent_0 = value;
-		Il2CppCodeGenWriteBarrier((&___parent_0), value);
+		___order_0 = value;
 	}
 
-	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ___idx_1)); }
-	inline int32_t get_idx_1() const { return ___idx_1; }
-	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
-	inline void set_idx_1(int32_t value)
+	inline static int32_t get_offset_of_callback_1() { return static_cast<int32_t>(offsetof(OrderBlock_t1585977831, ___callback_1)); }
+	inline UnityAction_t3245792599 * get_callback_1() const { return ___callback_1; }
+	inline UnityAction_t3245792599 ** get_address_of_callback_1() { return &___callback_1; }
+	inline void set_callback_1(UnityAction_t3245792599 * value)
 	{
-		___idx_1 = value;
-	}
-
-	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Enumerator_t1142515742, ____version_2)); }
-	inline int32_t get__version_2() const { return ____version_2; }
-	inline int32_t* get_address_of__version_2() { return &____version_2; }
-	inline void set__version_2(int32_t value)
-	{
-		____version_2 = value;
+		___callback_1 = value;
+		Il2CppCodeGenWriteBarrier((&___callback_1), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T1142515742_H
-#ifndef ENUM_T4135868527_H
-#define ENUM_T4135868527_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Enum
-struct  Enum_t4135868527  : public ValueType_t3640485471
+// Native definition for P/Invoke marshalling of UnityEngine.BeforeRenderHelper/OrderBlock
+struct OrderBlock_t1585977831_marshaled_pinvoke
 {
-public:
-
-public:
+	int32_t ___order_0;
+	Il2CppMethodPointer ___callback_1;
 };
-
-struct Enum_t4135868527_StaticFields
+// Native definition for COM marshalling of UnityEngine.BeforeRenderHelper/OrderBlock
+struct OrderBlock_t1585977831_marshaled_com
 {
-public:
-	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t3528271667* ___split_char_0;
-
-public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t4135868527_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t3528271667* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t3528271667** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t3528271667* value)
-	{
-		___split_char_0 = value;
-		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
-	}
+	int32_t ___order_0;
+	Il2CppMethodPointer ___callback_1;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t4135868527_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.Enum
-struct Enum_t4135868527_marshaled_com
-{
-};
-#endif // ENUM_T4135868527_H
+#endif // ORDERBLOCK_T1585977831_H
 #ifndef WORKREQUEST_T1354518612_H
 #define WORKREQUEST_T1354518612_H
 #ifdef __clang__
@@ -4660,35 +4677,6 @@ struct WorkRequest_t1354518612_marshaled_com
 	ManualResetEvent_t451242010 * ___m_WaitHandle_2;
 };
 #endif // WORKREQUEST_T1354518612_H
-#ifndef RUNTIMETYPEHANDLE_T3027515415_H
-#define RUNTIMETYPEHANDLE_T3027515415_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_t3027515415 
-{
-public:
-	// System.IntPtr System.RuntimeTypeHandle::value
-	intptr_t ___value_0;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t3027515415, ___value_0)); }
-	inline intptr_t get_value_0() const { return ___value_0; }
-	inline intptr_t* get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(intptr_t value)
-	{
-		___value_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RUNTIMETYPEHANDLE_T3027515415_H
 #ifndef ENUMERATOR_T2385380260_H
 #define ENUMERATOR_T2385380260_H
 #ifdef __clang__
@@ -4749,296 +4737,46 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENUMERATOR_T2385380260_H
-#ifndef UIVERTEX_T4057497605_H
-#define UIVERTEX_T4057497605_H
+#ifndef NULLREFERENCEEXCEPTION_T1023182353_H
+#define NULLREFERENCEEXCEPTION_T1023182353_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.UIVertex
-struct  UIVertex_t4057497605 
+// System.NullReferenceException
+struct  NullReferenceException_t1023182353  : public SystemException_t176217640
 {
 public:
-	// UnityEngine.Vector3 UnityEngine.UIVertex::position
-	Vector3_t3722313464  ___position_0;
-	// UnityEngine.Vector3 UnityEngine.UIVertex::normal
-	Vector3_t3722313464  ___normal_1;
-	// UnityEngine.Color32 UnityEngine.UIVertex::color
-	Color32_t2600501292  ___color_2;
-	// UnityEngine.Vector2 UnityEngine.UIVertex::uv0
-	Vector2_t2156229523  ___uv0_3;
-	// UnityEngine.Vector2 UnityEngine.UIVertex::uv1
-	Vector2_t2156229523  ___uv1_4;
-	// UnityEngine.Vector2 UnityEngine.UIVertex::uv2
-	Vector2_t2156229523  ___uv2_5;
-	// UnityEngine.Vector2 UnityEngine.UIVertex::uv3
-	Vector2_t2156229523  ___uv3_6;
-	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
-	Vector4_t3319028937  ___tangent_7;
 
 public:
-	inline static int32_t get_offset_of_position_0() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___position_0)); }
-	inline Vector3_t3722313464  get_position_0() const { return ___position_0; }
-	inline Vector3_t3722313464 * get_address_of_position_0() { return &___position_0; }
-	inline void set_position_0(Vector3_t3722313464  value)
-	{
-		___position_0 = value;
-	}
-
-	inline static int32_t get_offset_of_normal_1() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___normal_1)); }
-	inline Vector3_t3722313464  get_normal_1() const { return ___normal_1; }
-	inline Vector3_t3722313464 * get_address_of_normal_1() { return &___normal_1; }
-	inline void set_normal_1(Vector3_t3722313464  value)
-	{
-		___normal_1 = value;
-	}
-
-	inline static int32_t get_offset_of_color_2() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___color_2)); }
-	inline Color32_t2600501292  get_color_2() const { return ___color_2; }
-	inline Color32_t2600501292 * get_address_of_color_2() { return &___color_2; }
-	inline void set_color_2(Color32_t2600501292  value)
-	{
-		___color_2 = value;
-	}
-
-	inline static int32_t get_offset_of_uv0_3() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv0_3)); }
-	inline Vector2_t2156229523  get_uv0_3() const { return ___uv0_3; }
-	inline Vector2_t2156229523 * get_address_of_uv0_3() { return &___uv0_3; }
-	inline void set_uv0_3(Vector2_t2156229523  value)
-	{
-		___uv0_3 = value;
-	}
-
-	inline static int32_t get_offset_of_uv1_4() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv1_4)); }
-	inline Vector2_t2156229523  get_uv1_4() const { return ___uv1_4; }
-	inline Vector2_t2156229523 * get_address_of_uv1_4() { return &___uv1_4; }
-	inline void set_uv1_4(Vector2_t2156229523  value)
-	{
-		___uv1_4 = value;
-	}
-
-	inline static int32_t get_offset_of_uv2_5() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv2_5)); }
-	inline Vector2_t2156229523  get_uv2_5() const { return ___uv2_5; }
-	inline Vector2_t2156229523 * get_address_of_uv2_5() { return &___uv2_5; }
-	inline void set_uv2_5(Vector2_t2156229523  value)
-	{
-		___uv2_5 = value;
-	}
-
-	inline static int32_t get_offset_of_uv3_6() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv3_6)); }
-	inline Vector2_t2156229523  get_uv3_6() const { return ___uv3_6; }
-	inline Vector2_t2156229523 * get_address_of_uv3_6() { return &___uv3_6; }
-	inline void set_uv3_6(Vector2_t2156229523  value)
-	{
-		___uv3_6 = value;
-	}
-
-	inline static int32_t get_offset_of_tangent_7() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___tangent_7)); }
-	inline Vector4_t3319028937  get_tangent_7() const { return ___tangent_7; }
-	inline Vector4_t3319028937 * get_address_of_tangent_7() { return &___tangent_7; }
-	inline void set_tangent_7(Vector4_t3319028937  value)
-	{
-		___tangent_7 = value;
-	}
-};
-
-struct UIVertex_t4057497605_StaticFields
-{
-public:
-	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
-	Color32_t2600501292  ___s_DefaultColor_8;
-	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
-	Vector4_t3319028937  ___s_DefaultTangent_9;
-	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
-	UIVertex_t4057497605  ___simpleVert_10;
-
-public:
-	inline static int32_t get_offset_of_s_DefaultColor_8() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___s_DefaultColor_8)); }
-	inline Color32_t2600501292  get_s_DefaultColor_8() const { return ___s_DefaultColor_8; }
-	inline Color32_t2600501292 * get_address_of_s_DefaultColor_8() { return &___s_DefaultColor_8; }
-	inline void set_s_DefaultColor_8(Color32_t2600501292  value)
-	{
-		___s_DefaultColor_8 = value;
-	}
-
-	inline static int32_t get_offset_of_s_DefaultTangent_9() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___s_DefaultTangent_9)); }
-	inline Vector4_t3319028937  get_s_DefaultTangent_9() const { return ___s_DefaultTangent_9; }
-	inline Vector4_t3319028937 * get_address_of_s_DefaultTangent_9() { return &___s_DefaultTangent_9; }
-	inline void set_s_DefaultTangent_9(Vector4_t3319028937  value)
-	{
-		___s_DefaultTangent_9 = value;
-	}
-
-	inline static int32_t get_offset_of_simpleVert_10() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___simpleVert_10)); }
-	inline UIVertex_t4057497605  get_simpleVert_10() const { return ___simpleVert_10; }
-	inline UIVertex_t4057497605 * get_address_of_simpleVert_10() { return &___simpleVert_10; }
-	inline void set_simpleVert_10(UIVertex_t4057497605  value)
-	{
-		___simpleVert_10 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UIVERTEX_T4057497605_H
-#ifndef KEYVALUEPAIR_2_T2047236055_H
-#define KEYVALUEPAIR_2_T2047236055_H
+#endif // NULLREFERENCEEXCEPTION_T1023182353_H
+#ifndef INVALIDCASTEXCEPTION_T3927145244_H
+#define INVALIDCASTEXCEPTION_T3927145244_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>
-struct  KeyValuePair_2_t2047236055 
+// System.InvalidCastException
+struct  InvalidCastException_t3927145244  : public SystemException_t176217640
 {
 public:
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Vector3_t3722313464  ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Vector3_t3722313464  ___value_1;
 
 public:
-	inline static int32_t get_offset_of_key_0() { return static_cast<int32_t>(offsetof(KeyValuePair_2_t2047236055, ___key_0)); }
-	inline Vector3_t3722313464  get_key_0() const { return ___key_0; }
-	inline Vector3_t3722313464 * get_address_of_key_0() { return &___key_0; }
-	inline void set_key_0(Vector3_t3722313464  value)
-	{
-		___key_0 = value;
-	}
-
-	inline static int32_t get_offset_of_value_1() { return static_cast<int32_t>(offsetof(KeyValuePair_2_t2047236055, ___value_1)); }
-	inline Vector3_t3722313464  get_value_1() const { return ___value_1; }
-	inline Vector3_t3722313464 * get_address_of_value_1() { return &___value_1; }
-	inline void set_value_1(Vector3_t3722313464  value)
-	{
-		___value_1 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // KEYVALUEPAIR_2_T2047236055_H
-#ifndef UNITYARVIDEOFORMAT_T1944454781_H
-#define UNITYARVIDEOFORMAT_T1944454781_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.XR.iOS.UnityARVideoFormat
-struct  UnityARVideoFormat_t1944454781 
-{
-public:
-	// System.IntPtr UnityEngine.XR.iOS.UnityARVideoFormat::videoFormatPtr
-	intptr_t ___videoFormatPtr_0;
-	// System.Single UnityEngine.XR.iOS.UnityARVideoFormat::imageResolutionWidth
-	float ___imageResolutionWidth_1;
-	// System.Single UnityEngine.XR.iOS.UnityARVideoFormat::imageResolutionHeight
-	float ___imageResolutionHeight_2;
-	// System.Int32 UnityEngine.XR.iOS.UnityARVideoFormat::framesPerSecond
-	int32_t ___framesPerSecond_3;
-
-public:
-	inline static int32_t get_offset_of_videoFormatPtr_0() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___videoFormatPtr_0)); }
-	inline intptr_t get_videoFormatPtr_0() const { return ___videoFormatPtr_0; }
-	inline intptr_t* get_address_of_videoFormatPtr_0() { return &___videoFormatPtr_0; }
-	inline void set_videoFormatPtr_0(intptr_t value)
-	{
-		___videoFormatPtr_0 = value;
-	}
-
-	inline static int32_t get_offset_of_imageResolutionWidth_1() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___imageResolutionWidth_1)); }
-	inline float get_imageResolutionWidth_1() const { return ___imageResolutionWidth_1; }
-	inline float* get_address_of_imageResolutionWidth_1() { return &___imageResolutionWidth_1; }
-	inline void set_imageResolutionWidth_1(float value)
-	{
-		___imageResolutionWidth_1 = value;
-	}
-
-	inline static int32_t get_offset_of_imageResolutionHeight_2() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___imageResolutionHeight_2)); }
-	inline float get_imageResolutionHeight_2() const { return ___imageResolutionHeight_2; }
-	inline float* get_address_of_imageResolutionHeight_2() { return &___imageResolutionHeight_2; }
-	inline void set_imageResolutionHeight_2(float value)
-	{
-		___imageResolutionHeight_2 = value;
-	}
-
-	inline static int32_t get_offset_of_framesPerSecond_3() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___framesPerSecond_3)); }
-	inline int32_t get_framesPerSecond_3() const { return ___framesPerSecond_3; }
-	inline int32_t* get_address_of_framesPerSecond_3() { return &___framesPerSecond_3; }
-	inline void set_framesPerSecond_3(int32_t value)
-	{
-		___framesPerSecond_3 = value;
-	}
-};
-
-struct UnityARVideoFormat_t1944454781_StaticFields
-{
-public:
-	// System.Collections.Generic.List`1<UnityEngine.XR.iOS.UnityARVideoFormat> UnityEngine.XR.iOS.UnityARVideoFormat::videoFormatsList
-	List_1_t3416529523 * ___videoFormatsList_4;
-	// UnityEngine.XR.iOS.VideoFormatEnumerator UnityEngine.XR.iOS.UnityARVideoFormat::<>f__mg$cache0
-	VideoFormatEnumerator_t3131638505 * ___U3CU3Ef__mgU24cache0_5;
-
-public:
-	inline static int32_t get_offset_of_videoFormatsList_4() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781_StaticFields, ___videoFormatsList_4)); }
-	inline List_1_t3416529523 * get_videoFormatsList_4() const { return ___videoFormatsList_4; }
-	inline List_1_t3416529523 ** get_address_of_videoFormatsList_4() { return &___videoFormatsList_4; }
-	inline void set_videoFormatsList_4(List_1_t3416529523 * value)
-	{
-		___videoFormatsList_4 = value;
-		Il2CppCodeGenWriteBarrier((&___videoFormatsList_4), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache0_5() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781_StaticFields, ___U3CU3Ef__mgU24cache0_5)); }
-	inline VideoFormatEnumerator_t3131638505 * get_U3CU3Ef__mgU24cache0_5() const { return ___U3CU3Ef__mgU24cache0_5; }
-	inline VideoFormatEnumerator_t3131638505 ** get_address_of_U3CU3Ef__mgU24cache0_5() { return &___U3CU3Ef__mgU24cache0_5; }
-	inline void set_U3CU3Ef__mgU24cache0_5(VideoFormatEnumerator_t3131638505 * value)
-	{
-		___U3CU3Ef__mgU24cache0_5 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache0_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNITYARVIDEOFORMAT_T1944454781_H
-#ifndef ARHITTESTRESULTTYPE_T475323638_H
-#define ARHITTESTRESULTTYPE_T475323638_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.XR.iOS.ARHitTestResultType
-struct  ARHitTestResultType_t475323638 
-{
-public:
-	// System.Int64 UnityEngine.XR.iOS.ARHitTestResultType::value__
-	int64_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ARHitTestResultType_t475323638, ___value___1)); }
-	inline int64_t get_value___1() const { return ___value___1; }
-	inline int64_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int64_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARHITTESTRESULTTYPE_T475323638_H
+#endif // INVALIDCASTEXCEPTION_T3927145244_H
 #ifndef ARGUMENTEXCEPTION_T132251570_H
 #define ARGUMENTEXCEPTION_T132251570_H
 #ifdef __clang__
@@ -5069,66 +4807,87 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ARGUMENTEXCEPTION_T132251570_H
-#ifndef INVALIDCASTEXCEPTION_T3927145244_H
-#define INVALIDCASTEXCEPTION_T3927145244_H
+#ifndef CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
+#define CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.InvalidCastException
-struct  InvalidCastException_t3927145244  : public SystemException_t176217640
+// System.Reflection.CustomAttributeNamedArgument
+struct  CustomAttributeNamedArgument_t287865710 
 {
 public:
+	// System.Reflection.CustomAttributeTypedArgument System.Reflection.CustomAttributeNamedArgument::typedArgument
+	CustomAttributeTypedArgument_t2723150157  ___typedArgument_0;
+	// System.Reflection.MemberInfo System.Reflection.CustomAttributeNamedArgument::memberInfo
+	MemberInfo_t * ___memberInfo_1;
 
 public:
+	inline static int32_t get_offset_of_typedArgument_0() { return static_cast<int32_t>(offsetof(CustomAttributeNamedArgument_t287865710, ___typedArgument_0)); }
+	inline CustomAttributeTypedArgument_t2723150157  get_typedArgument_0() const { return ___typedArgument_0; }
+	inline CustomAttributeTypedArgument_t2723150157 * get_address_of_typedArgument_0() { return &___typedArgument_0; }
+	inline void set_typedArgument_0(CustomAttributeTypedArgument_t2723150157  value)
+	{
+		___typedArgument_0 = value;
+	}
+
+	inline static int32_t get_offset_of_memberInfo_1() { return static_cast<int32_t>(offsetof(CustomAttributeNamedArgument_t287865710, ___memberInfo_1)); }
+	inline MemberInfo_t * get_memberInfo_1() const { return ___memberInfo_1; }
+	inline MemberInfo_t ** get_address_of_memberInfo_1() { return &___memberInfo_1; }
+	inline void set_memberInfo_1(MemberInfo_t * value)
+	{
+		___memberInfo_1 = value;
+		Il2CppCodeGenWriteBarrier((&___memberInfo_1), value);
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INVALIDCASTEXCEPTION_T3927145244_H
-#ifndef NULLREFERENCEEXCEPTION_T1023182353_H
-#define NULLREFERENCEEXCEPTION_T1023182353_H
+// Native definition for P/Invoke marshalling of System.Reflection.CustomAttributeNamedArgument
+struct CustomAttributeNamedArgument_t287865710_marshaled_pinvoke
+{
+	CustomAttributeTypedArgument_t2723150157_marshaled_pinvoke ___typedArgument_0;
+	MemberInfo_t * ___memberInfo_1;
+};
+// Native definition for COM marshalling of System.Reflection.CustomAttributeNamedArgument
+struct CustomAttributeNamedArgument_t287865710_marshaled_com
+{
+	CustomAttributeTypedArgument_t2723150157_marshaled_com ___typedArgument_0;
+	MemberInfo_t * ___memberInfo_1;
+};
+#endif // CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
+#ifndef ARHITTESTRESULTTYPE_T475323638_H
+#define ARHITTESTRESULTTYPE_T475323638_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.NullReferenceException
-struct  NullReferenceException_t1023182353  : public SystemException_t176217640
+// UnityEngine.XR.iOS.ARHitTestResultType
+struct  ARHitTestResultType_t475323638 
 {
 public:
+	// System.Int64 UnityEngine.XR.iOS.ARHitTestResultType::value__
+	int64_t ___value___1;
 
 public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ARHitTestResultType_t475323638, ___value___1)); }
+	inline int64_t get_value___1() const { return ___value___1; }
+	inline int64_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int64_t value)
+	{
+		___value___1 = value;
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NULLREFERENCEEXCEPTION_T1023182353_H
-#ifndef NOTSUPPORTEDEXCEPTION_T1314879016_H
-#define NOTSUPPORTEDEXCEPTION_T1314879016_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.NotSupportedException
-struct  NotSupportedException_t1314879016  : public SystemException_t176217640
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTSUPPORTEDEXCEPTION_T1314879016_H
+#endif // ARHITTESTRESULTTYPE_T475323638_H
 #ifndef INVALIDOPERATIONEXCEPTION_T56020091_H
 #define INVALIDOPERATIONEXCEPTION_T56020091_H
 #ifdef __clang__
@@ -5149,6 +4908,64 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INVALIDOPERATIONEXCEPTION_T56020091_H
+#ifndef BINDINGFLAGS_T2721792723_H
+#define BINDINGFLAGS_T2721792723_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.BindingFlags
+struct  BindingFlags_t2721792723 
+{
+public:
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t2721792723, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BINDINGFLAGS_T2721792723_H
+#ifndef RUNTIMETYPEHANDLE_T3027515415_H
+#define RUNTIMETYPEHANDLE_T3027515415_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.RuntimeTypeHandle
+struct  RuntimeTypeHandle_t3027515415 
+{
+public:
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t3027515415, ___value_0)); }
+	inline intptr_t get_value_0() const { return ___value_0; }
+	inline intptr_t* get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(intptr_t value)
+	{
+		___value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RUNTIMETYPEHANDLE_T3027515415_H
 #ifndef DELEGATE_T1188392813_H
 #define DELEGATE_T1188392813_H
 #ifdef __clang__
@@ -5262,58 +5079,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DELEGATE_T1188392813_H
-#ifndef CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
-#define CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.CustomAttributeNamedArgument
-struct  CustomAttributeNamedArgument_t287865710 
-{
-public:
-	// System.Reflection.CustomAttributeTypedArgument System.Reflection.CustomAttributeNamedArgument::typedArgument
-	CustomAttributeTypedArgument_t2723150157  ___typedArgument_0;
-	// System.Reflection.MemberInfo System.Reflection.CustomAttributeNamedArgument::memberInfo
-	MemberInfo_t * ___memberInfo_1;
-
-public:
-	inline static int32_t get_offset_of_typedArgument_0() { return static_cast<int32_t>(offsetof(CustomAttributeNamedArgument_t287865710, ___typedArgument_0)); }
-	inline CustomAttributeTypedArgument_t2723150157  get_typedArgument_0() const { return ___typedArgument_0; }
-	inline CustomAttributeTypedArgument_t2723150157 * get_address_of_typedArgument_0() { return &___typedArgument_0; }
-	inline void set_typedArgument_0(CustomAttributeTypedArgument_t2723150157  value)
-	{
-		___typedArgument_0 = value;
-	}
-
-	inline static int32_t get_offset_of_memberInfo_1() { return static_cast<int32_t>(offsetof(CustomAttributeNamedArgument_t287865710, ___memberInfo_1)); }
-	inline MemberInfo_t * get_memberInfo_1() const { return ___memberInfo_1; }
-	inline MemberInfo_t ** get_address_of_memberInfo_1() { return &___memberInfo_1; }
-	inline void set_memberInfo_1(MemberInfo_t * value)
-	{
-		___memberInfo_1 = value;
-		Il2CppCodeGenWriteBarrier((&___memberInfo_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Reflection.CustomAttributeNamedArgument
-struct CustomAttributeNamedArgument_t287865710_marshaled_pinvoke
-{
-	CustomAttributeTypedArgument_t2723150157_marshaled_pinvoke ___typedArgument_0;
-	MemberInfo_t * ___memberInfo_1;
-};
-// Native definition for COM marshalling of System.Reflection.CustomAttributeNamedArgument
-struct CustomAttributeNamedArgument_t287865710_marshaled_com
-{
-	CustomAttributeTypedArgument_t2723150157_marshaled_com ___typedArgument_0;
-	MemberInfo_t * ___memberInfo_1;
-};
-#endif // CUSTOMATTRIBUTENAMEDARGUMENT_T287865710_H
 #ifndef RAYCASTRESULT_T3360306849_H
 #define RAYCASTRESULT_T3360306849_H
 #ifdef __clang__
@@ -5463,66 +5228,141 @@ struct RaycastResult_t3360306849_marshaled_com
 	Vector2_t2156229523  ___screenPosition_9;
 };
 #endif // RAYCASTRESULT_T3360306849_H
-#ifndef ENUMERATOR_T2788664787_H
-#define ENUMERATOR_T2788664787_H
+#ifndef UIVERTEX_T4057497605_H
+#define UIVERTEX_T4057497605_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>
-struct  Enumerator_t2788664787 
+// UnityEngine.UIVertex
+struct  UIVertex_t4057497605 
 {
 public:
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t899420910 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
-	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator::current
-	Vector3_t3722313464  ___current_3;
+	// UnityEngine.Vector3 UnityEngine.UIVertex::position
+	Vector3_t3722313464  ___position_0;
+	// UnityEngine.Vector3 UnityEngine.UIVertex::normal
+	Vector3_t3722313464  ___normal_1;
+	// UnityEngine.Color32 UnityEngine.UIVertex::color
+	Color32_t2600501292  ___color_2;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv0
+	Vector2_t2156229523  ___uv0_3;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv1
+	Vector2_t2156229523  ___uv1_4;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv2
+	Vector2_t2156229523  ___uv2_5;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv3
+	Vector2_t2156229523  ___uv3_6;
+	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
+	Vector4_t3319028937  ___tangent_7;
 
 public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t2788664787, ___l_0)); }
-	inline List_1_t899420910 * get_l_0() const { return ___l_0; }
-	inline List_1_t899420910 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t899420910 * value)
+	inline static int32_t get_offset_of_position_0() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___position_0)); }
+	inline Vector3_t3722313464  get_position_0() const { return ___position_0; }
+	inline Vector3_t3722313464 * get_address_of_position_0() { return &___position_0; }
+	inline void set_position_0(Vector3_t3722313464  value)
 	{
-		___l_0 = value;
-		Il2CppCodeGenWriteBarrier((&___l_0), value);
+		___position_0 = value;
 	}
 
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t2788664787, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
+	inline static int32_t get_offset_of_normal_1() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___normal_1)); }
+	inline Vector3_t3722313464  get_normal_1() const { return ___normal_1; }
+	inline Vector3_t3722313464 * get_address_of_normal_1() { return &___normal_1; }
+	inline void set_normal_1(Vector3_t3722313464  value)
 	{
-		___next_1 = value;
+		___normal_1 = value;
 	}
 
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t2788664787, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
+	inline static int32_t get_offset_of_color_2() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___color_2)); }
+	inline Color32_t2600501292  get_color_2() const { return ___color_2; }
+	inline Color32_t2600501292 * get_address_of_color_2() { return &___color_2; }
+	inline void set_color_2(Color32_t2600501292  value)
 	{
-		___ver_2 = value;
+		___color_2 = value;
 	}
 
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t2788664787, ___current_3)); }
-	inline Vector3_t3722313464  get_current_3() const { return ___current_3; }
-	inline Vector3_t3722313464 * get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(Vector3_t3722313464  value)
+	inline static int32_t get_offset_of_uv0_3() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv0_3)); }
+	inline Vector2_t2156229523  get_uv0_3() const { return ___uv0_3; }
+	inline Vector2_t2156229523 * get_address_of_uv0_3() { return &___uv0_3; }
+	inline void set_uv0_3(Vector2_t2156229523  value)
 	{
-		___current_3 = value;
+		___uv0_3 = value;
+	}
+
+	inline static int32_t get_offset_of_uv1_4() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv1_4)); }
+	inline Vector2_t2156229523  get_uv1_4() const { return ___uv1_4; }
+	inline Vector2_t2156229523 * get_address_of_uv1_4() { return &___uv1_4; }
+	inline void set_uv1_4(Vector2_t2156229523  value)
+	{
+		___uv1_4 = value;
+	}
+
+	inline static int32_t get_offset_of_uv2_5() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv2_5)); }
+	inline Vector2_t2156229523  get_uv2_5() const { return ___uv2_5; }
+	inline Vector2_t2156229523 * get_address_of_uv2_5() { return &___uv2_5; }
+	inline void set_uv2_5(Vector2_t2156229523  value)
+	{
+		___uv2_5 = value;
+	}
+
+	inline static int32_t get_offset_of_uv3_6() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___uv3_6)); }
+	inline Vector2_t2156229523  get_uv3_6() const { return ___uv3_6; }
+	inline Vector2_t2156229523 * get_address_of_uv3_6() { return &___uv3_6; }
+	inline void set_uv3_6(Vector2_t2156229523  value)
+	{
+		___uv3_6 = value;
+	}
+
+	inline static int32_t get_offset_of_tangent_7() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605, ___tangent_7)); }
+	inline Vector4_t3319028937  get_tangent_7() const { return ___tangent_7; }
+	inline Vector4_t3319028937 * get_address_of_tangent_7() { return &___tangent_7; }
+	inline void set_tangent_7(Vector4_t3319028937  value)
+	{
+		___tangent_7 = value;
+	}
+};
+
+struct UIVertex_t4057497605_StaticFields
+{
+public:
+	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
+	Color32_t2600501292  ___s_DefaultColor_8;
+	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
+	Vector4_t3319028937  ___s_DefaultTangent_9;
+	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
+	UIVertex_t4057497605  ___simpleVert_10;
+
+public:
+	inline static int32_t get_offset_of_s_DefaultColor_8() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___s_DefaultColor_8)); }
+	inline Color32_t2600501292  get_s_DefaultColor_8() const { return ___s_DefaultColor_8; }
+	inline Color32_t2600501292 * get_address_of_s_DefaultColor_8() { return &___s_DefaultColor_8; }
+	inline void set_s_DefaultColor_8(Color32_t2600501292  value)
+	{
+		___s_DefaultColor_8 = value;
+	}
+
+	inline static int32_t get_offset_of_s_DefaultTangent_9() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___s_DefaultTangent_9)); }
+	inline Vector4_t3319028937  get_s_DefaultTangent_9() const { return ___s_DefaultTangent_9; }
+	inline Vector4_t3319028937 * get_address_of_s_DefaultTangent_9() { return &___s_DefaultTangent_9; }
+	inline void set_s_DefaultTangent_9(Vector4_t3319028937  value)
+	{
+		___s_DefaultTangent_9 = value;
+	}
+
+	inline static int32_t get_offset_of_simpleVert_10() { return static_cast<int32_t>(offsetof(UIVertex_t4057497605_StaticFields, ___simpleVert_10)); }
+	inline UIVertex_t4057497605  get_simpleVert_10() const { return ___simpleVert_10; }
+	inline UIVertex_t4057497605 * get_address_of_simpleVert_10() { return &___simpleVert_10; }
+	inline void set_simpleVert_10(UIVertex_t4057497605  value)
+	{
+		___simpleVert_10 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T2788664787_H
+#endif // UIVERTEX_T4057497605_H
 #ifndef ARRAYTYPEMISMATCHEXCEPTION_T2342549375_H
 #define ARRAYTYPEMISMATCHEXCEPTION_T2342549375_H
 #ifdef __clang__
@@ -5543,6 +5383,93 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ARRAYTYPEMISMATCHEXCEPTION_T2342549375_H
+#ifndef UNITYARVIDEOFORMAT_T1944454781_H
+#define UNITYARVIDEOFORMAT_T1944454781_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.UnityARVideoFormat
+struct  UnityARVideoFormat_t1944454781 
+{
+public:
+	// System.IntPtr UnityEngine.XR.iOS.UnityARVideoFormat::videoFormatPtr
+	intptr_t ___videoFormatPtr_0;
+	// System.Single UnityEngine.XR.iOS.UnityARVideoFormat::imageResolutionWidth
+	float ___imageResolutionWidth_1;
+	// System.Single UnityEngine.XR.iOS.UnityARVideoFormat::imageResolutionHeight
+	float ___imageResolutionHeight_2;
+	// System.Int32 UnityEngine.XR.iOS.UnityARVideoFormat::framesPerSecond
+	int32_t ___framesPerSecond_3;
+
+public:
+	inline static int32_t get_offset_of_videoFormatPtr_0() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___videoFormatPtr_0)); }
+	inline intptr_t get_videoFormatPtr_0() const { return ___videoFormatPtr_0; }
+	inline intptr_t* get_address_of_videoFormatPtr_0() { return &___videoFormatPtr_0; }
+	inline void set_videoFormatPtr_0(intptr_t value)
+	{
+		___videoFormatPtr_0 = value;
+	}
+
+	inline static int32_t get_offset_of_imageResolutionWidth_1() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___imageResolutionWidth_1)); }
+	inline float get_imageResolutionWidth_1() const { return ___imageResolutionWidth_1; }
+	inline float* get_address_of_imageResolutionWidth_1() { return &___imageResolutionWidth_1; }
+	inline void set_imageResolutionWidth_1(float value)
+	{
+		___imageResolutionWidth_1 = value;
+	}
+
+	inline static int32_t get_offset_of_imageResolutionHeight_2() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___imageResolutionHeight_2)); }
+	inline float get_imageResolutionHeight_2() const { return ___imageResolutionHeight_2; }
+	inline float* get_address_of_imageResolutionHeight_2() { return &___imageResolutionHeight_2; }
+	inline void set_imageResolutionHeight_2(float value)
+	{
+		___imageResolutionHeight_2 = value;
+	}
+
+	inline static int32_t get_offset_of_framesPerSecond_3() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781, ___framesPerSecond_3)); }
+	inline int32_t get_framesPerSecond_3() const { return ___framesPerSecond_3; }
+	inline int32_t* get_address_of_framesPerSecond_3() { return &___framesPerSecond_3; }
+	inline void set_framesPerSecond_3(int32_t value)
+	{
+		___framesPerSecond_3 = value;
+	}
+};
+
+struct UnityARVideoFormat_t1944454781_StaticFields
+{
+public:
+	// System.Collections.Generic.List`1<UnityEngine.XR.iOS.UnityARVideoFormat> UnityEngine.XR.iOS.UnityARVideoFormat::videoFormatsList
+	List_1_t3416529523 * ___videoFormatsList_4;
+	// UnityEngine.XR.iOS.VideoFormatEnumerator UnityEngine.XR.iOS.UnityARVideoFormat::<>f__mg$cache0
+	VideoFormatEnumerator_t3131638505 * ___U3CU3Ef__mgU24cache0_5;
+
+public:
+	inline static int32_t get_offset_of_videoFormatsList_4() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781_StaticFields, ___videoFormatsList_4)); }
+	inline List_1_t3416529523 * get_videoFormatsList_4() const { return ___videoFormatsList_4; }
+	inline List_1_t3416529523 ** get_address_of_videoFormatsList_4() { return &___videoFormatsList_4; }
+	inline void set_videoFormatsList_4(List_1_t3416529523 * value)
+	{
+		___videoFormatsList_4 = value;
+		Il2CppCodeGenWriteBarrier((&___videoFormatsList_4), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__mgU24cache0_5() { return static_cast<int32_t>(offsetof(UnityARVideoFormat_t1944454781_StaticFields, ___U3CU3Ef__mgU24cache0_5)); }
+	inline VideoFormatEnumerator_t3131638505 * get_U3CU3Ef__mgU24cache0_5() const { return ___U3CU3Ef__mgU24cache0_5; }
+	inline VideoFormatEnumerator_t3131638505 ** get_address_of_U3CU3Ef__mgU24cache0_5() { return &___U3CU3Ef__mgU24cache0_5; }
+	inline void set_U3CU3Ef__mgU24cache0_5(VideoFormatEnumerator_t3131638505 * value)
+	{
+		___U3CU3Ef__mgU24cache0_5 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__mgU24cache0_5), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYARVIDEOFORMAT_T1944454781_H
 #ifndef UICHARINFO_T75501106_H
 #define UICHARINFO_T75501106_H
 #ifdef __clang__
@@ -5582,95 +5509,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UICHARINFO_T75501106_H
-#ifndef BINDINGFLAGS_T2721792723_H
-#define BINDINGFLAGS_T2721792723_H
+#ifndef NOTSUPPORTEDEXCEPTION_T1314879016_H
+#define NOTSUPPORTEDEXCEPTION_T1314879016_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Reflection.BindingFlags
-struct  BindingFlags_t2721792723 
+// System.NotSupportedException
+struct  NotSupportedException_t1314879016  : public SystemException_t176217640
 {
 public:
-	// System.Int32 System.Reflection.BindingFlags::value__
-	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t2721792723, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BINDINGFLAGS_T2721792723_H
-#ifndef ENUMERATOR_T1222580846_H
-#define ENUMERATOR_T1222580846_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>
-struct  Enumerator_t1222580846 
-{
-public:
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t3628304265 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
-	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator::current
-	Vector2_t2156229523  ___current_3;
-
-public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1222580846, ___l_0)); }
-	inline List_1_t3628304265 * get_l_0() const { return ___l_0; }
-	inline List_1_t3628304265 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t3628304265 * value)
-	{
-		___l_0 = value;
-		Il2CppCodeGenWriteBarrier((&___l_0), value);
-	}
-
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1222580846, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
-	{
-		___next_1 = value;
-	}
-
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1222580846, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
-	{
-		___ver_2 = value;
-	}
-
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1222580846, ___current_3)); }
-	inline Vector2_t2156229523  get_current_3() const { return ___current_3; }
-	inline Vector2_t2156229523 * get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(Vector2_t2156229523  value)
-	{
-		___current_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENUMERATOR_T1222580846_H
+#endif // NOTSUPPORTEDEXCEPTION_T1314879016_H
 #ifndef ARGUMENTOUTOFRANGEEXCEPTION_T777629997_H
 #define ARGUMENTOUTOFRANGEEXCEPTION_T777629997_H
 #ifdef __clang__
@@ -5701,6 +5559,127 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ARGUMENTOUTOFRANGEEXCEPTION_T777629997_H
+#ifndef ARGUMENTNULLEXCEPTION_T1615371798_H
+#define ARGUMENTNULLEXCEPTION_T1615371798_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentNullException
+struct  ArgumentNullException_t1615371798  : public ArgumentException_t132251570
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTNULLEXCEPTION_T1615371798_H
+#ifndef ENUMERATOR_T1010806104_H
+#define ENUMERATOR_T1010806104_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  Enumerator_t1010806104 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t3416529523 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	UnityARVideoFormat_t1944454781  ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___l_0)); }
+	inline List_1_t3416529523 * get_l_0() const { return ___l_0; }
+	inline List_1_t3416529523 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t3416529523 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___current_3)); }
+	inline UnityARVideoFormat_t1944454781  get_current_3() const { return ___current_3; }
+	inline UnityARVideoFormat_t1944454781 * get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(UnityARVideoFormat_t1944454781  value)
+	{
+		___current_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T1010806104_H
+#ifndef MULTICASTDELEGATE_T_H
+#define MULTICASTDELEGATE_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.MulticastDelegate
+struct  MulticastDelegate_t  : public Delegate_t1188392813
+{
+public:
+	// System.MulticastDelegate System.MulticastDelegate::prev
+	MulticastDelegate_t * ___prev_9;
+	// System.MulticastDelegate System.MulticastDelegate::kpm_next
+	MulticastDelegate_t * ___kpm_next_10;
+
+public:
+	inline static int32_t get_offset_of_prev_9() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___prev_9)); }
+	inline MulticastDelegate_t * get_prev_9() const { return ___prev_9; }
+	inline MulticastDelegate_t ** get_address_of_prev_9() { return &___prev_9; }
+	inline void set_prev_9(MulticastDelegate_t * value)
+	{
+		___prev_9 = value;
+		Il2CppCodeGenWriteBarrier((&___prev_9), value);
+	}
+
+	inline static int32_t get_offset_of_kpm_next_10() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___kpm_next_10)); }
+	inline MulticastDelegate_t * get_kpm_next_10() const { return ___kpm_next_10; }
+	inline MulticastDelegate_t ** get_address_of_kpm_next_10() { return &___kpm_next_10; }
+	inline void set_kpm_next_10(MulticastDelegate_t * value)
+	{
+		___kpm_next_10 = value;
+		Il2CppCodeGenWriteBarrier((&___kpm_next_10), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MULTICASTDELEGATE_T_H
 #ifndef TYPE_T_H
 #define TYPE_T_H
 #ifdef __clang__
@@ -5801,67 +5780,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TYPE_T_H
-#ifndef MULTICASTDELEGATE_T_H
-#define MULTICASTDELEGATE_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t1188392813
-{
-public:
-	// System.MulticastDelegate System.MulticastDelegate::prev
-	MulticastDelegate_t * ___prev_9;
-	// System.MulticastDelegate System.MulticastDelegate::kpm_next
-	MulticastDelegate_t * ___kpm_next_10;
-
-public:
-	inline static int32_t get_offset_of_prev_9() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___prev_9)); }
-	inline MulticastDelegate_t * get_prev_9() const { return ___prev_9; }
-	inline MulticastDelegate_t ** get_address_of_prev_9() { return &___prev_9; }
-	inline void set_prev_9(MulticastDelegate_t * value)
-	{
-		___prev_9 = value;
-		Il2CppCodeGenWriteBarrier((&___prev_9), value);
-	}
-
-	inline static int32_t get_offset_of_kpm_next_10() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___kpm_next_10)); }
-	inline MulticastDelegate_t * get_kpm_next_10() const { return ___kpm_next_10; }
-	inline MulticastDelegate_t ** get_address_of_kpm_next_10() { return &___kpm_next_10; }
-	inline void set_kpm_next_10(MulticastDelegate_t * value)
-	{
-		___kpm_next_10 = value;
-		Il2CppCodeGenWriteBarrier((&___kpm_next_10), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MULTICASTDELEGATE_T_H
-#ifndef ARGUMENTNULLEXCEPTION_T1615371798_H
-#define ARGUMENTNULLEXCEPTION_T1615371798_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ArgumentNullException
-struct  ArgumentNullException_t1615371798  : public ArgumentException_t132251570
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTNULLEXCEPTION_T1615371798_H
 #ifndef ARHITTESTRESULT_T1279023930_H
 #define ARHITTESTRESULT_T1279023930_H
 #ifdef __clang__
@@ -5962,226 +5880,6 @@ struct ARHitTestResult_t1279023930_marshaled_com
 	int32_t ___isValid_5;
 };
 #endif // ARHITTESTRESULT_T1279023930_H
-#ifndef ENUMERATOR_T1010806104_H
-#define ENUMERATOR_T1010806104_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.UnityARVideoFormat>
-struct  Enumerator_t1010806104 
-{
-public:
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t3416529523 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
-	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator::current
-	UnityARVideoFormat_t1944454781  ___current_3;
-
-public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___l_0)); }
-	inline List_1_t3416529523 * get_l_0() const { return ___l_0; }
-	inline List_1_t3416529523 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t3416529523 * value)
-	{
-		___l_0 = value;
-		Il2CppCodeGenWriteBarrier((&___l_0), value);
-	}
-
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
-	{
-		___next_1 = value;
-	}
-
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
-	{
-		___ver_2 = value;
-	}
-
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1010806104, ___current_3)); }
-	inline UnityARVideoFormat_t1944454781  get_current_3() const { return ___current_3; }
-	inline UnityARVideoFormat_t1944454781 * get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(UnityARVideoFormat_t1944454781  value)
-	{
-		___current_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENUMERATOR_T1010806104_H
-#ifndef PREDICATE_1_T2104318054_H
-#define PREDICATE_1_T2104318054_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Predicate`1<UnityEngine.XR.iOS.ARHitTestResult>
-struct  Predicate_1_t2104318054  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PREDICATE_1_T2104318054_H
-#ifndef COMPARISON_1_T3497244643_H
-#define COMPARISON_1_T3497244643_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Comparison`1<UnityEngine.Vector3>
-struct  Comparison_1_t3497244643  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARISON_1_T3497244643_H
-#ifndef PREDICATE_1_T4144323061_H
-#define PREDICATE_1_T4144323061_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Predicate`1<UnityEngine.Vector4>
-struct  Predicate_1_t4144323061  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PREDICATE_1_T4144323061_H
-#ifndef PREDICATE_1_T252640292_H
-#define PREDICATE_1_T252640292_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Predicate`1<UnityEngine.Vector3>
-struct  Predicate_1_t252640292  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PREDICATE_1_T252640292_H
-#ifndef COMPARISON_1_T3093960116_H
-#define COMPARISON_1_T3093960116_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Comparison`1<UnityEngine.Vector4>
-struct  Comparison_1_t3093960116  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARISON_1_T3093960116_H
-#ifndef COMPARISON_1_T1931160702_H
-#define COMPARISON_1_T1931160702_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Comparison`1<UnityEngine.Vector2>
-struct  Comparison_1_t1931160702  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARISON_1_T1931160702_H
-#ifndef COMPARISON_1_T1719385960_H
-#define COMPARISON_1_T1719385960_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Comparison`1<UnityEngine.XR.iOS.UnityARVideoFormat>
-struct  Comparison_1_t1719385960  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARISON_1_T1719385960_H
-#ifndef COMPARISON_1_T1053955109_H
-#define COMPARISON_1_T1053955109_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Comparison`1<UnityEngine.XR.iOS.ARHitTestResult>
-struct  Comparison_1_t1053955109  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARISON_1_T1053955109_H
 #ifndef ENUMERATOR_T345375253_H
 #define ENUMERATOR_T345375253_H
 #ifdef __clang__
@@ -6242,6 +5940,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENUMERATOR_T345375253_H
+#ifndef COMPARISON_1_T3093960116_H
+#define COMPARISON_1_T3093960116_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Comparison`1<UnityEngine.Vector4>
+struct  Comparison_1_t3093960116  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARISON_1_T3093960116_H
+#ifndef PREDICATE_1_T2104318054_H
+#define PREDICATE_1_T2104318054_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Predicate`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  Predicate_1_t2104318054  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PREDICATE_1_T2104318054_H
+#ifndef PREDICATE_1_T4144323061_H
+#define PREDICATE_1_T4144323061_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Predicate`1<UnityEngine.Vector4>
+struct  Predicate_1_t4144323061  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PREDICATE_1_T4144323061_H
 #ifndef PREDICATE_1_T2769748905_H
 #define PREDICATE_1_T2769748905_H
 #ifdef __clang__
@@ -6262,16 +6020,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PREDICATE_1_T2769748905_H
-#ifndef PREDICATE_1_T2981523647_H
-#define PREDICATE_1_T2981523647_H
+#ifndef COMPARISON_1_T1053955109_H
+#define COMPARISON_1_T1053955109_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Predicate`1<UnityEngine.Vector2>
-struct  Predicate_1_t2981523647  : public MulticastDelegate_t
+// System.Comparison`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  Comparison_1_t1053955109  : public MulticastDelegate_t
 {
 public:
 
@@ -6281,77 +6039,27 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PREDICATE_1_T2981523647_H
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t1457185986  : public RuntimeArray
+#endif // COMPARISON_1_T1053955109_H
+#ifndef COMPARISON_1_T1719385960_H
+#define COMPARISON_1_T1719385960_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Comparison`1<UnityEngine.XR.iOS.UnityARVideoFormat>
+struct  Comparison_1_t1719385960  : public MulticastDelegate_t
 {
 public:
-	ALIGN_FIELD (8) Vector2_t2156229523  m_Items[1];
 
 public:
-	inline Vector2_t2156229523  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector2_t2156229523  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector2_t2156229523 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2156229523  value)
-	{
-		m_Items[index] = value;
-	}
 };
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1718750761  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector3_t3722313464  m_Items[1];
 
-public:
-	inline Vector3_t3722313464  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector3_t3722313464 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t3722313464  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector3_t3722313464  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector3_t3722313464 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t3722313464  value)
-	{
-		m_Items[index] = value;
-	}
-};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARISON_1_T1719385960_H
 // UnityEngine.Vector4[]
 struct Vector4U5BU5D_t934056436  : public RuntimeArray
 {
@@ -6525,41 +6233,6 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, WorkRequest_t1354518612  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>[]
-struct KeyValuePair_2U5BU5D_t3002675950  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) KeyValuePair_2_t2047236055  m_Items[1];
-
-public:
-	inline KeyValuePair_2_t2047236055  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline KeyValuePair_2_t2047236055 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, KeyValuePair_2_t2047236055  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline KeyValuePair_2_t2047236055  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline KeyValuePair_2_t2047236055 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, KeyValuePair_2_t2047236055  value)
 	{
 		m_Items[index] = value;
 	}
@@ -6879,12 +6552,78 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t1457185986  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Vector2_t2156229523  m_Items[1];
+
+public:
+	inline Vector2_t2156229523  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t2156229523 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t2156229523  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t2156229523  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t2156229523 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2156229523  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1718750761  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Vector3_t3722313464  m_Items[1];
+
+public:
+	inline Vector3_t3722313464  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t3722313464 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t3722313464  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t3722313464  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t3722313464 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t3722313464  value)
+	{
+		m_Items[index] = value;
+	}
+};
 
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C"  void Enumerator__ctor_m3875432026_gshared (Enumerator_t1222580846 * __this, List_1_t3628304265 * p0, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::.ctor(System.Collections.Generic.List`1<T>)
-extern "C"  void Enumerator__ctor_m3751722449_gshared (Enumerator_t2788664787 * __this, List_1_t899420910 * p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::.ctor(System.Collections.Generic.List`1<T>)
 extern "C"  void Enumerator__ctor_m1346728491_gshared (Enumerator_t2385380260 * __this, List_1_t496136383 * p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::.ctor(System.Collections.Generic.List`1<T>)
@@ -6942,18 +6681,14 @@ extern "C"  int32_t Math_Max_m1873195862 (RuntimeObject * __this /* static, unus
 extern "C"  void Array_Clear_m2231608178 (RuntimeObject * __this /* static, unused */, RuntimeArray * ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String)
 extern "C"  void ArgumentNullException__ctor_m1170824041 (ArgumentNullException_t1615371798 * __this, String_t* ___paramName0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::.ctor(System.Collections.Generic.List`1<T>)
-#define Enumerator__ctor_m3875432026(__this, p0, method) ((  void (*) (Enumerator_t1222580846 *, List_1_t3628304265 *, const RuntimeMethod*))Enumerator__ctor_m3875432026_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::.ctor(System.Collections.Generic.List`1<T>)
+#define Enumerator__ctor_m1346728491(__this, p0, method) ((  void (*) (Enumerator_t2385380260 *, List_1_t496136383 *, const RuntimeMethod*))Enumerator__ctor_m1346728491_gshared)(__this, p0, method)
 // System.Void System.Array::Reverse(System.Array,System.Int32,System.Int32)
 extern "C"  void Array_Reverse_m816310962 (RuntimeObject * __this /* static, unused */, RuntimeArray * ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Array::Copy(System.Array,System.Array,System.Int32)
 extern "C"  void Array_Copy_m1988217701 (RuntimeObject * __this /* static, unused */, RuntimeArray * ___sourceArray0, RuntimeArray * ___destinationArray1, int32_t ___length2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor()
 extern "C"  void ArgumentOutOfRangeException__ctor_m2047740448 (ArgumentOutOfRangeException_t777629997 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::.ctor(System.Collections.Generic.List`1<T>)
-#define Enumerator__ctor_m3751722449(__this, p0, method) ((  void (*) (Enumerator_t2788664787 *, List_1_t899420910 *, const RuntimeMethod*))Enumerator__ctor_m3751722449_gshared)(__this, p0, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::.ctor(System.Collections.Generic.List`1<T>)
-#define Enumerator__ctor_m1346728491(__this, p0, method) ((  void (*) (Enumerator_t2385380260 *, List_1_t496136383 *, const RuntimeMethod*))Enumerator__ctor_m1346728491_gshared)(__this, p0, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::.ctor(System.Collections.Generic.List`1<T>)
 #define Enumerator__ctor_m3124584491(__this, p0, method) ((  void (*) (Enumerator_t345375253 *, List_1_t2751098672 *, const RuntimeMethod*))Enumerator__ctor_m3124584491_gshared)(__this, p0, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.UnityARVideoFormat>::.ctor(System.Collections.Generic.List`1<T>)
@@ -7012,3102 +6747,6 @@ extern "C"  Type_t * Type_GetTypeFromHandle_m1620074514 (RuntimeObject * __this 
 extern "C"  bool Type_get_IsValueType_m3108065642 (Type_t * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotSupportedException::.ctor()
 extern "C"  void NotSupportedException__ctor_m2730133172 (NotSupportedException_t1314879016 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::.ctor()
-extern "C"  void List_1__ctor_m2135876746_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		Vector2U5BU5D_t1457185986* L_0 = ((List_1_t3628304265_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0)))->get_EmptyArray_4();
-		__this->set__items_1(L_0);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m404557453_gshared (List_1_t3628304265 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		RuntimeObject* L_1 = ___collection0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2)));
-		RuntimeObject* L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		Vector2U5BU5D_t1457185986* L_3 = ((List_1_t3628304265_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0)))->get_EmptyArray_4();
-		__this->set__items_1(L_3);
-		RuntimeObject* L_4 = ___collection0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-		goto IL_0049;
-	}
-
-IL_0031:
-	{
-		RuntimeObject* L_5 = V_0;
-		NullCheck((RuntimeObject*)L_5);
-		int32_t L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_5);
-		__this->set__items_1(((Vector2U5BU5D_t1457185986*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_6)));
-		RuntimeObject* L_7 = V_0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5));
-	}
-
-IL_0049:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::.ctor(System.Int32)
-extern "C"  void List_1__ctor_m4267227738_gshared (List_1_t3628304265 * __this, int32_t ___capacity0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1__ctor_m4267227738_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		int32_t L_0 = ___capacity0;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_1 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_1, (String_t*)_stringLiteral3623012086, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0018:
-	{
-		int32_t L_2 = ___capacity0;
-		__this->set__items_1(((Vector2U5BU5D_t1457185986*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_2)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::.cctor()
-extern "C"  void List_1__cctor_m4115369596_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	{
-		((List_1_t3628304265_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)))->set_EmptyArray_4(((Vector2U5BU5D_t1457185986*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (uint32_t)0)));
-		return;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-extern "C"  RuntimeObject* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m3445679677_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((List_1_t3628304265 *)__this);
-		Enumerator_t1222580846  L_0 = ((  Enumerator_t1222580846  (*) (List_1_t3628304265 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6)->methodPointer)((List_1_t3628304265 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6));
-		Enumerator_t1222580846  L_1 = L_0;
-		RuntimeObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 7), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C"  void List_1_System_Collections_ICollection_CopyTo_m3005257031_gshared (List_1_t3628304265 * __this, RuntimeArray * ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		RuntimeArray * L_1 = ___array0;
-		int32_t L_2 = ___arrayIndex1;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (RuntimeArray *)L_1, (int32_t)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Collections.IEnumerator System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IEnumerable.GetEnumerator()
-extern "C"  RuntimeObject* List_1_System_Collections_IEnumerable_GetEnumerator_m2344957147_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((List_1_t3628304265 *)__this);
-		Enumerator_t1222580846  L_0 = ((  Enumerator_t1222580846  (*) (List_1_t3628304265 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6)->methodPointer)((List_1_t3628304265 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6));
-		Enumerator_t1222580846  L_1 = L_0;
-		RuntimeObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 7), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.Add(System.Object)
-extern "C"  int32_t List_1_System_Collections_IList_Add_m1917877818_gshared (List_1_t3628304265 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Add_m1917877818_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t3628304265 *)__this);
-			((  void (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9));
-			int32_t L_1 = (int32_t)__this->get__size_2();
-			V_0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1));
-			goto IL_0036;
-		}
-
-IL_001a:
-		{
-			; // IL_001a: leave IL_002b
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001f;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0025;
-		throw e;
-	}
-
-CATCH_001f:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_002b;
-	} // end catch (depth: 1)
-
-CATCH_0025:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_002b;
-	} // end catch (depth: 1)
-
-IL_002b:
-	{
-		ArgumentException_t132251570 * L_2 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_2, (String_t*)_stringLiteral1949155672, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0036:
-	{
-		int32_t L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.Contains(System.Object)
-extern "C"  bool List_1_System_Collections_IList_Contains_m2131605266_gshared (List_1_t3628304265 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Contains_m2131605266_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t3628304265 *)__this);
-			bool L_1 = ((  bool (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10));
-			V_0 = (bool)L_1;
-			goto IL_0025;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return (bool)0;
-	}
-
-IL_0025:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.IndexOf(System.Object)
-extern "C"  int32_t List_1_System_Collections_IList_IndexOf_m1088859899_gshared (List_1_t3628304265 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_IndexOf_m1088859899_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t3628304265 *)__this);
-			int32_t L_1 = ((  int32_t (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-			V_0 = (int32_t)L_1;
-			goto IL_0025;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return (-1);
-	}
-
-IL_0025:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C"  void List_1_System_Collections_IList_Insert_m2238786360_gshared (List_1_t3628304265 * __this, int32_t ___index0, RuntimeObject * ___item1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Insert_m2238786360_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-	}
-
-IL_0007:
-	try
-	{ // begin try (depth: 1)
-		{
-			int32_t L_1 = ___index0;
-			RuntimeObject * L_2 = ___item1;
-			NullCheck((List_1_t3628304265 *)__this);
-			((  void (*) (List_1_t3628304265 *, int32_t, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_1, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13));
-			goto IL_0035;
-		}
-
-IL_0019:
-		{
-			; // IL_0019: leave IL_002a
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001e;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0024;
-		throw e;
-	}
-
-CATCH_001e:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_002a;
-	} // end catch (depth: 1)
-
-CATCH_0024:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_002a;
-	} // end catch (depth: 1)
-
-IL_002a:
-	{
-		ArgumentException_t132251570 * L_3 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_3, (String_t*)_stringLiteral1949155672, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0035:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.Remove(System.Object)
-extern "C"  void List_1_System_Collections_IList_Remove_m4226673807_gshared (List_1_t3628304265 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Remove_m4226673807_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t3628304265 *)__this);
-			((  bool (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14));
-			goto IL_0023;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C"  bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2056527014_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.ICollection.get_IsSynchronized()
-extern "C"  bool List_1_System_Collections_ICollection_get_IsSynchronized_m1552759297_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.ICollection.get_SyncRoot()
-extern "C"  RuntimeObject * List_1_System_Collections_ICollection_get_SyncRoot_m1429851642_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		return __this;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.get_IsFixedSize()
-extern "C"  bool List_1_System_Collections_IList_get_IsFixedSize_m1423467518_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.get_IsReadOnly()
-extern "C"  bool List_1_System_Collections_IList_get_IsReadOnly_m2793860900_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.get_Item(System.Int32)
-extern "C"  RuntimeObject * List_1_System_Collections_IList_get_Item_m523057313_gshared (List_1_t3628304265 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		Vector2_t2156229523  L_1 = ((  Vector2_t2156229523  (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 15)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 15));
-		Vector2_t2156229523  L_2 = L_1;
-		RuntimeObject * L_3 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8), &L_2);
-		return L_3;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C"  void List_1_System_Collections_IList_set_Item_m4101821588_gshared (List_1_t3628304265 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_set_Item_m4101821588_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			int32_t L_0 = ___index0;
-			RuntimeObject * L_1 = ___value1;
-			NullCheck((List_1_t3628304265 *)__this);
-			((  void (*) (List_1_t3628304265 *, int32_t, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 16)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 16));
-			goto IL_002e;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		ArgumentException_t132251570 * L_2 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_2, (String_t*)_stringLiteral3493618073, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_002e:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Add(T)
-extern "C"  void List_1_Add_m2298161512_gshared (List_1_t3628304265 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		Vector2U5BU5D_t1457185986* L_1 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		NullCheck(L_1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length))))))))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-	}
-
-IL_001a:
-	{
-		Vector2U5BU5D_t1457185986* L_2 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		int32_t L_4 = (int32_t)L_3;
-		V_0 = (int32_t)L_4;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)1)));
-		int32_t L_5 = V_0;
-		Vector2_t2156229523  L_6 = ___item0;
-		NullCheck(L_2);
-		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector2_t2156229523 )L_6);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::GrowIfNeeded(System.Int32)
-extern "C"  void List_1_GrowIfNeeded_m183799357_gshared (List_1_t3628304265 * __this, int32_t ___newCount0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		int32_t L_1 = ___newCount0;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
-		int32_t L_2 = V_0;
-		Vector2U5BU5D_t1457185986* L_3 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		NullCheck(L_3);
-		if ((((int32_t)L_2) <= ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_3)->max_length)))))))
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		NullCheck((List_1_t3628304265 *)__this);
-		int32_t L_4 = ((  int32_t (*) (List_1_t3628304265 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 18)->methodPointer)((List_1_t3628304265 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 18));
-		int32_t L_5 = Math_Max_m1873195862(NULL /*static, unused*/, (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)2)), (int32_t)4, /*hidden argument*/NULL);
-		int32_t L_6 = V_0;
-		int32_t L_7 = Math_Max_m1873195862(NULL /*static, unused*/, (int32_t)L_5, (int32_t)L_6, /*hidden argument*/NULL);
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19));
-	}
-
-IL_0031:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-extern "C"  void List_1_AddCollection_m1469681717_gshared (List_1_t3628304265 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000e:
-	{
-		int32_t L_3 = V_0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-		RuntimeObject* L_4 = ___collection0;
-		Vector2U5BU5D_t1457185986* L_5 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_6 = (int32_t)__this->get__size_2();
-		NullCheck((RuntimeObject*)L_4);
-		InterfaceActionInvoker2< Vector2U5BU5D_t1457185986*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_4, (Vector2U5BU5D_t1457185986*)L_5, (int32_t)L_6);
-		int32_t L_7 = (int32_t)__this->get__size_2();
-		int32_t L_8 = V_0;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_AddEnumerable_m1267044261_gshared (List_1_t3628304265 * __this, RuntimeObject* ___enumerable0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_AddEnumerable_m1267044261_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2_t2156229523  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		RuntimeObject* L_0 = ___enumerable0;
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 20), (RuntimeObject*)L_0);
-		V_1 = (RuntimeObject*)L_1;
-	}
-
-IL_0007:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_001a;
-		}
-
-IL_000c:
-		{
-			RuntimeObject* L_2 = V_1;
-			NullCheck((RuntimeObject*)L_2);
-			Vector2_t2156229523  L_3 = InterfaceFuncInvoker0< Vector2_t2156229523  >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<UnityEngine.Vector2>::get_Current() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 21), (RuntimeObject*)L_2);
-			V_0 = (Vector2_t2156229523 )L_3;
-			Vector2_t2156229523  L_4 = V_0;
-			NullCheck((List_1_t3628304265 *)__this);
-			((  void (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9));
-		}
-
-IL_001a:
-		{
-			RuntimeObject* L_5 = V_1;
-			NullCheck((RuntimeObject*)L_5);
-			bool L_6 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1853284238_il2cpp_TypeInfo_var, (RuntimeObject*)L_5);
-			if (L_6)
-			{
-				goto IL_000c;
-			}
-		}
-
-IL_0025:
-		{
-			IL2CPP_LEAVE(0x35, FINALLY_002a);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_002a;
-	}
-
-FINALLY_002a:
-	{ // begin finally (depth: 1)
-		{
-			RuntimeObject* L_7 = V_1;
-			if (L_7)
-			{
-				goto IL_002e;
-			}
-		}
-
-IL_002d:
-		{
-			IL2CPP_END_FINALLY(42)
-		}
-
-IL_002e:
-		{
-			RuntimeObject* L_8 = V_1;
-			NullCheck((RuntimeObject*)L_8);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t3640265483_il2cpp_TypeInfo_var, (RuntimeObject*)L_8);
-			IL2CPP_END_FINALLY(42)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(42)
-	{
-		IL2CPP_JUMP_TBL(0x35, IL_0035)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_0035:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_AddRange_m705206751_gshared (List_1_t3628304265 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		RuntimeObject* L_1 = ___collection0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2)));
-		RuntimeObject* L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		RuntimeObject* L_3 = V_0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5));
-		goto IL_0027;
-	}
-
-IL_0020:
-	{
-		RuntimeObject* L_4 = ___collection0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((List_1_t3628304265 *)__this, (RuntimeObject*)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-	}
-
-IL_0027:
-	{
-		int32_t L_5 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)1)));
-		return;
-	}
-}
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnityEngine.Vector2>::AsReadOnly()
-extern "C"  ReadOnlyCollection_1_t3368805810 * List_1_AsReadOnly_m4010324684_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		ReadOnlyCollection_1_t3368805810 * L_0 = (ReadOnlyCollection_1_t3368805810 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 22));
-		((  void (*) (ReadOnlyCollection_1_t3368805810 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 23)->methodPointer)(L_0, (RuntimeObject*)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 23));
-		return L_0;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Clear()
-extern "C"  void List_1_Clear_m2188935509_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		Vector2U5BU5D_t1457185986* L_1 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		NullCheck(L_1);
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length)))), /*hidden argument*/NULL);
-		__this->set__size_2(0);
-		int32_t L_2 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)1)));
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::Contains(T)
-extern "C"  bool List_1_Contains_m2043630929_gshared (List_1_t3628304265 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		Vector2_t2156229523  L_1 = ___item0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		int32_t L_3 = ((  int32_t (*) (RuntimeObject * /* static, unused */, Vector2U5BU5D_t1457185986*, Vector2_t2156229523 , int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24)->methodPointer)(NULL /*static, unused*/, (Vector2U5BU5D_t1457185986*)L_0, (Vector2_t2156229523 )L_1, (int32_t)0, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24));
-		return (bool)((((int32_t)((((int32_t)L_3) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::CopyTo(T[],System.Int32)
-extern "C"  void List_1_CopyTo_m2746988508_gshared (List_1_t3628304265 * __this, Vector2U5BU5D_t1457185986* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		Vector2U5BU5D_t1457185986* L_1 = ___array0;
-		int32_t L_2 = ___arrayIndex1;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (RuntimeArray *)(RuntimeArray *)L_1, (int32_t)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		return;
-	}
-}
-// T System.Collections.Generic.List`1<UnityEngine.Vector2>::Find(System.Predicate`1<T>)
-extern "C"  Vector2_t2156229523  List_1_Find_m3485944732_gshared (List_1_t3628304265 * __this, Predicate_1_t2981523647 * ___match0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	Vector2_t2156229523  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Vector2_t2156229523  G_B3_0;
-	memset(&G_B3_0, 0, sizeof(G_B3_0));
-	{
-		Predicate_1_t2981523647 * L_0 = ___match0;
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		((  void (*) (RuntimeObject * /* static, unused */, Predicate_1_t2981523647 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25)->methodPointer)(NULL /*static, unused*/, (Predicate_1_t2981523647 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25));
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Predicate_1_t2981523647 * L_2 = ___match0;
-		NullCheck((List_1_t3628304265 *)__this);
-		int32_t L_3 = ((  int32_t (*) (List_1_t3628304265 *, int32_t, int32_t, Predicate_1_t2981523647 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 26)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)0, (int32_t)L_1, (Predicate_1_t2981523647 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 26));
-		V_0 = (int32_t)L_3;
-		int32_t L_4 = V_0;
-		if ((((int32_t)L_4) == ((int32_t)(-1))))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_5 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_6 = V_0;
-		NullCheck(L_5);
-		int32_t L_7 = L_6;
-		Vector2_t2156229523  L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		G_B3_0 = L_8;
-		goto IL_0036;
-	}
-
-IL_002d:
-	{
-		il2cpp_codegen_initobj((&V_1), sizeof(Vector2_t2156229523 ));
-		Vector2_t2156229523  L_9 = V_1;
-		G_B3_0 = L_9;
-	}
-
-IL_0036:
-	{
-		return G_B3_0;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::CheckMatch(System.Predicate`1<T>)
-extern "C"  void List_1_CheckMatch_m2804856007_gshared (RuntimeObject * __this /* static, unused */, Predicate_1_t2981523647 * ___match0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckMatch_m2804856007_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Predicate_1_t2981523647 * L_0 = ___match0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral461028519, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-extern "C"  int32_t List_1_GetIndex_m4058141504_gshared (List_1_t3628304265 * __this, int32_t ___startIndex0, int32_t ___count1, Predicate_1_t2981523647 * ___match2, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	{
-		int32_t L_0 = ___startIndex0;
-		int32_t L_1 = ___count1;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
-		int32_t L_2 = ___startIndex0;
-		V_1 = (int32_t)L_2;
-		goto IL_0028;
-	}
-
-IL_000b:
-	{
-		Predicate_1_t2981523647 * L_3 = ___match2;
-		Vector2U5BU5D_t1457185986* L_4 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_5 = V_1;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		Vector2_t2156229523  L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		NullCheck((Predicate_1_t2981523647 *)L_3);
-		bool L_8 = ((  bool (*) (Predicate_1_t2981523647 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t2981523647 *)L_3, (Vector2_t2156229523 )L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (!L_8)
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		int32_t L_9 = V_1;
-		return L_9;
-	}
-
-IL_0024:
-	{
-		int32_t L_10 = V_1;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
-	}
-
-IL_0028:
-	{
-		int32_t L_11 = V_1;
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_11) < ((int32_t)L_12)))
-		{
-			goto IL_000b;
-		}
-	}
-	{
-		return (-1);
-	}
-}
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.Vector2>::GetEnumerator()
-extern "C"  Enumerator_t1222580846  List_1_GetEnumerator_m2825145182_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		Enumerator_t1222580846  L_0;
-		memset(&L_0, 0, sizeof(L_0));
-		Enumerator__ctor_m3875432026((&L_0), (List_1_t3628304265 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 28));
-		return L_0;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::IndexOf(T)
-extern "C"  int32_t List_1_IndexOf_m3326954582_gshared (List_1_t3628304265 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		Vector2_t2156229523  L_1 = ___item0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		int32_t L_3 = ((  int32_t (*) (RuntimeObject * /* static, unused */, Vector2U5BU5D_t1457185986*, Vector2_t2156229523 , int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24)->methodPointer)(NULL /*static, unused*/, (Vector2U5BU5D_t1457185986*)L_0, (Vector2_t2156229523 )L_1, (int32_t)0, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24));
-		return L_3;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Shift(System.Int32,System.Int32)
-extern "C"  void List_1_Shift_m2813184189_gshared (List_1_t3628304265 * __this, int32_t ___start0, int32_t ___delta1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___delta1;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_000c;
-		}
-	}
-	{
-		int32_t L_1 = ___start0;
-		int32_t L_2 = ___delta1;
-		___start0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)L_2));
-	}
-
-IL_000c:
-	{
-		int32_t L_3 = ___start0;
-		int32_t L_4 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_3) >= ((int32_t)L_4)))
-		{
-			goto IL_0035;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_5 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_6 = ___start0;
-		Vector2U5BU5D_t1457185986* L_7 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_8 = ___start0;
-		int32_t L_9 = ___delta1;
-		int32_t L_10 = (int32_t)__this->get__size_2();
-		int32_t L_11 = ___start0;
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_5, (int32_t)L_6, (RuntimeArray *)(RuntimeArray *)L_7, (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_8, (int32_t)L_9)), (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)L_11)), /*hidden argument*/NULL);
-	}
-
-IL_0035:
-	{
-		int32_t L_12 = (int32_t)__this->get__size_2();
-		int32_t L_13 = ___delta1;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)L_13)));
-		int32_t L_14 = ___delta1;
-		if ((((int32_t)L_14) >= ((int32_t)0)))
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_15 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_16 = (int32_t)__this->get__size_2();
-		int32_t L_17 = ___delta1;
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_15, (int32_t)L_16, (int32_t)((-L_17)), /*hidden argument*/NULL);
-	}
-
-IL_005d:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::CheckIndex(System.Int32)
-extern "C"  void List_1_CheckIndex_m2250397830_gshared (List_1_t3628304265 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckIndex_m2250397830_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) > ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-
-IL_0013:
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Insert(System.Int32,T)
-extern "C"  void List_1_Insert_m2958195960_gshared (List_1_t3628304265 * __this, int32_t ___index0, Vector2_t2156229523  ___item1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Vector2U5BU5D_t1457185986* L_2 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		NullCheck(L_2);
-		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_2)->max_length))))))))
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-	}
-
-IL_0021:
-	{
-		int32_t L_3 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_3, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29));
-		Vector2U5BU5D_t1457185986* L_4 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_5 = ___index0;
-		Vector2_t2156229523  L_6 = ___item1;
-		NullCheck(L_4);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector2_t2156229523 )L_6);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_CheckCollection_m205659001_gshared (List_1_t3628304265 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckCollection_m205659001_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = ___collection0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3723644332, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector2>::Remove(T)
-extern "C"  bool List_1_Remove_m2092085040_gshared (List_1_t3628304265 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		Vector2_t2156229523  L_0 = ___item0;
-		NullCheck((List_1_t3628304265 *)__this);
-		int32_t L_1 = ((  int32_t (*) (List_1_t3628304265 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((List_1_t3628304265 *)__this, (Vector2_t2156229523 )L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)(-1))))
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		int32_t L_3 = V_0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 30)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 30));
-	}
-
-IL_0016:
-	{
-		int32_t L_4 = V_0;
-		return (bool)((((int32_t)((((int32_t)L_4) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::RemoveAll(System.Predicate`1<T>)
-extern "C"  int32_t List_1_RemoveAll_m2753465100_gshared (List_1_t3628304265 * __this, Predicate_1_t2981523647 * ___match0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	{
-		Predicate_1_t2981523647 * L_0 = ___match0;
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		((  void (*) (RuntimeObject * /* static, unused */, Predicate_1_t2981523647 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25)->methodPointer)(NULL /*static, unused*/, (Predicate_1_t2981523647 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25));
-		V_0 = (int32_t)0;
-		V_1 = (int32_t)0;
-		V_0 = (int32_t)0;
-		goto IL_0031;
-	}
-
-IL_0011:
-	{
-		Predicate_1_t2981523647 * L_1 = ___match0;
-		Vector2U5BU5D_t1457185986* L_2 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_3 = V_0;
-		NullCheck(L_2);
-		int32_t L_4 = L_3;
-		Vector2_t2156229523  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		NullCheck((Predicate_1_t2981523647 *)L_1);
-		bool L_6 = ((  bool (*) (Predicate_1_t2981523647 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t2981523647 *)L_1, (Vector2_t2156229523 )L_5, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (!L_6)
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		goto IL_003d;
-	}
-
-IL_002d:
-	{
-		int32_t L_7 = V_0;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1));
-	}
-
-IL_0031:
-	{
-		int32_t L_8 = V_0;
-		int32_t L_9 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_8) < ((int32_t)L_9)))
-		{
-			goto IL_0011;
-		}
-	}
-
-IL_003d:
-	{
-		int32_t L_10 = V_0;
-		int32_t L_11 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_10) == ((uint32_t)L_11))))
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		return 0;
-	}
-
-IL_004b:
-	{
-		int32_t L_12 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)1)));
-		int32_t L_13 = V_0;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1));
-		goto IL_0099;
-	}
-
-IL_0062:
-	{
-		Predicate_1_t2981523647 * L_14 = ___match0;
-		Vector2U5BU5D_t1457185986* L_15 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_16 = V_1;
-		NullCheck(L_15);
-		int32_t L_17 = L_16;
-		Vector2_t2156229523  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		NullCheck((Predicate_1_t2981523647 *)L_14);
-		bool L_19 = ((  bool (*) (Predicate_1_t2981523647 *, Vector2_t2156229523 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t2981523647 *)L_14, (Vector2_t2156229523 )L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (L_19)
-		{
-			goto IL_0095;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_20 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)L_21;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)1));
-		Vector2U5BU5D_t1457185986* L_23 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_24 = V_1;
-		NullCheck(L_23);
-		int32_t L_25 = L_24;
-		Vector2_t2156229523  L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
-		NullCheck(L_20);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (Vector2_t2156229523 )L_26);
-	}
-
-IL_0095:
-	{
-		int32_t L_27 = V_1;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_27, (int32_t)1));
-	}
-
-IL_0099:
-	{
-		int32_t L_28 = V_1;
-		int32_t L_29 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_28) < ((int32_t)L_29)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_30 = V_1;
-		int32_t L_31 = V_0;
-		if ((((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_30, (int32_t)L_31))) <= ((int32_t)0)))
-		{
-			goto IL_00bd;
-		}
-	}
-	{
-		Vector2U5BU5D_t1457185986* L_32 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_33 = V_0;
-		int32_t L_34 = V_1;
-		int32_t L_35 = V_0;
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_32, (int32_t)L_33, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_34, (int32_t)L_35)), /*hidden argument*/NULL);
-	}
-
-IL_00bd:
-	{
-		int32_t L_36 = V_0;
-		__this->set__size_2(L_36);
-		int32_t L_37 = V_1;
-		int32_t L_38 = V_0;
-		return ((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)L_38));
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::RemoveAt(System.Int32)
-extern "C"  void List_1_RemoveAt_m484847478_gshared (List_1_t3628304265 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_RemoveAt_m484847478_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) >= ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-
-IL_0013:
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		int32_t L_4 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_4, (int32_t)(-1), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29));
-		Vector2U5BU5D_t1457185986* L_5 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_6 = (int32_t)__this->get__size_2();
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_5, (int32_t)L_6, (int32_t)1, /*hidden argument*/NULL);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Reverse()
-extern "C"  void List_1_Reverse_m4225785698_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Array_Reverse_m816310962(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (int32_t)L_1, /*hidden argument*/NULL);
-		int32_t L_2 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Sort()
-extern "C"  void List_1_Sort_m111035942_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 32));
-		Comparer_1_t3655984405 * L_2 = ((  Comparer_1_t3655984405 * (*) (RuntimeObject * /* static, unused */, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 31)->methodPointer)(NULL /*static, unused*/, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 31));
-		((  void (*) (RuntimeObject * /* static, unused */, Vector2U5BU5D_t1457185986*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 33)->methodPointer)(NULL /*static, unused*/, (Vector2U5BU5D_t1457185986*)L_0, (int32_t)0, (int32_t)L_1, (RuntimeObject*)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 33));
-		int32_t L_3 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::Sort(System.Comparison`1<T>)
-extern "C"  void List_1_Sort_m378918663_gshared (List_1_t3628304265 * __this, Comparison_1_t1931160702 * ___comparison0, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Comparison_1_t1931160702 * L_2 = ___comparison0;
-		((  void (*) (RuntimeObject * /* static, unused */, Vector2U5BU5D_t1457185986*, int32_t, Comparison_1_t1931160702 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 34)->methodPointer)(NULL /*static, unused*/, (Vector2U5BU5D_t1457185986*)L_0, (int32_t)L_1, (Comparison_1_t1931160702 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 34));
-		int32_t L_3 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
-		return;
-	}
-}
-// T[] System.Collections.Generic.List`1<UnityEngine.Vector2>::ToArray()
-extern "C"  Vector2U5BU5D_t1457185986* List_1_ToArray_m3674464401_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	Vector2U5BU5D_t1457185986* V_0 = NULL;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		V_0 = (Vector2U5BU5D_t1457185986*)((Vector2U5BU5D_t1457185986*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_0));
-		Vector2U5BU5D_t1457185986* L_1 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		Vector2U5BU5D_t1457185986* L_2 = V_0;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m1988217701(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_1, (RuntimeArray *)(RuntimeArray *)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		Vector2U5BU5D_t1457185986* L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::TrimExcess()
-extern "C"  void List_1_TrimExcess_m285376539_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19));
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::get_Capacity()
-extern "C"  int32_t List_1_get_Capacity_m2865186583_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector2U5BU5D_t1457185986* L_0 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		NullCheck(L_0);
-		return (((int32_t)((int32_t)(((RuntimeArray *)L_0)->max_length))));
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::set_Capacity(System.Int32)
-extern "C"  void List_1_set_Capacity_m2707586410_gshared (List_1_t3628304265 * __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_set_Capacity_m2707586410_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___value0;
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_0) < ((uint32_t)L_1))))
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_2 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m2047740448(L_2, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0012:
-	{
-		Vector2U5BU5D_t1457185986** L_3 = (Vector2U5BU5D_t1457185986**)__this->get_address_of__items_1();
-		int32_t L_4 = ___value0;
-		((  void (*) (RuntimeObject * /* static, unused */, Vector2U5BU5D_t1457185986**, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 35)->methodPointer)(NULL /*static, unused*/, (Vector2U5BU5D_t1457185986**)L_3, (int32_t)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 35));
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector2>::get_Count()
-extern "C"  int32_t List_1_get_Count_m934158464_gshared (List_1_t3628304265 * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
-	}
-}
-// T System.Collections.Generic.List`1<UnityEngine.Vector2>::get_Item(System.Int32)
-extern "C"  Vector2_t2156229523  List_1_get_Item_m1378751541_gshared (List_1_t3628304265 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_get_Item_m1378751541_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_2 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_2, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0017:
-	{
-		Vector2U5BU5D_t1457185986* L_3 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_4 = ___index0;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		Vector2_t2156229523  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		return L_6;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector2>::set_Item(System.Int32,T)
-extern "C"  void List_1_set_Item_m35836043_gshared (List_1_t3628304265 * __this, int32_t ___index0, Vector2_t2156229523  ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_set_Item_m35836043_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t3628304265 *)__this);
-		((  void (*) (List_1_t3628304265 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t3628304265 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		Vector2U5BU5D_t1457185986* L_4 = (Vector2U5BU5D_t1457185986*)__this->get__items_1();
-		int32_t L_5 = ___index0;
-		Vector2_t2156229523  L_6 = ___value1;
-		NullCheck(L_4);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector2_t2156229523 )L_6);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.ctor()
-extern "C"  void List_1__ctor_m1536473967_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		Vector3U5BU5D_t1718750761* L_0 = ((List_1_t899420910_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0)))->get_EmptyArray_4();
-		__this->set__items_1(L_0);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1__ctor_m1291105942_gshared (List_1_t899420910 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		RuntimeObject* L_1 = ___collection0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2)));
-		RuntimeObject* L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		Vector3U5BU5D_t1718750761* L_3 = ((List_1_t899420910_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0)))->get_EmptyArray_4();
-		__this->set__items_1(L_3);
-		RuntimeObject* L_4 = ___collection0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-		goto IL_0049;
-	}
-
-IL_0031:
-	{
-		RuntimeObject* L_5 = V_0;
-		NullCheck((RuntimeObject*)L_5);
-		int32_t L_6 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_5);
-		__this->set__items_1(((Vector3U5BU5D_t1718750761*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_6)));
-		RuntimeObject* L_7 = V_0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5));
-	}
-
-IL_0049:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.ctor(System.Int32)
-extern "C"  void List_1__ctor_m446022677_gshared (List_1_t899420910 * __this, int32_t ___capacity0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1__ctor_m446022677_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		int32_t L_0 = ___capacity0;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_1 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_1, (String_t*)_stringLiteral3623012086, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0018:
-	{
-		int32_t L_2 = ___capacity0;
-		__this->set__items_1(((Vector3U5BU5D_t1718750761*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_2)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.cctor()
-extern "C"  void List_1__cctor_m2037157503_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	{
-		((List_1_t899420910_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)))->set_EmptyArray_4(((Vector3U5BU5D_t1718750761*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), (uint32_t)0)));
-		return;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-extern "C"  RuntimeObject* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m3837076601_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((List_1_t899420910 *)__this);
-		Enumerator_t2788664787  L_0 = ((  Enumerator_t2788664787  (*) (List_1_t899420910 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6)->methodPointer)((List_1_t899420910 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6));
-		Enumerator_t2788664787  L_1 = L_0;
-		RuntimeObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 7), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C"  void List_1_System_Collections_ICollection_CopyTo_m2426940678_gshared (List_1_t899420910 * __this, RuntimeArray * ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		RuntimeArray * L_1 = ___array0;
-		int32_t L_2 = ___arrayIndex1;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (RuntimeArray *)L_1, (int32_t)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Collections.IEnumerator System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IEnumerable.GetEnumerator()
-extern "C"  RuntimeObject* List_1_System_Collections_IEnumerable_GetEnumerator_m2825387296_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((List_1_t899420910 *)__this);
-		Enumerator_t2788664787  L_0 = ((  Enumerator_t2788664787  (*) (List_1_t899420910 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6)->methodPointer)((List_1_t899420910 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 6));
-		Enumerator_t2788664787  L_1 = L_0;
-		RuntimeObject * L_2 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 7), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.Add(System.Object)
-extern "C"  int32_t List_1_System_Collections_IList_Add_m1311792172_gshared (List_1_t899420910 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Add_m1311792172_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t899420910 *)__this);
-			((  void (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9));
-			int32_t L_1 = (int32_t)__this->get__size_2();
-			V_0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1));
-			goto IL_0036;
-		}
-
-IL_001a:
-		{
-			; // IL_001a: leave IL_002b
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001f;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0025;
-		throw e;
-	}
-
-CATCH_001f:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_002b;
-	} // end catch (depth: 1)
-
-CATCH_0025:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_002b;
-	} // end catch (depth: 1)
-
-IL_002b:
-	{
-		ArgumentException_t132251570 * L_2 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_2, (String_t*)_stringLiteral1949155672, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0036:
-	{
-		int32_t L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.Contains(System.Object)
-extern "C"  bool List_1_System_Collections_IList_Contains_m3717811284_gshared (List_1_t899420910 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Contains_m3717811284_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t899420910 *)__this);
-			bool L_1 = ((  bool (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10));
-			V_0 = (bool)L_1;
-			goto IL_0025;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return (bool)0;
-	}
-
-IL_0025:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.IndexOf(System.Object)
-extern "C"  int32_t List_1_System_Collections_IList_IndexOf_m3696676247_gshared (List_1_t899420910 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_IndexOf_m3696676247_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t899420910 *)__this);
-			int32_t L_1 = ((  int32_t (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-			V_0 = (int32_t)L_1;
-			goto IL_0025;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return (-1);
-	}
-
-IL_0025:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C"  void List_1_System_Collections_IList_Insert_m159282227_gshared (List_1_t899420910 * __this, int32_t ___index0, RuntimeObject * ___item1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Insert_m159282227_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-	}
-
-IL_0007:
-	try
-	{ // begin try (depth: 1)
-		{
-			int32_t L_1 = ___index0;
-			RuntimeObject * L_2 = ___item1;
-			NullCheck((List_1_t899420910 *)__this);
-			((  void (*) (List_1_t899420910 *, int32_t, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_1, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_2, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13));
-			goto IL_0035;
-		}
-
-IL_0019:
-		{
-			; // IL_0019: leave IL_002a
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001e;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0024;
-		throw e;
-	}
-
-CATCH_001e:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_002a;
-	} // end catch (depth: 1)
-
-CATCH_0024:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_002a;
-	} // end catch (depth: 1)
-
-IL_002a:
-	{
-		ArgumentException_t132251570 * L_3 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_3, (String_t*)_stringLiteral1949155672, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0035:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.Remove(System.Object)
-extern "C"  void List_1_System_Collections_IList_Remove_m997133631_gshared (List_1_t899420910 * __this, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_Remove_m997133631_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			RuntimeObject * L_0 = ___item0;
-			NullCheck((List_1_t899420910 *)__this);
-			((  bool (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14));
-			goto IL_0023;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C"  bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3792935457_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.ICollection.get_IsSynchronized()
-extern "C"  bool List_1_System_Collections_ICollection_get_IsSynchronized_m693118979_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.ICollection.get_SyncRoot()
-extern "C"  RuntimeObject * List_1_System_Collections_ICollection_get_SyncRoot_m556592363_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		return __this;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.get_IsFixedSize()
-extern "C"  bool List_1_System_Collections_IList_get_IsFixedSize_m58130929_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.get_IsReadOnly()
-extern "C"  bool List_1_System_Collections_IList_get_IsReadOnly_m1601400230_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.get_Item(System.Int32)
-extern "C"  RuntimeObject * List_1_System_Collections_IList_get_Item_m1315368445_gshared (List_1_t899420910 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		Vector3_t3722313464  L_1 = ((  Vector3_t3722313464  (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 15)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 15));
-		Vector3_t3722313464  L_2 = L_1;
-		RuntimeObject * L_3 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8), &L_2);
-		return L_3;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C"  void List_1_System_Collections_IList_set_Item_m470242416_gshared (List_1_t899420910 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_System_Collections_IList_set_Item_m470242416_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		{
-			int32_t L_0 = ___index0;
-			RuntimeObject * L_1 = ___value1;
-			NullCheck((List_1_t899420910 *)__this);
-			((  void (*) (List_1_t899420910 *, int32_t, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 16)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 16));
-			goto IL_002e;
-		}
-
-IL_0012:
-		{
-			; // IL_0012: leave IL_0023
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__exception_local = (Exception_t *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (NullReferenceException_t1023182353_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_0017;
-		if(il2cpp_codegen_class_is_assignable_from (InvalidCastException_t3927145244_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_001d;
-		throw e;
-	}
-
-CATCH_0017:
-	{ // begin catch(System.NullReferenceException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-CATCH_001d:
-	{ // begin catch(System.InvalidCastException)
-		goto IL_0023;
-	} // end catch (depth: 1)
-
-IL_0023:
-	{
-		ArgumentException_t132251570 * L_2 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_2, (String_t*)_stringLiteral3493618073, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_002e:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Add(T)
-extern "C"  void List_1_Add_m1524640104_gshared (List_1_t899420910 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		Vector3U5BU5D_t1718750761* L_1 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		NullCheck(L_1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length))))))))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t899420910 *)__this, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-	}
-
-IL_001a:
-	{
-		Vector3U5BU5D_t1718750761* L_2 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		int32_t L_4 = (int32_t)L_3;
-		V_0 = (int32_t)L_4;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)1)));
-		int32_t L_5 = V_0;
-		Vector3_t3722313464  L_6 = ___item0;
-		NullCheck(L_2);
-		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector3_t3722313464 )L_6);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::GrowIfNeeded(System.Int32)
-extern "C"  void List_1_GrowIfNeeded_m278824317_gshared (List_1_t899420910 * __this, int32_t ___newCount0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		int32_t L_1 = ___newCount0;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
-		int32_t L_2 = V_0;
-		Vector3U5BU5D_t1718750761* L_3 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		NullCheck(L_3);
-		if ((((int32_t)L_2) <= ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_3)->max_length)))))))
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		NullCheck((List_1_t899420910 *)__this);
-		int32_t L_4 = ((  int32_t (*) (List_1_t899420910 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 18)->methodPointer)((List_1_t899420910 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 18));
-		int32_t L_5 = Math_Max_m1873195862(NULL /*static, unused*/, (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_4, (int32_t)2)), (int32_t)4, /*hidden argument*/NULL);
-		int32_t L_6 = V_0;
-		int32_t L_7 = Math_Max_m1873195862(NULL /*static, unused*/, (int32_t)L_5, (int32_t)L_6, /*hidden argument*/NULL);
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19));
-	}
-
-IL_0031:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-extern "C"  void List_1_AddCollection_m3485771260_gshared (List_1_t899420910 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000e:
-	{
-		int32_t L_3 = V_0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-		RuntimeObject* L_4 = ___collection0;
-		Vector3U5BU5D_t1718750761* L_5 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_6 = (int32_t)__this->get__size_2();
-		NullCheck((RuntimeObject*)L_4);
-		InterfaceActionInvoker2< Vector3U5BU5D_t1718750761*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_4, (Vector3U5BU5D_t1718750761*)L_5, (int32_t)L_6);
-		int32_t L_7 = (int32_t)__this->get__size_2();
-		int32_t L_8 = V_0;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)L_8)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_AddEnumerable_m2724989594_gshared (List_1_t899420910 * __this, RuntimeObject* ___enumerable0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_AddEnumerable_m2724989594_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3_t3722313464  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	RuntimeObject* V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		RuntimeObject* L_0 = ___enumerable0;
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 20), (RuntimeObject*)L_0);
-		V_1 = (RuntimeObject*)L_1;
-	}
-
-IL_0007:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_001a;
-		}
-
-IL_000c:
-		{
-			RuntimeObject* L_2 = V_1;
-			NullCheck((RuntimeObject*)L_2);
-			Vector3_t3722313464  L_3 = InterfaceFuncInvoker0< Vector3_t3722313464  >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3>::get_Current() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 21), (RuntimeObject*)L_2);
-			V_0 = (Vector3_t3722313464 )L_3;
-			Vector3_t3722313464  L_4 = V_0;
-			NullCheck((List_1_t899420910 *)__this);
-			((  void (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 9));
-		}
-
-IL_001a:
-		{
-			RuntimeObject* L_5 = V_1;
-			NullCheck((RuntimeObject*)L_5);
-			bool L_6 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1853284238_il2cpp_TypeInfo_var, (RuntimeObject*)L_5);
-			if (L_6)
-			{
-				goto IL_000c;
-			}
-		}
-
-IL_0025:
-		{
-			IL2CPP_LEAVE(0x35, FINALLY_002a);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_002a;
-	}
-
-FINALLY_002a:
-	{ // begin finally (depth: 1)
-		{
-			RuntimeObject* L_7 = V_1;
-			if (L_7)
-			{
-				goto IL_002e;
-			}
-		}
-
-IL_002d:
-		{
-			IL2CPP_END_FINALLY(42)
-		}
-
-IL_002e:
-		{
-			RuntimeObject* L_8 = V_1;
-			NullCheck((RuntimeObject*)L_8);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t3640265483_il2cpp_TypeInfo_var, (RuntimeObject*)L_8);
-			IL2CPP_END_FINALLY(42)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(42)
-	{
-		IL2CPP_JUMP_TBL(0x35, IL_0035)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_0035:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_AddRange_m1173251377_gshared (List_1_t899420910 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	RuntimeObject* V_0 = NULL;
-	{
-		RuntimeObject* L_0 = ___collection0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		RuntimeObject* L_1 = ___collection0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2)));
-		RuntimeObject* L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		RuntimeObject* L_3 = V_0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 5));
-		goto IL_0027;
-	}
-
-IL_0020:
-	{
-		RuntimeObject* L_4 = ___collection0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((List_1_t899420910 *)__this, (RuntimeObject*)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-	}
-
-IL_0027:
-	{
-		int32_t L_5 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)1)));
-		return;
-	}
-}
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<UnityEngine.Vector3>::AsReadOnly()
-extern "C"  ReadOnlyCollection_1_t639922455 * List_1_AsReadOnly_m4011326831_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		ReadOnlyCollection_1_t639922455 * L_0 = (ReadOnlyCollection_1_t639922455 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 22));
-		((  void (*) (ReadOnlyCollection_1_t639922455 *, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 23)->methodPointer)(L_0, (RuntimeObject*)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 23));
-		return L_0;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Clear()
-extern "C"  void List_1_Clear_m3097985365_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		Vector3U5BU5D_t1718750761* L_1 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		NullCheck(L_1);
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_1)->max_length)))), /*hidden argument*/NULL);
-		__this->set__size_2(0);
-		int32_t L_2 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)1)));
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::Contains(T)
-extern "C"  bool List_1_Contains_m2043664690_gshared (List_1_t899420910 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		Vector3_t3722313464  L_1 = ___item0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		int32_t L_3 = ((  int32_t (*) (RuntimeObject * /* static, unused */, Vector3U5BU5D_t1718750761*, Vector3_t3722313464 , int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24)->methodPointer)(NULL /*static, unused*/, (Vector3U5BU5D_t1718750761*)L_0, (Vector3_t3722313464 )L_1, (int32_t)0, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24));
-		return (bool)((((int32_t)((((int32_t)L_3) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::CopyTo(T[],System.Int32)
-extern "C"  void List_1_CopyTo_m421695909_gshared (List_1_t899420910 * __this, Vector3U5BU5D_t1718750761* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		Vector3U5BU5D_t1718750761* L_1 = ___array0;
-		int32_t L_2 = ___arrayIndex1;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (RuntimeArray *)(RuntimeArray *)L_1, (int32_t)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		return;
-	}
-}
-// T System.Collections.Generic.List`1<UnityEngine.Vector3>::Find(System.Predicate`1<T>)
-extern "C"  Vector3_t3722313464  List_1_Find_m2257431514_gshared (List_1_t899420910 * __this, Predicate_1_t252640292 * ___match0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	Vector3_t3722313464  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Vector3_t3722313464  G_B3_0;
-	memset(&G_B3_0, 0, sizeof(G_B3_0));
-	{
-		Predicate_1_t252640292 * L_0 = ___match0;
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		((  void (*) (RuntimeObject * /* static, unused */, Predicate_1_t252640292 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25)->methodPointer)(NULL /*static, unused*/, (Predicate_1_t252640292 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25));
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Predicate_1_t252640292 * L_2 = ___match0;
-		NullCheck((List_1_t899420910 *)__this);
-		int32_t L_3 = ((  int32_t (*) (List_1_t899420910 *, int32_t, int32_t, Predicate_1_t252640292 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 26)->methodPointer)((List_1_t899420910 *)__this, (int32_t)0, (int32_t)L_1, (Predicate_1_t252640292 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 26));
-		V_0 = (int32_t)L_3;
-		int32_t L_4 = V_0;
-		if ((((int32_t)L_4) == ((int32_t)(-1))))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_5 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_6 = V_0;
-		NullCheck(L_5);
-		int32_t L_7 = L_6;
-		Vector3_t3722313464  L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		G_B3_0 = L_8;
-		goto IL_0036;
-	}
-
-IL_002d:
-	{
-		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t3722313464 ));
-		Vector3_t3722313464  L_9 = V_1;
-		G_B3_0 = L_9;
-	}
-
-IL_0036:
-	{
-		return G_B3_0;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::CheckMatch(System.Predicate`1<T>)
-extern "C"  void List_1_CheckMatch_m67824902_gshared (RuntimeObject * __this /* static, unused */, Predicate_1_t252640292 * ___match0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckMatch_m67824902_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Predicate_1_t252640292 * L_0 = ___match0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral461028519, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-extern "C"  int32_t List_1_GetIndex_m1042356532_gshared (List_1_t899420910 * __this, int32_t ___startIndex0, int32_t ___count1, Predicate_1_t252640292 * ___match2, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	{
-		int32_t L_0 = ___startIndex0;
-		int32_t L_1 = ___count1;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1));
-		int32_t L_2 = ___startIndex0;
-		V_1 = (int32_t)L_2;
-		goto IL_0028;
-	}
-
-IL_000b:
-	{
-		Predicate_1_t252640292 * L_3 = ___match2;
-		Vector3U5BU5D_t1718750761* L_4 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_5 = V_1;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		Vector3_t3722313464  L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		NullCheck((Predicate_1_t252640292 *)L_3);
-		bool L_8 = ((  bool (*) (Predicate_1_t252640292 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t252640292 *)L_3, (Vector3_t3722313464 )L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (!L_8)
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		int32_t L_9 = V_1;
-		return L_9;
-	}
-
-IL_0024:
-	{
-		int32_t L_10 = V_1;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
-	}
-
-IL_0028:
-	{
-		int32_t L_11 = V_1;
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_11) < ((int32_t)L_12)))
-		{
-			goto IL_000b;
-		}
-	}
-	{
-		return (-1);
-	}
-}
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<UnityEngine.Vector3>::GetEnumerator()
-extern "C"  Enumerator_t2788664787  List_1_GetEnumerator_m415643511_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		Enumerator_t2788664787  L_0;
-		memset(&L_0, 0, sizeof(L_0));
-		Enumerator__ctor_m3751722449((&L_0), (List_1_t899420910 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 28));
-		return L_0;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::IndexOf(T)
-extern "C"  int32_t List_1_IndexOf_m3534705549_gshared (List_1_t899420910 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		Vector3_t3722313464  L_1 = ___item0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		int32_t L_3 = ((  int32_t (*) (RuntimeObject * /* static, unused */, Vector3U5BU5D_t1718750761*, Vector3_t3722313464 , int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24)->methodPointer)(NULL /*static, unused*/, (Vector3U5BU5D_t1718750761*)L_0, (Vector3_t3722313464 )L_1, (int32_t)0, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 24));
-		return L_3;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Shift(System.Int32,System.Int32)
-extern "C"  void List_1_Shift_m2938960328_gshared (List_1_t899420910 * __this, int32_t ___start0, int32_t ___delta1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___delta1;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_000c;
-		}
-	}
-	{
-		int32_t L_1 = ___start0;
-		int32_t L_2 = ___delta1;
-		___start0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)L_2));
-	}
-
-IL_000c:
-	{
-		int32_t L_3 = ___start0;
-		int32_t L_4 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_3) >= ((int32_t)L_4)))
-		{
-			goto IL_0035;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_5 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_6 = ___start0;
-		Vector3U5BU5D_t1718750761* L_7 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_8 = ___start0;
-		int32_t L_9 = ___delta1;
-		int32_t L_10 = (int32_t)__this->get__size_2();
-		int32_t L_11 = ___start0;
-		Array_Copy_m344457298(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_5, (int32_t)L_6, (RuntimeArray *)(RuntimeArray *)L_7, (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_8, (int32_t)L_9)), (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_10, (int32_t)L_11)), /*hidden argument*/NULL);
-	}
-
-IL_0035:
-	{
-		int32_t L_12 = (int32_t)__this->get__size_2();
-		int32_t L_13 = ___delta1;
-		__this->set__size_2(((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)L_13)));
-		int32_t L_14 = ___delta1;
-		if ((((int32_t)L_14) >= ((int32_t)0)))
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_15 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_16 = (int32_t)__this->get__size_2();
-		int32_t L_17 = ___delta1;
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_15, (int32_t)L_16, (int32_t)((-L_17)), /*hidden argument*/NULL);
-	}
-
-IL_005d:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::CheckIndex(System.Int32)
-extern "C"  void List_1_CheckIndex_m3636898580_gshared (List_1_t899420910 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckIndex_m3636898580_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) > ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-
-IL_0013:
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Insert(System.Int32,T)
-extern "C"  void List_1_Insert_m1695211546_gshared (List_1_t899420910 * __this, int32_t ___index0, Vector3_t3722313464  ___item1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Vector3U5BU5D_t1718750761* L_2 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		NullCheck(L_2);
-		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_2)->max_length))))))))
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17)->methodPointer)((List_1_t899420910 *)__this, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 17));
-	}
-
-IL_0021:
-	{
-		int32_t L_3 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_3, (int32_t)1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29));
-		Vector3U5BU5D_t1718750761* L_4 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_5 = ___index0;
-		Vector3_t3722313464  L_6 = ___item1;
-		NullCheck(L_4);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector3_t3722313464 )L_6);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-extern "C"  void List_1_CheckCollection_m487824007_gshared (List_1_t899420910 * __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_CheckCollection_m487824007_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = ___collection0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3723644332, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		return;
-	}
-}
-// System.Boolean System.Collections.Generic.List`1<UnityEngine.Vector3>::Remove(T)
-extern "C"  bool List_1_Remove_m2092116835_gshared (List_1_t899420910 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		Vector3_t3722313464  L_0 = ___item0;
-		NullCheck((List_1_t899420910 *)__this);
-		int32_t L_1 = ((  int32_t (*) (List_1_t899420910 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((List_1_t899420910 *)__this, (Vector3_t3722313464 )L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)(-1))))
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		int32_t L_3 = V_0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 30)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 30));
-	}
-
-IL_0016:
-	{
-		int32_t L_4 = V_0;
-		return (bool)((((int32_t)((((int32_t)L_4) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::RemoveAll(System.Predicate`1<T>)
-extern "C"  int32_t List_1_RemoveAll_m4058864288_gshared (List_1_t899420910 * __this, Predicate_1_t252640292 * ___match0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	{
-		Predicate_1_t252640292 * L_0 = ___match0;
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		((  void (*) (RuntimeObject * /* static, unused */, Predicate_1_t252640292 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25)->methodPointer)(NULL /*static, unused*/, (Predicate_1_t252640292 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 25));
-		V_0 = (int32_t)0;
-		V_1 = (int32_t)0;
-		V_0 = (int32_t)0;
-		goto IL_0031;
-	}
-
-IL_0011:
-	{
-		Predicate_1_t252640292 * L_1 = ___match0;
-		Vector3U5BU5D_t1718750761* L_2 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_3 = V_0;
-		NullCheck(L_2);
-		int32_t L_4 = L_3;
-		Vector3_t3722313464  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		NullCheck((Predicate_1_t252640292 *)L_1);
-		bool L_6 = ((  bool (*) (Predicate_1_t252640292 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t252640292 *)L_1, (Vector3_t3722313464 )L_5, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (!L_6)
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		goto IL_003d;
-	}
-
-IL_002d:
-	{
-		int32_t L_7 = V_0;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1));
-	}
-
-IL_0031:
-	{
-		int32_t L_8 = V_0;
-		int32_t L_9 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_8) < ((int32_t)L_9)))
-		{
-			goto IL_0011;
-		}
-	}
-
-IL_003d:
-	{
-		int32_t L_10 = V_0;
-		int32_t L_11 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_10) == ((uint32_t)L_11))))
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		return 0;
-	}
-
-IL_004b:
-	{
-		int32_t L_12 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)1)));
-		int32_t L_13 = V_0;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1));
-		goto IL_0099;
-	}
-
-IL_0062:
-	{
-		Predicate_1_t252640292 * L_14 = ___match0;
-		Vector3U5BU5D_t1718750761* L_15 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_16 = V_1;
-		NullCheck(L_15);
-		int32_t L_17 = L_16;
-		Vector3_t3722313464  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		NullCheck((Predicate_1_t252640292 *)L_14);
-		bool L_19 = ((  bool (*) (Predicate_1_t252640292 *, Vector3_t3722313464 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27)->methodPointer)((Predicate_1_t252640292 *)L_14, (Vector3_t3722313464 )L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 27));
-		if (L_19)
-		{
-			goto IL_0095;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_20 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)L_21;
-		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)1));
-		Vector3U5BU5D_t1718750761* L_23 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_24 = V_1;
-		NullCheck(L_23);
-		int32_t L_25 = L_24;
-		Vector3_t3722313464  L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
-		NullCheck(L_20);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (Vector3_t3722313464 )L_26);
-	}
-
-IL_0095:
-	{
-		int32_t L_27 = V_1;
-		V_1 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_27, (int32_t)1));
-	}
-
-IL_0099:
-	{
-		int32_t L_28 = V_1;
-		int32_t L_29 = (int32_t)__this->get__size_2();
-		if ((((int32_t)L_28) < ((int32_t)L_29)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_30 = V_1;
-		int32_t L_31 = V_0;
-		if ((((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_30, (int32_t)L_31))) <= ((int32_t)0)))
-		{
-			goto IL_00bd;
-		}
-	}
-	{
-		Vector3U5BU5D_t1718750761* L_32 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_33 = V_0;
-		int32_t L_34 = V_1;
-		int32_t L_35 = V_0;
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_32, (int32_t)L_33, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_34, (int32_t)L_35)), /*hidden argument*/NULL);
-	}
-
-IL_00bd:
-	{
-		int32_t L_36 = V_0;
-		__this->set__size_2(L_36);
-		int32_t L_37 = V_1;
-		int32_t L_38 = V_0;
-		return ((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)L_38));
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::RemoveAt(System.Int32)
-extern "C"  void List_1_RemoveAt_m3518997255_gshared (List_1_t899420910 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_RemoveAt_m3518997255_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) >= ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-
-IL_0013:
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		int32_t L_4 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_4, (int32_t)(-1), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 29));
-		Vector3U5BU5D_t1718750761* L_5 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_6 = (int32_t)__this->get__size_2();
-		Array_Clear_m2231608178(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_5, (int32_t)L_6, (int32_t)1, /*hidden argument*/NULL);
-		int32_t L_7 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Reverse()
-extern "C"  void List_1_Reverse_m1606508386_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Array_Reverse_m816310962(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_0, (int32_t)0, (int32_t)L_1, /*hidden argument*/NULL);
-		int32_t L_2 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_2, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Sort()
-extern "C"  void List_1_Sort_m43992614_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 32));
-		Comparer_1_t927101050 * L_2 = ((  Comparer_1_t927101050 * (*) (RuntimeObject * /* static, unused */, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 31)->methodPointer)(NULL /*static, unused*/, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 31));
-		((  void (*) (RuntimeObject * /* static, unused */, Vector3U5BU5D_t1718750761*, int32_t, int32_t, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 33)->methodPointer)(NULL /*static, unused*/, (Vector3U5BU5D_t1718750761*)L_0, (int32_t)0, (int32_t)L_1, (RuntimeObject*)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 33));
-		int32_t L_3 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::Sort(System.Comparison`1<T>)
-extern "C"  void List_1_Sort_m2033602123_gshared (List_1_t899420910 * __this, Comparison_1_t3497244643 * ___comparison0, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		Comparison_1_t3497244643 * L_2 = ___comparison0;
-		((  void (*) (RuntimeObject * /* static, unused */, Vector3U5BU5D_t1718750761*, int32_t, Comparison_1_t3497244643 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 34)->methodPointer)(NULL /*static, unused*/, (Vector3U5BU5D_t1718750761*)L_0, (int32_t)L_1, (Comparison_1_t3497244643 *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 34));
-		int32_t L_3 = (int32_t)__this->get__version_3();
-		__this->set__version_3(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
-		return;
-	}
-}
-// T[] System.Collections.Generic.List`1<UnityEngine.Vector3>::ToArray()
-extern "C"  Vector3U5BU5D_t1718750761* List_1_ToArray_m1990123684_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	Vector3U5BU5D_t1718750761* V_0 = NULL;
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		V_0 = (Vector3U5BU5D_t1718750761*)((Vector3U5BU5D_t1718750761*)SZArrayNew(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (uint32_t)L_0));
-		Vector3U5BU5D_t1718750761* L_1 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		Vector3U5BU5D_t1718750761* L_2 = V_0;
-		int32_t L_3 = (int32_t)__this->get__size_2();
-		Array_Copy_m1988217701(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_1, (RuntimeArray *)(RuntimeArray *)L_2, (int32_t)L_3, /*hidden argument*/NULL);
-		Vector3U5BU5D_t1718750761* L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::TrimExcess()
-extern "C"  void List_1_TrimExcess_m4204101579_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 19));
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Capacity()
-extern "C"  int32_t List_1_get_Capacity_m869612594_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		Vector3U5BU5D_t1718750761* L_0 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		NullCheck(L_0);
-		return (((int32_t)((int32_t)(((RuntimeArray *)L_0)->max_length))));
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::set_Capacity(System.Int32)
-extern "C"  void List_1_set_Capacity_m1977188119_gshared (List_1_t899420910 * __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_set_Capacity_m1977188119_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___value0;
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_0) < ((uint32_t)L_1))))
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_2 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m2047740448(L_2, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0012:
-	{
-		Vector3U5BU5D_t1718750761** L_3 = (Vector3U5BU5D_t1718750761**)__this->get_address_of__items_1();
-		int32_t L_4 = ___value0;
-		((  void (*) (RuntimeObject * /* static, unused */, Vector3U5BU5D_t1718750761**, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 35)->methodPointer)(NULL /*static, unused*/, (Vector3U5BU5D_t1718750761**)L_3, (int32_t)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 35));
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Count()
-extern "C"  int32_t List_1_get_Count_m576380744_gshared (List_1_t899420910 * __this, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = (int32_t)__this->get__size_2();
-		return L_0;
-	}
-}
-// T System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Item(System.Int32)
-extern "C"  Vector3_t3722313464  List_1_get_Item_m200663048_gshared (List_1_t899420910 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_get_Item_m200663048_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		int32_t L_1 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_2 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_2, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0017:
-	{
-		Vector3U5BU5D_t1718750761* L_3 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_4 = ___index0;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		Vector3_t3722313464  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		return L_6;
-	}
-}
-// System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::set_Item(System.Int32,T)
-extern "C"  void List_1_set_Item_m658432263_gshared (List_1_t899420910 * __this, int32_t ___index0, Vector3_t3722313464  ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (List_1_set_Item_m658432263_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((List_1_t899420910 *)__this);
-		((  void (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12)->methodPointer)((List_1_t899420910 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 12));
-		int32_t L_1 = ___index0;
-		int32_t L_2 = (int32_t)__this->get__size_2();
-		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t777629997 * L_3 = (ArgumentOutOfRangeException_t777629997 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t777629997_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3628145864(L_3, (String_t*)_stringLiteral797640427, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_001e:
-	{
-		Vector3U5BU5D_t1718750761* L_4 = (Vector3U5BU5D_t1718750761*)__this->get__items_1();
-		int32_t L_5 = ___index0;
-		Vector3_t3722313464  L_6 = ___value1;
-		NullCheck(L_4);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (Vector3_t3722313464 )L_6);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -16320,621 +12959,6 @@ extern "C"  Enumerator_t1142515742  Stack_1_GetEnumerator_m2255833865_gshared (S
 		memset(&L_0, 0, sizeof(L_0));
 		Enumerator__ctor_m3419056812((&L_0), (Stack_1_t3923495619 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
 		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::.ctor()
-extern "C"  void Collection_1__ctor_m1363846025_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1__ctor_m1363846025_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	List_1_t3519310797 * V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		List_1_t3519310797 * L_0 = (List_1_t3519310797 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 0));
-		((  void (*) (List_1_t3519310797 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		V_0 = (List_1_t3519310797 *)L_0;
-		List_1_t3519310797 * L_1 = V_0;
-		V_1 = (RuntimeObject*)L_1;
-		RuntimeObject* L_2 = V_1;
-		NullCheck((RuntimeObject*)L_2);
-		RuntimeObject * L_3 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(2 /* System.Object System.Collections.ICollection::get_SyncRoot() */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)L_2);
-		__this->set_syncRoot_1(L_3);
-		List_1_t3519310797 * L_4 = V_0;
-		__this->set_list_0(L_4);
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C"  bool Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2191104972_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		bool L_1 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_IsReadOnly() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C"  void Collection_1_System_Collections_ICollection_CopyTo_m377105888_gshared (Collection_1_t991591973 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_System_Collections_ICollection_CopyTo_m377105888_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		RuntimeArray * L_1 = ___array0;
-		int32_t L_2 = ___index1;
-		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
-		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
-		return;
-	}
-}
-// System.Collections.IEnumerator System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IEnumerable.GetEnumerator()
-extern "C"  RuntimeObject* Collection_1_System_Collections_IEnumerable_GetEnumerator_m2340023613_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Add(System.Object)
-extern "C"  int32_t Collection_1_System_Collections_IList_Add_m4270114121_gshared (Collection_1_t991591973 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		RuntimeObject * L_3 = ___value0;
-		KeyValuePair_2_t2047236055  L_4 = ((  KeyValuePair_2_t2047236055  (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4));
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(34 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::InsertItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_2, (KeyValuePair_2_t2047236055 )L_4);
-		int32_t L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Contains(System.Object)
-extern "C"  bool Collection_1_System_Collections_IList_Contains_m19640771_gshared (Collection_1_t991591973 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = ___value0;
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 7)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 7));
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
-		RuntimeObject * L_3 = ___value0;
-		NullCheck((RuntimeObject*)L_2);
-		bool L_4 = InterfaceFuncInvoker1< bool, KeyValuePair_2_t2047236055  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_2, (KeyValuePair_2_t2047236055 )((*(KeyValuePair_2_t2047236055 *)((KeyValuePair_2_t2047236055 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))));
-		return L_4;
-	}
-
-IL_001d:
-	{
-		return (bool)0;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.IndexOf(System.Object)
-extern "C"  int32_t Collection_1_System_Collections_IList_IndexOf_m2770960410_gshared (Collection_1_t991591973 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = ___value0;
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 7)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 7));
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
-		RuntimeObject * L_3 = ___value0;
-		NullCheck((RuntimeObject*)L_2);
-		int32_t L_4 = InterfaceFuncInvoker1< int32_t, KeyValuePair_2_t2047236055  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_2, (KeyValuePair_2_t2047236055 )((*(KeyValuePair_2_t2047236055 *)((KeyValuePair_2_t2047236055 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8))))));
-		return L_4;
-	}
-
-IL_001d:
-	{
-		return (-1);
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C"  void Collection_1_System_Collections_IList_Insert_m2728672377_gshared (Collection_1_t991591973 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		RuntimeObject * L_1 = ___value1;
-		KeyValuePair_2_t2047236055  L_2 = ((  KeyValuePair_2_t2047236055  (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4));
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(34 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::InsertItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_0, (KeyValuePair_2_t2047236055 )L_2);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Remove(System.Object)
-extern "C"  void Collection_1_System_Collections_IList_Remove_m1042098088_gshared (Collection_1_t991591973 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		((  void (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10)->methodPointer)(NULL /*static, unused*/, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 10));
-		RuntimeObject * L_1 = ___value0;
-		KeyValuePair_2_t2047236055  L_2 = ((  KeyValuePair_2_t2047236055  (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4));
-		NullCheck((Collection_1_t991591973 *)__this);
-		int32_t L_3 = ((  int32_t (*) (Collection_1_t991591973 *, KeyValuePair_2_t2047236055 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((Collection_1_t991591973 *)__this, (KeyValuePair_2_t2047236055 )L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-		V_0 = (int32_t)L_3;
-		int32_t L_4 = V_0;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveItem(System.Int32) */, (Collection_1_t991591973 *)__this, (int32_t)L_4);
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.get_IsSynchronized()
-extern "C"  bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m2501270182_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13)->methodPointer)(NULL /*static, unused*/, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 13));
-		return L_1;
-	}
-}
-// System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.get_SyncRoot()
-extern "C"  RuntimeObject * Collection_1_System_Collections_ICollection_get_SyncRoot_m3724327245_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = (RuntimeObject *)__this->get_syncRoot_1();
-		return L_0;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_IsFixedSize()
-extern "C"  bool Collection_1_System_Collections_IList_get_IsFixedSize_m3353188878_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14)->methodPointer)(NULL /*static, unused*/, (RuntimeObject*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 14));
-		return L_1;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_IsReadOnly()
-extern "C"  bool Collection_1_System_Collections_IList_get_IsReadOnly_m1696338261_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		bool L_1 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_IsReadOnly() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Object System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_Item(System.Int32)
-extern "C"  RuntimeObject * Collection_1_System_Collections_IList_get_Item_m1742145454_gshared (Collection_1_t991591973 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		NullCheck((RuntimeObject*)L_0);
-		KeyValuePair_2_t2047236055  L_2 = InterfaceFuncInvoker1< KeyValuePair_2_t2047236055 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (int32_t)L_1);
-		KeyValuePair_2_t2047236055  L_3 = L_2;
-		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 8), &L_3);
-		return L_4;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C"  void Collection_1_System_Collections_IList_set_Item_m230467974_gshared (Collection_1_t991591973 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		RuntimeObject * L_1 = ___value1;
-		KeyValuePair_2_t2047236055  L_2 = ((  KeyValuePair_2_t2047236055  (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 4));
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(36 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::SetItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_0, (KeyValuePair_2_t2047236055 )L_2);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Add(T)
-extern "C"  void Collection_1_Add_m3733502990_gshared (Collection_1_t991591973 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		KeyValuePair_2_t2047236055  L_3 = ___item0;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(34 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::InsertItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_2, (KeyValuePair_2_t2047236055 )L_3);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Clear()
-extern "C"  void Collection_1_Clear_m402033163_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker0::Invoke(33 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::ClearItems() */, (Collection_1_t991591973 *)__this);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::ClearItems()
-extern "C"  void Collection_1_ClearItems_m2015947351_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker0::Invoke(3 /* System.Void System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Clear() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T)
-extern "C"  bool Collection_1_Contains_m3436185748_gshared (Collection_1_t991591973 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2_t2047236055  L_1 = ___item0;
-		NullCheck((RuntimeObject*)L_0);
-		bool L_2 = InterfaceFuncInvoker1< bool, KeyValuePair_2_t2047236055  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return L_2;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::CopyTo(T[],System.Int32)
-extern "C"  void Collection_1_CopyTo_m2899786208_gshared (Collection_1_t991591973 * __this, KeyValuePair_2U5BU5D_t3002675950* ___array0, int32_t ___index1, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2U5BU5D_t3002675950* L_1 = ___array0;
-		int32_t L_2 = ___index1;
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< KeyValuePair_2U5BU5D_t3002675950*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0, (KeyValuePair_2U5BU5D_t3002675950*)L_1, (int32_t)L_2);
-		return;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::GetEnumerator()
-extern "C"  RuntimeObject* Collection_1_GetEnumerator_m4074749555_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T)
-extern "C"  int32_t Collection_1_IndexOf_m3461403859_gshared (Collection_1_t991591973 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2_t2047236055  L_1 = ___item0;
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_2 = InterfaceFuncInvoker1< int32_t, KeyValuePair_2_t2047236055  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return L_2;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Insert(System.Int32,T)
-extern "C"  void Collection_1_Insert_m1489415408_gshared (Collection_1_t991591973 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___item1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		KeyValuePair_2_t2047236055  L_1 = ___item1;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(34 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::InsertItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::InsertItem(System.Int32,T)
-extern "C"  void Collection_1_InsertItem_m3415243783_gshared (Collection_1_t991591973 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___item1, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		KeyValuePair_2_t2047236055  L_2 = ___item1;
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(1 /* System.Void System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Insert(System.Int32,T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (int32_t)L_1, (KeyValuePair_2_t2047236055 )L_2);
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Remove(T)
-extern "C"  bool Collection_1_Remove_m2287708737_gshared (Collection_1_t991591973 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		KeyValuePair_2_t2047236055  L_0 = ___item0;
-		NullCheck((Collection_1_t991591973 *)__this);
-		int32_t L_1 = ((  int32_t (*) (Collection_1_t991591973 *, KeyValuePair_2_t2047236055 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11)->methodPointer)((Collection_1_t991591973 *)__this, (KeyValuePair_2_t2047236055 )L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 11));
-		V_0 = (int32_t)L_1;
-		int32_t L_2 = V_0;
-		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_0011:
-	{
-		int32_t L_3 = V_0;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveItem(System.Int32) */, (Collection_1_t991591973 *)__this, (int32_t)L_3);
-		return (bool)1;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveAt(System.Int32)
-extern "C"  void Collection_1_RemoveAt_m146925975_gshared (Collection_1_t991591973 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker1< int32_t >::Invoke(35 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveItem(System.Int32) */, (Collection_1_t991591973 *)__this, (int32_t)L_0);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveItem(System.Int32)
-extern "C"  void Collection_1_RemoveItem_m4221619799_gshared (Collection_1_t991591973 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::RemoveAt(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (int32_t)L_1);
-		return;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count()
-extern "C"  int32_t Collection_1_get_Count_m3810595985_gshared (Collection_1_t991591973 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32)
-extern "C"  KeyValuePair_2_t2047236055  Collection_1_get_Item_m3281849448_gshared (Collection_1_t991591973 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		NullCheck((RuntimeObject*)L_0);
-		KeyValuePair_2_t2047236055  L_2 = InterfaceFuncInvoker1< KeyValuePair_2_t2047236055 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (int32_t)L_1);
-		return L_2;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::set_Item(System.Int32,T)
-extern "C"  void Collection_1_set_Item_m2813469468_gshared (Collection_1_t991591973 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___value1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		KeyValuePair_2_t2047236055  L_1 = ___value1;
-		NullCheck((Collection_1_t991591973 *)__this);
-		VirtActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(36 /* System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::SetItem(System.Int32,T) */, (Collection_1_t991591973 *)__this, (int32_t)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::SetItem(System.Int32,T)
-extern "C"  void Collection_1_SetItem_m1814541765_gshared (Collection_1_t991591973 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___item1, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		KeyValuePair_2_t2047236055  L_2 = ___item1;
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< int32_t, KeyValuePair_2_t2047236055  >::Invoke(4 /* System.Void System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::set_Item(System.Int32,T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 9), (RuntimeObject*)L_0, (int32_t)L_1, (KeyValuePair_2_t2047236055 )L_2);
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IsValidItem(System.Object)
-extern "C"  bool Collection_1_IsValidItem_m2153011546_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_IsValidItem_m2153011546_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t G_B4_0 = 0;
-	int32_t G_B6_0 = 0;
-	{
-		RuntimeObject * L_0 = ___item0;
-		if (((RuntimeObject *)IsInst((RuntimeObject*)L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8))))
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		RuntimeObject * L_1 = ___item0;
-		if (L_1)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		RuntimeTypeHandle_t3027515415  L_2 = { reinterpret_cast<intptr_t> (IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17)) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_3 = Type_GetTypeFromHandle_m1620074514(NULL /*static, unused*/, (RuntimeTypeHandle_t3027515415 )L_2, /*hidden argument*/NULL);
-		NullCheck((Type_t *)L_3);
-		bool L_4 = Type_get_IsValueType_m3108065642((Type_t *)L_3, /*hidden argument*/NULL);
-		G_B4_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		goto IL_0026;
-	}
-
-IL_0025:
-	{
-		G_B4_0 = 0;
-	}
-
-IL_0026:
-	{
-		G_B6_0 = G_B4_0;
-		goto IL_0029;
-	}
-
-IL_0028:
-	{
-		G_B6_0 = 1;
-	}
-
-IL_0029:
-	{
-		return (bool)G_B6_0;
-	}
-}
-// T System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::ConvertItem(System.Object)
-extern "C"  KeyValuePair_2_t2047236055  Collection_1_ConvertItem_m2768244654_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject * ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_ConvertItem_m2768244654_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject * L_0 = ___item0;
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		RuntimeObject * L_2 = ___item0;
-		return ((*(KeyValuePair_2_t2047236055 *)((KeyValuePair_2_t2047236055 *)UnBox(L_2, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)))));
-	}
-
-IL_0012:
-	{
-		ArgumentException_t132251570 * L_3 = (ArgumentException_t132251570 *)il2cpp_codegen_object_new(ArgumentException_t132251570_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m1312628991(L_3, (String_t*)_stringLiteral1949155672, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-}
-// System.Void System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::CheckWritable(System.Collections.Generic.IList`1<T>)
-extern "C"  void Collection_1_CheckWritable_m536377321_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* ___list0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_CheckWritable_m536377321_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = ___list0;
-		NullCheck((RuntimeObject*)L_0);
-		bool L_1 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_IsReadOnly() */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), (RuntimeObject*)L_0);
-		if (!L_1)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		NotSupportedException_t1314879016 * L_2 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_2, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_0011:
-	{
-		return;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IsSynchronized(System.Collections.Generic.IList`1<T>)
-extern "C"  bool Collection_1_IsSynchronized_m3933603330_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* ___list0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_IsSynchronized_m3933603330_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RuntimeObject* V_0 = NULL;
-	int32_t G_B3_0 = 0;
-	{
-		RuntimeObject* L_0 = ___list0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var));
-		RuntimeObject* L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		RuntimeObject* L_2 = V_0;
-		NullCheck((RuntimeObject*)L_2);
-		bool L_3 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.ICollection::get_IsSynchronized() */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)L_2);
-		G_B3_0 = ((int32_t)(L_3));
-		goto IL_0019;
-	}
-
-IL_0018:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0019:
-	{
-		return (bool)G_B3_0;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IsFixedSize(System.Collections.Generic.IList`1<T>)
-extern "C"  bool Collection_1_IsFixedSize_m4111187689_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* ___list0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Collection_1_IsFixedSize_m4111187689_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	RuntimeObject* V_0 = NULL;
-	int32_t G_B3_0 = 0;
-	{
-		RuntimeObject* L_0 = ___list0;
-		V_0 = (RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, IList_t2094931216_il2cpp_TypeInfo_var));
-		RuntimeObject* L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		RuntimeObject* L_2 = V_0;
-		NullCheck((RuntimeObject*)L_2);
-		bool L_3 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IList::get_IsFixedSize() */, IList_t2094931216_il2cpp_TypeInfo_var, (RuntimeObject*)L_2);
-		G_B3_0 = ((int32_t)(L_3));
-		goto IL_0019;
-	}
-
-IL_0018:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0019:
-	{
-		return (bool)G_B3_0;
 	}
 }
 #ifdef __clang__
@@ -26168,430 +22192,6 @@ IL_0019:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::.ctor(System.Collections.Generic.IList`1<T>)
-extern "C"  void ReadOnlyCollection_1__ctor_m2690749880_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m2690749880_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NullCheck((RuntimeObject *)__this);
-		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
-		RuntimeObject* L_0 = ___list0;
-		if (L_0)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0017:
-	{
-		RuntimeObject* L_2 = ___list0;
-		__this->set_list_0(L_2);
-		return;
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.ICollection<T>.Add(T)
-extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3256157916_gshared (ReadOnlyCollection_1_t3259812342 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3256157916_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.ICollection<T>.Clear()
-extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m291320990_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m291320990_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2864801492_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___item1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2864801492_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.ICollection<T>.Remove(T)
-extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2021900705_gshared (ReadOnlyCollection_1_t3259812342 * __this, KeyValuePair_2_t2047236055  ___item0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2021900705_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m4012527384_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m4012527384_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-extern "C"  KeyValuePair_2_t2047236055  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m1911532529_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((ReadOnlyCollection_1_t3259812342 *)__this);
-		KeyValuePair_2_t2047236055  L_1 = ((  KeyValuePair_2_t2047236055  (*) (ReadOnlyCollection_1_t3259812342 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t3259812342 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
-		return L_1;
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3825077342_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, KeyValuePair_2_t2047236055  ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3825077342_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m4147202008_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3493890463_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3493890463_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		RuntimeArray * L_1 = ___array0;
-		int32_t L_2 = ___index1;
-		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
-		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
-		return;
-	}
-}
-// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IEnumerable.GetEnumerator()
-extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m802507738_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m802507738_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Add(System.Object)
-extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3843785273_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m3843785273_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Clear()
-extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m1031087992_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m1031087992_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Contains(System.Object)
-extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2791525274_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = ___value0;
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
-		RuntimeObject * L_3 = ___value0;
-		NullCheck((RuntimeObject*)L_2);
-		bool L_4 = InterfaceFuncInvoker1< bool, KeyValuePair_2_t2047236055  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (KeyValuePair_2_t2047236055 )((*(KeyValuePair_2_t2047236055 *)((KeyValuePair_2_t2047236055 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
-		return L_4;
-	}
-
-IL_001d:
-	{
-		return (bool)0;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.IndexOf(System.Object)
-extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m371832892_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = ___value0;
-		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
-		RuntimeObject * L_3 = ___value0;
-		NullCheck((RuntimeObject*)L_2);
-		int32_t L_4 = InterfaceFuncInvoker1< int32_t, KeyValuePair_2_t2047236055  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (KeyValuePair_2_t2047236055 )((*(KeyValuePair_2_t2047236055 *)((KeyValuePair_2_t2047236055 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
-		return L_4;
-	}
-
-IL_001d:
-	{
-		return (-1);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m3116794153_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m3116794153_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.Remove(System.Object)
-extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m2527924755_gshared (ReadOnlyCollection_1_t3259812342 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m2527924755_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.RemoveAt(System.Int32)
-extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3373069904_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3373069904_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.get_IsSynchronized()
-extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m2358237529_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.ICollection.get_SyncRoot()
-extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m3233388358_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		return __this;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_IsFixedSize()
-extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m3984033210_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_IsReadOnly()
-extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3624928091_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.get_Item(System.Int32)
-extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m1379644293_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		NullCheck((RuntimeObject*)L_0);
-		KeyValuePair_2_t2047236055  L_2 = InterfaceFuncInvoker1< KeyValuePair_2_t2047236055 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
-		KeyValuePair_2_t2047236055  L_3 = L_2;
-		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
-		return L_4;
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m3150985466_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m3150985466_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T)
-extern "C"  bool ReadOnlyCollection_1_Contains_m1998132467_gshared (ReadOnlyCollection_1_t3259812342 * __this, KeyValuePair_2_t2047236055  ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2_t2047236055  L_1 = ___value0;
-		NullCheck((RuntimeObject*)L_0);
-		bool L_2 = InterfaceFuncInvoker1< bool, KeyValuePair_2_t2047236055  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return L_2;
-	}
-}
-// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::CopyTo(T[],System.Int32)
-extern "C"  void ReadOnlyCollection_1_CopyTo_m1693386765_gshared (ReadOnlyCollection_1_t3259812342 * __this, KeyValuePair_2U5BU5D_t3002675950* ___array0, int32_t ___index1, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2U5BU5D_t3002675950* L_1 = ___array0;
-		int32_t L_2 = ___index1;
-		NullCheck((RuntimeObject*)L_0);
-		InterfaceActionInvoker2< KeyValuePair_2U5BU5D_t3002675950*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (KeyValuePair_2U5BU5D_t3002675950*)L_1, (int32_t)L_2);
-		return;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::GetEnumerator()
-extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m1711214524_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T)
-extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m233153852_gshared (ReadOnlyCollection_1_t3259812342 * __this, KeyValuePair_2_t2047236055  ___value0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		KeyValuePair_2_t2047236055  L_1 = ___value0;
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_2 = InterfaceFuncInvoker1< int32_t, KeyValuePair_2_t2047236055  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (KeyValuePair_2_t2047236055 )L_1);
-		return L_2;
-	}
-}
-// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count()
-extern "C"  int32_t ReadOnlyCollection_1_get_Count_m780539451_gshared (ReadOnlyCollection_1_t3259812342 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		NullCheck((RuntimeObject*)L_0);
-		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
-		return L_1;
-	}
-}
-// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32)
-extern "C"  KeyValuePair_2_t2047236055  ReadOnlyCollection_1_get_Item_m3403040740_gshared (ReadOnlyCollection_1_t3259812342 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
-		int32_t L_1 = ___index0;
-		NullCheck((RuntimeObject*)L_0);
-		KeyValuePair_2_t2047236055  L_2 = InterfaceFuncInvoker1< KeyValuePair_2_t2047236055 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,UnityEngine.Vector3>>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
-		return L_2;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32>::.ctor(System.Collections.Generic.IList`1<T>)
 extern "C"  void ReadOnlyCollection_1__ctor_m1345363288_gshared (ReadOnlyCollection_1_t4163522040 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
 {
@@ -28275,6 +23875,3398 @@ extern "C"  CustomAttributeTypedArgument_t2723150157  ReadOnlyCollection_1_get_I
 		int32_t L_1 = ___index0;
 		NullCheck((RuntimeObject*)L_0);
 		CustomAttributeTypedArgument_t2723150157  L_2 = InterfaceFuncInvoker1< CustomAttributeTypedArgument_t2723150157 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m4279684014_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m4279684014_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m1738170497_gshared (ReadOnlyCollection_1_t2798554118 * __this, OrderBlock_t1585977831  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m1738170497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4209207589_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4209207589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1480742963_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, OrderBlock_t1585977831  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1480742963_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1364299481_gshared (ReadOnlyCollection_1_t2798554118 * __this, OrderBlock_t1585977831  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1364299481_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m9618945_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m9618945_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  OrderBlock_t1585977831  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m2268092603_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t2798554118 *)__this);
+		OrderBlock_t1585977831  L_1 = ((  OrderBlock_t1585977831  (*) (ReadOnlyCollection_1_t2798554118 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t2798554118 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3209059215_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, OrderBlock_t1585977831  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m3209059215_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m678502068_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2527663815_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2527663815_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3042843502_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m3042843502_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m3968477706_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m3968477706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m2007013334_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m2007013334_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2473980949_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, OrderBlock_t1585977831  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (OrderBlock_t1585977831 )((*(OrderBlock_t1585977831 *)((OrderBlock_t1585977831 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m110832904_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, OrderBlock_t1585977831  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.BeforeRenderHelper/OrderBlock>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (OrderBlock_t1585977831 )((*(OrderBlock_t1585977831 *)((OrderBlock_t1585977831 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m2797533731_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m2797533731_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m1910476269_gshared (ReadOnlyCollection_1_t2798554118 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m1910476269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m362591173_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m362591173_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m1830112154_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m160672544_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m3402868227_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m375760151_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m1005238747_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		OrderBlock_t1585977831  L_2 = InterfaceFuncInvoker1< OrderBlock_t1585977831 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		OrderBlock_t1585977831  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m4015530489_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m4015530489_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m4211954914_gshared (ReadOnlyCollection_1_t2798554118 * __this, OrderBlock_t1585977831  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		OrderBlock_t1585977831  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, OrderBlock_t1585977831  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (OrderBlock_t1585977831 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m999653426_gshared (ReadOnlyCollection_1_t2798554118 * __this, OrderBlockU5BU5D_t2389202590* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		OrderBlockU5BU5D_t2389202590* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< OrderBlockU5BU5D_t2389202590*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (OrderBlockU5BU5D_t2389202590*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m3626437412_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.BeforeRenderHelper/OrderBlock>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m406164823_gshared (ReadOnlyCollection_1_t2798554118 * __this, OrderBlock_t1585977831  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		OrderBlock_t1585977831  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, OrderBlock_t1585977831  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.BeforeRenderHelper/OrderBlock>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (OrderBlock_t1585977831 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m2585917695_gshared (ReadOnlyCollection_1_t2798554118 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Item(System.Int32)
+extern "C"  OrderBlock_t1585977831  ReadOnlyCollection_1_get_Item_m4005849861_gshared (ReadOnlyCollection_1_t2798554118 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		OrderBlock_t1585977831  L_2 = InterfaceFuncInvoker1< OrderBlock_t1585977831 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.BeforeRenderHelper/OrderBlock>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m2766815925_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m2766815925_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m69722965_gshared (ReadOnlyCollection_1_t3813077579 * __this, Color32_t2600501292  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m69722965_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3700426865_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3700426865_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3435413875_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, Color32_t2600501292  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3435413875_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1760770631_gshared (ReadOnlyCollection_1_t3813077579 * __this, Color32_t2600501292  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1760770631_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3933896072_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3933896072_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  Color32_t2600501292  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m4153579838_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t3813077579 *)__this);
+		Color32_t2600501292  L_1 = ((  Color32_t2600501292  (*) (ReadOnlyCollection_1_t3813077579 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t3813077579 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m375376101_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, Color32_t2600501292  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m375376101_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2153861674_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2643246984_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2643246984_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m436360262_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m436360262_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m564301405_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m564301405_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m417468276_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m417468276_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m1654820978_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, Color32_t2600501292  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Color32>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (Color32_t2600501292 )((*(Color32_t2600501292 *)((Color32_t2600501292 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m2157367578_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, Color32_t2600501292  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Color32>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (Color32_t2600501292 )((*(Color32_t2600501292 *)((Color32_t2600501292 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m634799052_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m634799052_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m1472063226_gshared (ReadOnlyCollection_1_t3813077579 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m1472063226_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m422909114_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m422909114_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m1849508339_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m156309055_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m2434242610_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3626439112_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m666401694_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Color32_t2600501292  L_2 = InterfaceFuncInvoker1< Color32_t2600501292 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Color32>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		Color32_t2600501292  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m70952451_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m70952451_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3757059754_gshared (ReadOnlyCollection_1_t3813077579 * __this, Color32_t2600501292  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Color32_t2600501292  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, Color32_t2600501292  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Color32>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Color32_t2600501292 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m1950082901_gshared (ReadOnlyCollection_1_t3813077579 * __this, Color32U5BU5D_t3850468773* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Color32U5BU5D_t3850468773* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< Color32U5BU5D_t3850468773*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Color32>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Color32U5BU5D_t3850468773*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m3522987773_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Color32>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2539022912_gshared (ReadOnlyCollection_1_t3813077579 * __this, Color32_t2600501292  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Color32_t2600501292  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, Color32_t2600501292  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Color32>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (Color32_t2600501292 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m1278766258_gshared (ReadOnlyCollection_1_t3813077579 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Color32>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>::get_Item(System.Int32)
+extern "C"  Color32_t2600501292  ReadOnlyCollection_1_get_Item_m3865786060_gshared (ReadOnlyCollection_1_t3813077579 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Color32_t2600501292  L_2 = InterfaceFuncInvoker1< Color32_t2600501292 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Color32>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m77218408_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m77218408_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2386940333_gshared (ReadOnlyCollection_1_t277915840 * __this, RaycastResult_t3360306849  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2386940333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2102011098_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2102011098_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3804866210_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, RaycastResult_t3360306849  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m3804866210_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4177779688_gshared (ReadOnlyCollection_1_t277915840 * __this, RaycastResult_t3360306849  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4177779688_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3171070954_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3171070954_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  RaycastResult_t3360306849  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m933064285_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t277915840 *)__this);
+		RaycastResult_t3360306849  L_1 = ((  RaycastResult_t3360306849  (*) (ReadOnlyCollection_1_t277915840 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t277915840 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m711370667_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, RaycastResult_t3360306849  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m711370667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3887826072_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2715087453_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2715087453_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1671097018_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1671097018_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2776498952_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2776498952_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m1076810235_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m1076810235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2650112051_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, RaycastResult_t3360306849  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (RaycastResult_t3360306849 )((*(RaycastResult_t3360306849 *)((RaycastResult_t3360306849 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m3822189793_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, RaycastResult_t3360306849  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (RaycastResult_t3360306849 )((*(RaycastResult_t3360306849 *)((RaycastResult_t3360306849 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m2216746332_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m2216746332_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m136266917_gshared (ReadOnlyCollection_1_t277915840 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m136266917_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2323497237_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m2323497237_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m1345568026_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m2420785827_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m1858914832_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3824095259_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m3406154740_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		RaycastResult_t3360306849  L_2 = InterfaceFuncInvoker1< RaycastResult_t3360306849 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		RaycastResult_t3360306849  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m2513951121_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m2513951121_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m335542748_gshared (ReadOnlyCollection_1_t277915840 * __this, RaycastResult_t3360306849  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RaycastResult_t3360306849  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, RaycastResult_t3360306849  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (RaycastResult_t3360306849 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m209634623_gshared (ReadOnlyCollection_1_t277915840 * __this, RaycastResultU5BU5D_t1128832444* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RaycastResultU5BU5D_t1128832444* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< RaycastResultU5BU5D_t1128832444*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (RaycastResultU5BU5D_t1128832444*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m1724847072_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.EventSystems.RaycastResult>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2698520697_gshared (ReadOnlyCollection_1_t277915840 * __this, RaycastResult_t3360306849  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RaycastResult_t3360306849  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, RaycastResult_t3360306849  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (RaycastResult_t3360306849 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m4132306017_gshared (ReadOnlyCollection_1_t277915840 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.EventSystems.RaycastResult>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32)
+extern "C"  RaycastResult_t3360306849  ReadOnlyCollection_1_get_Item_m2633527597_gshared (ReadOnlyCollection_1_t277915840 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		RaycastResult_t3360306849  L_2 = InterfaceFuncInvoker1< RaycastResult_t3360306849 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.EventSystems.RaycastResult>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m3455572340_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m3455572340_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2585951131_gshared (ReadOnlyCollection_1_t1288077393 * __this, UICharInfo_t75501106  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2585951131_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2760721383_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m2760721383_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2489506856_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, UICharInfo_t75501106  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2489506856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2007407359_gshared (ReadOnlyCollection_1_t1288077393 * __this, UICharInfo_t75501106  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2007407359_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2431705982_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2431705982_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  UICharInfo_t75501106  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m2747659694_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t1288077393 *)__this);
+		UICharInfo_t75501106  L_1 = ((  UICharInfo_t75501106  (*) (ReadOnlyCollection_1_t1288077393 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t1288077393 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1584697503_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, UICharInfo_t75501106  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1584697503_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m1130909331_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2672196987_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m2672196987_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2762559519_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2762559519_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2305603000_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2305603000_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m3591436538_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m3591436538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m3063773648_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, UICharInfo_t75501106  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (UICharInfo_t75501106 )((*(UICharInfo_t75501106 *)((UICharInfo_t75501106 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m3664838805_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, UICharInfo_t75501106  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (UICharInfo_t75501106 )((*(UICharInfo_t75501106 *)((UICharInfo_t75501106 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m177536056_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m177536056_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m4169110229_gshared (ReadOnlyCollection_1_t1288077393 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m4169110229_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m214957151_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m214957151_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m2097942994_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m1089559008_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m2842020896_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m2041535988_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m3335199438_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UICharInfo_t75501106  L_2 = InterfaceFuncInvoker1< UICharInfo_t75501106 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		UICharInfo_t75501106  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m2162444692_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m2162444692_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m928418982_gshared (ReadOnlyCollection_1_t1288077393 * __this, UICharInfo_t75501106  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UICharInfo_t75501106  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, UICharInfo_t75501106  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UICharInfo_t75501106 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2947568682_gshared (ReadOnlyCollection_1_t1288077393 * __this, UICharInfoU5BU5D_t928762055* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UICharInfoU5BU5D_t928762055* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< UICharInfoU5BU5D_t928762055*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UICharInfoU5BU5D_t928762055*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m2216056532_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.UICharInfo>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2431013286_gshared (ReadOnlyCollection_1_t1288077393 * __this, UICharInfo_t75501106  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UICharInfo_t75501106  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, UICharInfo_t75501106  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (UICharInfo_t75501106 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m1760160536_gshared (ReadOnlyCollection_1_t1288077393 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UICharInfo>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::get_Item(System.Int32)
+extern "C"  UICharInfo_t75501106  ReadOnlyCollection_1_get_Item_m2874039361_gshared (ReadOnlyCollection_1_t1288077393 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UICharInfo_t75501106  L_2 = InterfaceFuncInvoker1< UICharInfo_t75501106 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UICharInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m2706325984_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m2706325984_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4137362799_gshared (ReadOnlyCollection_1_t1112875801 * __this, UILineInfo_t4195266810  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4137362799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3451551308_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m3451551308_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1121807192_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, UILineInfo_t4195266810  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1121807192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4072504734_gshared (ReadOnlyCollection_1_t1112875801 * __this, UILineInfo_t4195266810  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m4072504734_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3849058645_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3849058645_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  UILineInfo_t4195266810  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m280858072_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t1112875801 *)__this);
+		UILineInfo_t4195266810  L_1 = ((  UILineInfo_t4195266810  (*) (ReadOnlyCollection_1_t1112875801 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t1112875801 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m4156940443_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, UILineInfo_t4195266810  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m4156940443_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m3551835259_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m1092095998_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m1092095998_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2505713430_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2505713430_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1349101077_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m1349101077_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m4022532825_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m4022532825_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m353411307_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, UILineInfo_t4195266810  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (UILineInfo_t4195266810 )((*(UILineInfo_t4195266810 *)((UILineInfo_t4195266810 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m2648080861_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, UILineInfo_t4195266810  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (UILineInfo_t4195266810 )((*(UILineInfo_t4195266810 *)((UILineInfo_t4195266810 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m2868364412_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m2868364412_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m3469490059_gshared (ReadOnlyCollection_1_t1112875801 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m3469490059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1286790069_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1286790069_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m4294213710_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m1280260618_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m733459177_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3636077220_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m3110315408_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UILineInfo_t4195266810  L_2 = InterfaceFuncInvoker1< UILineInfo_t4195266810 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		UILineInfo_t4195266810  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m3570269385_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m3570269385_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m1699971074_gshared (ReadOnlyCollection_1_t1112875801 * __this, UILineInfo_t4195266810  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UILineInfo_t4195266810  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, UILineInfo_t4195266810  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UILineInfo_t4195266810 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m2867438211_gshared (ReadOnlyCollection_1_t1112875801 * __this, UILineInfoU5BU5D_t1655937503* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UILineInfoU5BU5D_t1655937503* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< UILineInfoU5BU5D_t1655937503*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UILineInfoU5BU5D_t1655937503*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m2557694741_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.UILineInfo>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2747606499_gshared (ReadOnlyCollection_1_t1112875801 * __this, UILineInfo_t4195266810  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UILineInfo_t4195266810  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, UILineInfo_t4195266810  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (UILineInfo_t4195266810 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m2445738777_gshared (ReadOnlyCollection_1_t1112875801 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UILineInfo>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::get_Item(System.Int32)
+extern "C"  UILineInfo_t4195266810  ReadOnlyCollection_1_get_Item_m3443105538_gshared (ReadOnlyCollection_1_t1112875801 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UILineInfo_t4195266810  L_2 = InterfaceFuncInvoker1< UILineInfo_t4195266810 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UILineInfo>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m2338137125_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m2338137125_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2451728105_gshared (ReadOnlyCollection_1_t975106596 * __this, UIVertex_t4057497605  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m2451728105_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4167983473_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m4167983473_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m447088589_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, UIVertex_t4057497605  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m447088589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2211264472_gshared (ReadOnlyCollection_1_t975106596 * __this, UIVertex_t4057497605  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m2211264472_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2506377382_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m2506377382_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  UIVertex_t4057497605  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m1020029688_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t975106596 *)__this);
+		UIVertex_t4057497605  L_1 = ((  UIVertex_t4057497605  (*) (ReadOnlyCollection_1_t975106596 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t975106596 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1620609838_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, UIVertex_t4057497605  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m1620609838_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m1021591824_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3448148224_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m3448148224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1905081102_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m1905081102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m2898257908_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m2898257908_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m12445504_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m12445504_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2396766451_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, UIVertex_t4057497605  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UIVertex>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (UIVertex_t4057497605 )((*(UIVertex_t4057497605 *)((UIVertex_t4057497605 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m2945692968_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, UIVertex_t4057497605  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UIVertex>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (UIVertex_t4057497605 )((*(UIVertex_t4057497605 *)((UIVertex_t4057497605 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m923045110_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m923045110_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m2324089221_gshared (ReadOnlyCollection_1_t975106596 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m2324089221_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m4258434872_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m4258434872_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m338297688_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m732582841_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m2046901402_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m1773071144_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m3210839774_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UIVertex_t4057497605  L_2 = InterfaceFuncInvoker1< UIVertex_t4057497605 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UIVertex>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		UIVertex_t4057497605  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m1538987737_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m1538987737_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3117658801_gshared (ReadOnlyCollection_1_t975106596 * __this, UIVertex_t4057497605  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UIVertex_t4057497605  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, UIVertex_t4057497605  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.UIVertex>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UIVertex_t4057497605 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m605724295_gshared (ReadOnlyCollection_1_t975106596 * __this, UIVertexU5BU5D_t1981460040* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UIVertexU5BU5D_t1981460040* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< UIVertexU5BU5D_t1981460040*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.UIVertex>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (UIVertexU5BU5D_t1981460040*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m1017886827_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.UIVertex>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m2659941036_gshared (ReadOnlyCollection_1_t975106596 * __this, UIVertex_t4057497605  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		UIVertex_t4057497605  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, UIVertex_t4057497605  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.UIVertex>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (UIVertex_t4057497605 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m658428334_gshared (ReadOnlyCollection_1_t975106596 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UIVertex>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>::get_Item(System.Int32)
+extern "C"  UIVertex_t4057497605  ReadOnlyCollection_1_get_Item_m679165083_gshared (ReadOnlyCollection_1_t975106596 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		UIVertex_t4057497605  L_2 = InterfaceFuncInvoker1< UIVertex_t4057497605 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.UIVertex>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m3989322201_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m3989322201_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3437279820_gshared (ReadOnlyCollection_1_t3368805810 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m3437279820_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m585611446_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m585611446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2194343917_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, Vector2_t2156229523  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m2194343917_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m401245573_gshared (ReadOnlyCollection_1_t3368805810 * __this, Vector2_t2156229523  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m401245573_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m400808413_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m400808413_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  Vector2_t2156229523  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m2177126942_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t3368805810 *)__this);
+		Vector2_t2156229523  L_1 = ((  Vector2_t2156229523  (*) (ReadOnlyCollection_1_t3368805810 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t3368805810 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2769719733_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, Vector2_t2156229523  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m2769719733_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m1009579489_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m353321451_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m353321451_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2781605075_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2781605075_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m4240023232_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m4240023232_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m687220435_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m687220435_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m2904046095_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, Vector2_t2156229523  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m848971554_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, Vector2_t2156229523  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Vector2>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (Vector2_t2156229523 )((*(Vector2_t2156229523 *)((Vector2_t2156229523 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m134149130_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m134149130_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m913116894_gshared (ReadOnlyCollection_1_t3368805810 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m913116894_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3413874437_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m3413874437_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m1150914347_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m1036904920_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m708992482_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m2982440401_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m1222523409_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Vector2_t2156229523  L_2 = InterfaceFuncInvoker1< Vector2_t2156229523 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Vector2>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		Vector2_t2156229523  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m3352062191_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m3352062191_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3652919994_gshared (ReadOnlyCollection_1_t3368805810 * __this, Vector2_t2156229523  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector2_t2156229523  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, Vector2_t2156229523  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Vector2_t2156229523 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m312507840_gshared (ReadOnlyCollection_1_t3368805810 * __this, Vector2U5BU5D_t1457185986* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector2U5BU5D_t1457185986* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< Vector2U5BU5D_t1457185986*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Vector2U5BU5D_t1457185986*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m597882569_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m3668930419_gshared (ReadOnlyCollection_1_t3368805810 * __this, Vector2_t2156229523  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector2_t2156229523  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, Vector2_t2156229523  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Vector2>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (Vector2_t2156229523 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m3746402610_gshared (ReadOnlyCollection_1_t3368805810 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector2>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>::get_Item(System.Int32)
+extern "C"  Vector2_t2156229523  ReadOnlyCollection_1_get_Item_m3626736519_gshared (ReadOnlyCollection_1_t3368805810 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Vector2_t2156229523  L_2 = InterfaceFuncInvoker1< Vector2_t2156229523 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Vector2>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::.ctor(System.Collections.Generic.IList`1<T>)
+extern "C"  void ReadOnlyCollection_1__ctor_m1807868317_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1__ctor_m1807868317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m297566312((RuntimeObject *)__this, /*hidden argument*/NULL);
+		RuntimeObject* L_0 = ___list0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		ArgumentNullException_t1615371798 * L_1 = (ArgumentNullException_t1615371798 *)il2cpp_codegen_object_new(ArgumentNullException_t1615371798_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1170824041(L_1, (String_t*)_stringLiteral3941568111, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		RuntimeObject* L_2 = ___list0;
+		__this->set_list_0(L_2);
+		return;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.ICollection<T>.Add(T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4030875132_gshared (ReadOnlyCollection_1_t639922455 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m4030875132_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.ICollection<T>.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m1551418550_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m1551418550_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1818924748_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, Vector3_t3722313464  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m1818924748_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.ICollection<T>.Remove(T)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1426243480_gshared (ReadOnlyCollection_1_t639922455 * __this, Vector3_t3722313464  ___item0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m1426243480_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3317217538_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m3317217538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
+extern "C"  Vector3_t3722313464  ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m3666607533_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((ReadOnlyCollection_1_t639922455 *)__this);
+		Vector3_t3722313464  L_1 = ((  Vector3_t3722313464  (*) (ReadOnlyCollection_1_t639922455 *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((ReadOnlyCollection_1_t639922455 *)__this, (int32_t)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return L_1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
+extern "C"  void ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m904536990_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, Vector3_t3722313464  ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m904536990_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m2508509261_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m546059009_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeArray * ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m546059009_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		RuntimeArray * L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)));
+		InterfaceActionInvoker2< RuntimeArray *, int32_t >::Invoke(3 /* System.Void System.Collections.ICollection::CopyTo(System.Array,System.Int32) */, ICollection_t3904884886_il2cpp_TypeInfo_var, (RuntimeObject*)((RuntimeObject*)Castclass((RuntimeObject*)L_0, ICollection_t3904884886_il2cpp_TypeInfo_var)), (RuntimeArray *)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2136218964_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m2136218964_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1941168011_il2cpp_TypeInfo_var, (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.Add(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_Add_m1986911293_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Add_m1986911293_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.Clear()
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Clear_m4215575252_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Clear_m4215575252_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.Contains(System.Object)
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_Contains_m4284683357_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, Vector3_t3722313464  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_2, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.IndexOf(System.Object)
+extern "C"  int32_t ReadOnlyCollection_1_System_Collections_IList_IndexOf_m1446540508_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___value0;
+		bool L_1 = ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1)->methodPointer)(NULL /*static, unused*/, (RuntimeObject *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 1));
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->get_list_0();
+		RuntimeObject * L_3 = ___value0;
+		NullCheck((RuntimeObject*)L_2);
+		int32_t L_4 = InterfaceFuncInvoker1< int32_t, Vector3_t3722313464  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Vector3>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_2, (Vector3_t3722313464 )((*(Vector3_t3722313464 *)((Vector3_t3722313464 *)UnBox(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3))))));
+		return L_4;
+	}
+
+IL_001d:
+	{
+		return (-1);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Insert_m2928873627_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Insert_m2928873627_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.Remove(System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_Remove_m2434650390_gshared (ReadOnlyCollection_1_t639922455 * __this, RuntimeObject * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_Remove_m2434650390_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.RemoveAt(System.Int32)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1518119111_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m1518119111_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m869291907_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.ICollection.get_SyncRoot()
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m2731101222_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		return __this;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m1923250479_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m3370928715_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.get_Item(System.Int32)
+extern "C"  RuntimeObject * ReadOnlyCollection_1_System_Collections_IList_get_Item_m1262024888_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Vector3_t3722313464  L_2 = InterfaceFuncInvoker1< Vector3_t3722313464 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Vector3>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
+		Vector3_t3722313464  L_3 = L_2;
+		RuntimeObject * L_4 = Box(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 3), &L_3);
+		return L_4;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C"  void ReadOnlyCollection_1_System_Collections_IList_set_Item_m1559106988_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, RuntimeObject * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ReadOnlyCollection_1_System_Collections_IList_set_Item_m1559106988_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1314879016 * L_0 = (NotSupportedException_t1314879016 *)il2cpp_codegen_object_new(NotSupportedException_t1314879016_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m2730133172(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::Contains(T)
+extern "C"  bool ReadOnlyCollection_1_Contains_m3888327611_gshared (ReadOnlyCollection_1_t639922455 * __this, Vector3_t3722313464  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector3_t3722313464  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		bool L_2 = InterfaceFuncInvoker1< bool, Vector3_t3722313464  >::Invoke(4 /* System.Boolean System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::Contains(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Vector3_t3722313464 )L_1);
+		return L_2;
+	}
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::CopyTo(T[],System.Int32)
+extern "C"  void ReadOnlyCollection_1_CopyTo_m1280532098_gshared (ReadOnlyCollection_1_t639922455 * __this, Vector3U5BU5D_t1718750761* ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector3U5BU5D_t1718750761* L_1 = ___array0;
+		int32_t L_2 = ___index1;
+		NullCheck((RuntimeObject*)L_0);
+		InterfaceActionInvoker2< Vector3U5BU5D_t1718750761*, int32_t >::Invoke(5 /* System.Void System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::CopyTo(T[],System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0, (Vector3U5BU5D_t1718750761*)L_1, (int32_t)L_2);
+		return;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::GetEnumerator()
+extern "C"  RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m2167562046_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		RuntimeObject* L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>::GetEnumerator() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::IndexOf(T)
+extern "C"  int32_t ReadOnlyCollection_1_IndexOf_m3669095250_gshared (ReadOnlyCollection_1_t639922455 * __this, Vector3_t3722313464  ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		Vector3_t3722313464  L_1 = ___value0;
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_2 = InterfaceFuncInvoker1< int32_t, Vector3_t3722313464  >::Invoke(0 /* System.Int32 System.Collections.Generic.IList`1<UnityEngine.Vector3>::IndexOf(T) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (Vector3_t3722313464 )L_1);
+		return L_2;
+	}
+}
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::get_Count()
+extern "C"  int32_t ReadOnlyCollection_1_get_Count_m3746371027_gshared (ReadOnlyCollection_1_t639922455 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		NullCheck((RuntimeObject*)L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.Vector3>::get_Count() */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 4), (RuntimeObject*)L_0);
+		return L_1;
+	}
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3>::get_Item(System.Int32)
+extern "C"  Vector3_t3722313464  ReadOnlyCollection_1_get_Item_m1121075254_gshared (ReadOnlyCollection_1_t639922455 * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->get_list_0();
+		int32_t L_1 = ___index0;
+		NullCheck((RuntimeObject*)L_0);
+		Vector3_t3722313464  L_2 = InterfaceFuncInvoker1< Vector3_t3722313464 , int32_t >::Invoke(3 /* T System.Collections.Generic.IList`1<UnityEngine.Vector3>::get_Item(System.Int32) */, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 5), (RuntimeObject*)L_0, (int32_t)L_1);
 		return L_2;
 	}
 }

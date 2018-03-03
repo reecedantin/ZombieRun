@@ -254,8 +254,6 @@ extern const RuntimeMethod* List_1_Clear_m2154023298_RuntimeMethod_var;
 extern const uint32_t VertexHelper_Clear_m627349662_MetadataUsageId;
 extern const RuntimeMethod* List_1_get_Count_m576380744_RuntimeMethod_var;
 extern const uint32_t VertexHelper_get_currentVertCount_m124779331_MetadataUsageId;
-extern const RuntimeMethod* List_1_get_Count_m361000296_RuntimeMethod_var;
-extern const uint32_t VertexHelper_get_currentIndexCount_m2916736969_MetadataUsageId;
 extern const RuntimeMethod* List_1_get_Item_m200663048_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Item_m3890325344_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_get_Item_m1378751541_RuntimeMethod_var;
@@ -284,7 +282,6 @@ extern RuntimeClass* VertexHelper_t2453304189_il2cpp_TypeInfo_var;
 extern const uint32_t VertexHelper_AddVert_m3837581305_MetadataUsageId;
 extern const RuntimeMethod* List_1_Add_m697420525_RuntimeMethod_var;
 extern const uint32_t VertexHelper_AddTriangle_m3677720024_MetadataUsageId;
-extern const uint32_t VertexHelper_AddUIVertexStream_m1733605881_MetadataUsageId;
 extern RuntimeClass* Vector3_t3722313464_il2cpp_TypeInfo_var;
 extern const uint32_t VertexHelper__cctor_m2017593797_MetadataUsageId;
 
@@ -4564,8 +4561,6 @@ extern "C"  void List_1_Clear_m4187652437_gshared (List_1_t496136383 * __this, c
 extern "C"  void List_1_Clear_m2154023298_gshared (List_1_t128053199 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Count()
 extern "C"  int32_t List_1_get_Count_m576380744_gshared (List_1_t899420910 * __this, const RuntimeMethod* method);
-// System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
-extern "C"  int32_t List_1_get_Count_m361000296_gshared (List_1_t128053199 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Item(System.Int32)
 extern "C"  Vector3_t3722313464  List_1_get_Item_m200663048_gshared (List_1_t899420910 * __this, int32_t p0, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<UnityEngine.Color32>::get_Item(System.Int32)
@@ -4737,8 +4732,6 @@ extern "C"  Int32U5BU5D_t385246372* Mesh_GetIndices_m2873123901 (Mesh_t364896428
 #define List_1_Clear_m2154023298(__this, method) ((  void (*) (List_1_t128053199 *, const RuntimeMethod*))List_1_Clear_m2154023298_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Count()
 #define List_1_get_Count_m576380744(__this, method) ((  int32_t (*) (List_1_t899420910 *, const RuntimeMethod*))List_1_get_Count_m576380744_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
-#define List_1_get_Count_m361000296(__this, method) ((  int32_t (*) (List_1_t128053199 *, const RuntimeMethod*))List_1_get_Count_m361000296_gshared)(__this, method)
 // !0 System.Collections.Generic.List`1<UnityEngine.Vector3>::get_Item(System.Int32)
 #define List_1_get_Item_m200663048(__this, p0, method) ((  Vector3_t3722313464  (*) (List_1_t899420910 *, int32_t, const RuntimeMethod*))List_1_get_Item_m200663048_gshared)(__this, p0, method)
 // !0 System.Collections.Generic.List`1<UnityEngine.Color32>::get_Item(System.Int32)
@@ -4799,8 +4792,6 @@ extern "C"  void VertexHelper_AddVert_m189858127 (VertexHelper_t2453304189 * __t
 extern "C"  int32_t VertexHelper_get_currentVertCount_m124779331 (VertexHelper_t2453304189 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddTriangle(System.Int32,System.Int32,System.Int32)
 extern "C"  void VertexHelper_AddTriangle_m3677720024 (VertexHelper_t2453304189 * __this, int32_t ___idx00, int32_t ___idx11, int32_t ___idx22, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
-extern "C"  void CanvasRenderer_AddUIVertexStream_m1208603572 (RuntimeObject * __this /* static, unused */, List_1_t1234605051 * p0, List_1_t899420910 * p1, List_1_t4072576034 * p2, List_1_t3628304265 * p3, List_1_t3628304265 * p4, List_1_t3628304265 * p5, List_1_t3628304265 * p6, List_1_t899420910 * p7, List_1_t496136383 * p8, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
 extern "C"  void CanvasRenderer_SplitUIVertexStreams_m2753637362 (RuntimeObject * __this /* static, unused */, List_1_t1234605051 * p0, List_1_t899420910 * p1, List_1_t4072576034 * p2, List_1_t3628304265 * p3, List_1_t3628304265 * p4, List_1_t3628304265 * p5, List_1_t3628304265 * p6, List_1_t899420910 * p7, List_1_t496136383 * p8, List_1_t128053199 * p9, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasRenderer::CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
@@ -6022,30 +6013,6 @@ IL_0012:
 		return L_2;
 	}
 }
-// System.Int32 UnityEngine.UI.VertexHelper::get_currentIndexCount()
-extern "C"  int32_t VertexHelper_get_currentIndexCount_m2916736969 (VertexHelper_t2453304189 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VertexHelper_get_currentIndexCount_m2916736969_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		List_1_t128053199 * L_0 = __this->get_m_Indices_8();
-		NullCheck(L_0);
-		int32_t L_1 = List_1_get_Count_m361000296(L_0, /*hidden argument*/List_1_get_Count_m361000296_RuntimeMethod_var);
-		V_0 = L_1;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
 // System.Void UnityEngine.UI.VertexHelper::PopulateUIVertex(UnityEngine.UIVertex&,System.Int32)
 extern "C"  void VertexHelper_PopulateUIVertex_m3870699345 (VertexHelper_t2453304189 * __this, UIVertex_t4057497605 * ___vertex0, int32_t ___i1, const RuntimeMethod* method)
 {
@@ -6443,55 +6410,6 @@ IL_0061:
 		int32_t L_25 = V_0;
 		int32_t L_26 = V_0;
 		VertexHelper_AddTriangle_m3677720024(__this, ((int32_t)il2cpp_codegen_add((int32_t)L_24, (int32_t)2)), ((int32_t)il2cpp_codegen_add((int32_t)L_25, (int32_t)3)), L_26, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.UI.VertexHelper::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<System.Int32>)
-extern "C"  void VertexHelper_AddUIVertexStream_m1733605881 (VertexHelper_t2453304189 * __this, List_1_t1234605051 * ___verts0, List_1_t128053199 * ___indices1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VertexHelper_AddUIVertexStream_m1733605881_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t1234605051 * L_0 = ___verts0;
-		if (!L_0)
-		{
-			goto IL_003f;
-		}
-	}
-	{
-		List_1_t1234605051 * L_1 = ___verts0;
-		List_1_t899420910 * L_2 = __this->get_m_Positions_0();
-		List_1_t4072576034 * L_3 = __this->get_m_Colors_1();
-		List_1_t3628304265 * L_4 = __this->get_m_Uv0S_2();
-		List_1_t3628304265 * L_5 = __this->get_m_Uv1S_3();
-		List_1_t3628304265 * L_6 = __this->get_m_Uv2S_4();
-		List_1_t3628304265 * L_7 = __this->get_m_Uv3S_5();
-		List_1_t899420910 * L_8 = __this->get_m_Normals_6();
-		List_1_t496136383 * L_9 = __this->get_m_Tangents_7();
-		CanvasRenderer_AddUIVertexStream_m1208603572(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
-	}
-
-IL_003f:
-	{
-		List_1_t128053199 * L_10 = ___indices1;
-		if (!L_10)
-		{
-			goto IL_0053;
-		}
-	}
-	{
-		List_1_t128053199 * L_11 = __this->get_m_Indices_8();
-		List_1_t128053199 * L_12 = ___indices1;
-		NullCheck(L_11);
-		List_1_AddRange_m3513848896(L_11, L_12, /*hidden argument*/List_1_AddRange_m3513848896_RuntimeMethod_var);
-	}
-
-IL_0053:
-	{
 		return;
 	}
 }

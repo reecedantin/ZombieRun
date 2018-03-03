@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 4985216281522970}
   - component: {fileID: 95761707213771560}
   - component: {fileID: 114603205618016370}
+  - component: {fileID: 114023377979109680}
   m_Layer: 0
   m_Name: z@walk
   m_TagString: Untagged
@@ -1286,7 +1287,7 @@ Transform:
   m_GameObject: {fileID: 1880908557766748}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.30816, y: -0.062943935, z: -1.3378022}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4906004309482594}
   - {fileID: 4867159302197134}
@@ -1353,6 +1354,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114023377979109680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880908557766748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020195abb7e194669acdbc3606477f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRayDistance: 30
+  collisionLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &114603205618016370
 MonoBehaviour:
   m_ObjectHideFlags: 1

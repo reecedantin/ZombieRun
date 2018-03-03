@@ -2951,23 +2951,6 @@ extern "C"  void CanvasRenderer_CreateUIVertexStreamInternal_m543814397 (Runtime
 	_il2cpp_icall_func = (CanvasRenderer_CreateUIVertexStreamInternal_m543814397_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::CreateUIVertexStreamInternal(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)");
 	_il2cpp_icall_func(___verts0, ___positions1, ___colors2, ___uv0S3, ___uv1S4, ___uv2S5, ___uv3S6, ___normals7, ___tangents8, ___indices9);
 }
-// System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
-extern "C"  void CanvasRenderer_AddUIVertexStream_m1208603572 (RuntimeObject * __this /* static, unused */, List_1_t1234605051 * ___verts0, List_1_t899420910 * ___positions1, List_1_t4072576034 * ___colors2, List_1_t3628304265 * ___uv0S3, List_1_t3628304265 * ___uv1S4, List_1_t3628304265 * ___uv2S5, List_1_t3628304265 * ___uv3S6, List_1_t899420910 * ___normals7, List_1_t496136383 * ___tangents8, const RuntimeMethod* method)
-{
-	{
-		List_1_t1234605051 * L_0 = ___verts0;
-		List_1_t899420910 * L_1 = ___positions1;
-		List_1_t4072576034 * L_2 = ___colors2;
-		List_1_t3628304265 * L_3 = ___uv0S3;
-		List_1_t3628304265 * L_4 = ___uv1S4;
-		List_1_t3628304265 * L_5 = ___uv2S5;
-		List_1_t3628304265 * L_6 = ___uv3S6;
-		List_1_t899420910 * L_7 = ___normals7;
-		List_1_t496136383 * L_8 = ___tangents8;
-		CanvasRenderer_SplitUIVertexStreamsInternal_m3280623346(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Boolean UnityEngine.CanvasRenderer::get_cull()
 extern "C"  bool CanvasRenderer_get_cull_m2436587240 (CanvasRenderer_t2598313366 * __this, const RuntimeMethod* method)
 {

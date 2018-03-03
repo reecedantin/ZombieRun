@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: 1708ac1809c1144fd8c480f6d25fa074
-timeCreated: 1520051256
+guid: 33286ae849f914abeb767a82786292e8
+timeCreated: 1520091392
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - zombo: {fileID: 1282975772852398, guid: a42e9a78b66f440f589da689e456c5ba, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

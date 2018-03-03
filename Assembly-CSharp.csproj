@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{375EF348-9FBF-6B53-E93B-6F15EB850CE6}</ProjectGuid>
+    <ProjectGuid>{9FBEF35E-0DD5-18EE-F76C-1A84B9F18562}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,13 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CubeBehavior.cs" />
      <Compile Include="Assets\GameScript.cs" />
-     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
-     <Compile Include="Assets\PortalBehavior.cs" />
-     <Compile Include="Assets\ReticleBehavior.cs" />
-     <Compile Include="Assets\SceneService.cs" />
-     <Compile Include="Assets\TogglePlaneBehavior.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs" />
@@ -142,9 +136,8 @@
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARVideoFormat.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
      <Compile Include="Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs" />
-     <Compile Include="Assets\UnmolestedHitTest.cs" />
-     <Compile Include="Assets\Zombie\Model\zombieWalk.cs" />
-     <None Include="Assets\LightningBolt\Readme.txt" />
+     <Compile Include="Assets\Zombie\Model\zombieAnimation.cs" />
+     <Compile Include="Assets\ZombieWalk.cs" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
      <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />

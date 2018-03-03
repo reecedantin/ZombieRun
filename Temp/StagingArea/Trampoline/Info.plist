@@ -4,7 +4,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>Unity ARKit Plugin</string>
+    <string>Zombie AR</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIconFiles</key>
@@ -18,7 +18,7 @@
       <string>AppIcon76x76~ipad.png</string>
     </array>
     <key>CFBundleIdentifier</key>
-    <string>com.matthewhallberg.${PRODUCT_NAME}</string>
+    <string>com.Dantin.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -37,7 +37,7 @@
       <true />
     </dict>
     <key>NSCameraUsageDescription</key>
-    <string>AR BABY</string>
+    <string>Zombie AR requires the camera to enable AR</string>
     <key>UIApplicationExitsOnSuspend</key>
     <false />
     <key>UILaunchStoryboardName~ipad</key>
@@ -51,7 +51,6 @@
     <key>UIRequiredDeviceCapabilities</key>
     <array>
       <string>armv7</string>
-      <string>metal</string>
     </array>
     <key>UIRequiresFullScreen</key>
     <true />

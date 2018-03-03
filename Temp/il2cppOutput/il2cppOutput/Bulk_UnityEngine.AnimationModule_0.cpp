@@ -2222,6 +2222,8 @@ extern "C"  void InvalidOperationException__ctor_m237278729 (InvalidOperationExc
 #define PlayableHandle_IsPlayableOfType_TisAnimatorControllerPlayable_t1015767841_m3416945299(__this, method) ((  bool (*) (PlayableHandle_t1095853803 *, const RuntimeMethod*))PlayableHandle_IsPlayableOfType_TisAnimatorControllerPlayable_t1015767841_m3416945299_gshared)(__this, method)
 // System.Boolean UnityEngine.Animations.AnimatorControllerPlayable::Equals(UnityEngine.Animations.AnimatorControllerPlayable)
 extern "C"  bool AnimatorControllerPlayable_Equals_m3421642688 (AnimatorControllerPlayable_t1015767841 * __this, AnimatorControllerPlayable_t1015767841  ___other0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Animator::SetBoolString(System.String,System.Boolean)
+extern "C"  void Animator_SetBoolString_m1913721706 (Animator_t434523843 * __this, String_t* ___name0, bool ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::SetTriggerString(System.String)
 extern "C"  void Animator_SetTriggerString_m2612407758 (Animator_t434523843 * __this, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Animator::ResetTriggerString(System.String)
@@ -2876,6 +2878,16 @@ extern "C"  void AnimatorControllerPlayable__cctor_m3439442711 (RuntimeObject * 
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.Animator::SetBool(System.String,System.Boolean)
+extern "C"  void Animator_SetBool_m234840832 (Animator_t434523843 * __this, String_t* ___name0, bool ___value1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = ___value1;
+		Animator_SetBoolString_m1913721706(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Animator::SetTrigger(System.String)
 extern "C"  void Animator_SetTrigger_m2134052629 (Animator_t434523843 * __this, String_t* ___name0, const RuntimeMethod* method)
 {
@@ -2903,6 +2915,15 @@ extern "C"  bool Animator_get_hasBoundPlayables_m2940726619 (Animator_t434523843
 	_il2cpp_icall_func = (Animator_get_hasBoundPlayables_m2940726619_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::get_hasBoundPlayables()");
 	bool retVal = _il2cpp_icall_func(__this);
 	return retVal;
+}
+// System.Void UnityEngine.Animator::SetBoolString(System.String,System.Boolean)
+extern "C"  void Animator_SetBoolString_m1913721706 (Animator_t434523843 * __this, String_t* ___name0, bool ___value1, const RuntimeMethod* method)
+{
+	typedef void (*Animator_SetBoolString_m1913721706_ftn) (Animator_t434523843 *, String_t*, bool);
+	static Animator_SetBoolString_m1913721706_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_SetBoolString_m1913721706_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::SetBoolString(System.String,System.Boolean)");
+	_il2cpp_icall_func(__this, ___name0, ___value1);
 }
 // System.Void UnityEngine.Animator::SetTriggerString(System.String)
 extern "C"  void Animator_SetTriggerString_m2612407758 (Animator_t434523843 * __this, String_t* ___name0, const RuntimeMethod* method)

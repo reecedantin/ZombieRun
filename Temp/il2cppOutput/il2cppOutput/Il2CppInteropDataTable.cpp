@@ -356,10 +356,6 @@ extern "C" void FloatTween_t1274330004_marshal_pinvoke(void* managedStructure, v
 extern "C" void FloatTween_t1274330004_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void FloatTween_t1274330004_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const RuntimeType FloatTween_t1274330004_0_0_0;
-extern "C" void Resources_t1597885468_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void Resources_t1597885468_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void Resources_t1597885468_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const RuntimeType Resources_t1597885468_0_0_0;
 extern "C" void DelegatePInvokeWrapper_OnValidateInput_t2355412304();
 extern const RuntimeType OnValidateInput_t2355412304_0_0_0;
 extern "C" void Navigation_t3049316579_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
@@ -452,7 +448,7 @@ extern "C" void DelegatePInvokeWrapper_VideoFormatEnumerator_t3131638505();
 extern const RuntimeType VideoFormatEnumerator_t3131638505_0_0_0;
 extern "C" void DelegatePInvokeWrapper_VideoFormatButtonPressed_t1187798507();
 extern const RuntimeType VideoFormatButtonPressed_t1187798507_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[134] = 
+extern Il2CppInteropData g_Il2CppInteropData[133] = 
 {
 	{ NULL, Context_t1744531130_marshal_pinvoke, Context_t1744531130_marshal_pinvoke_back, Context_t1744531130_marshal_pinvoke_cleanup, NULL, NULL, &Context_t1744531130_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t3294788190_marshal_pinvoke, Escape_t3294788190_marshal_pinvoke_back, Escape_t3294788190_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t3294788190_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -551,7 +547,6 @@ extern Il2CppInteropData g_Il2CppInteropData[134] =
 	{ NULL, RaycastResult_t3360306849_marshal_pinvoke, RaycastResult_t3360306849_marshal_pinvoke_back, RaycastResult_t3360306849_marshal_pinvoke_cleanup, NULL, NULL, &RaycastResult_t3360306849_0_0_0 } /* UnityEngine.EventSystems.RaycastResult */,
 	{ NULL, ColorTween_t809614380_marshal_pinvoke, ColorTween_t809614380_marshal_pinvoke_back, ColorTween_t809614380_marshal_pinvoke_cleanup, NULL, NULL, &ColorTween_t809614380_0_0_0 } /* UnityEngine.UI.CoroutineTween.ColorTween */,
 	{ NULL, FloatTween_t1274330004_marshal_pinvoke, FloatTween_t1274330004_marshal_pinvoke_back, FloatTween_t1274330004_marshal_pinvoke_cleanup, NULL, NULL, &FloatTween_t1274330004_0_0_0 } /* UnityEngine.UI.CoroutineTween.FloatTween */,
-	{ NULL, Resources_t1597885468_marshal_pinvoke, Resources_t1597885468_marshal_pinvoke_back, Resources_t1597885468_marshal_pinvoke_cleanup, NULL, NULL, &Resources_t1597885468_0_0_0 } /* UnityEngine.UI.DefaultControls/Resources */,
 	{ DelegatePInvokeWrapper_OnValidateInput_t2355412304, NULL, NULL, NULL, NULL, NULL, &OnValidateInput_t2355412304_0_0_0 } /* UnityEngine.UI.InputField/OnValidateInput */,
 	{ NULL, Navigation_t3049316579_marshal_pinvoke, Navigation_t3049316579_marshal_pinvoke_back, Navigation_t3049316579_marshal_pinvoke_cleanup, NULL, NULL, &Navigation_t3049316579_0_0_0 } /* UnityEngine.UI.Navigation */,
 	{ NULL, SpriteState_t1362986479_marshal_pinvoke, SpriteState_t1362986479_marshal_pinvoke_back, SpriteState_t1362986479_marshal_pinvoke_cleanup, NULL, NULL, &SpriteState_t1362986479_0_0_0 } /* UnityEngine.UI.SpriteState */,
