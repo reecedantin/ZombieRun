@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 719
-  m_MinSize: {x: 681, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 50
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 76
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 29
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 775
     height: 441
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 0
     width: 448
     height: 719
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a280000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0290ffffba90ffff3892ffff009fffffb89fffff36a1ffffbcb5ffff74b6fffffeb7ffffa2c3ffff1cc4ffff96c5ffff9efbffff00000000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -430,10 +430,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -192.75
-    m_HBaseRangeMax: 192.75
-    m_VBaseRangeMin: -100.75
-    m_VBaseRangeMax: 100.75
+    m_HBaseRangeMin: -385.5
+    m_HBaseRangeMax: 385.5
+    m_VBaseRangeMin: -201.5
+    m_VBaseRangeMax: 201.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -452,7 +452,7 @@ MonoBehaviour:
       y: 17
       width: 771
       height: 403
-    m_Scale: {x: 2, y: 2}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 385.5, y: 201.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -460,15 +460,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -192.75
-      y: -100.75
-      width: 385.5
-      height: 201.5
+      x: -385.5
+      y: -201.5
+      width: 771
+      height: 403
     m_MinimalGUI: 1
-  m_defaultScale: 2
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1542, y: 840}
+  m_LastWindowPixelSize: {x: 771, y: 420}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -585,13 +585,13 @@ MonoBehaviour:
   m_StartGridSize: 40
   m_LastFolders: []
   m_LastFoldersGridSize: 40
-  m_LastProjectPath: /Users/reecedantin/Desktop/Zombie AR/Zombie AR
+  m_LastProjectPath: /Users/reecedantin/Downloads/ARkit1.5PORTAL-master
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: f22d0000
     m_LastClickedID: 11762
-    m_ExpandedIDs: 1a28000046280000a8280000382900006829000086290000e8290000ea2900000a2a00003a2a0000a02a0000
+    m_ExpandedIDs: 1a280000302800004628000034290000382900006829000086290000e8290000ea290000fe2900000a2a00003a2a0000a02a0000a82a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 729.0004}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 1a280000302800004628000034290000382900006829000086290000e8290000ea290000fe2900000a2a00003a2a0000a02a0000a82a0000
