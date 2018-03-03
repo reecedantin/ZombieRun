@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARkit1.5PORTAL-master", "Assembly-CSharp.csproj", "{375EF348-9FBF-6B53-E93B-6F15EB850CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARkit1.5PORTAL-master", "Assembly-CSharp-Editor.csproj", "{699A0809-24ED-D33D-511E-7BF600C90D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{375EF348-9FBF-6B53-E93B-6F15EB850CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375EF348-9FBF-6B53-E93B-6F15EB850CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375EF348-9FBF-6B53-E93B-6F15EB850CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375EF348-9FBF-6B53-E93B-6F15EB850CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699A0809-24ED-D33D-511E-7BF600C90D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699A0809-24ED-D33D-511E-7BF600C90D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699A0809-24ED-D33D-511E-7BF600C90D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699A0809-24ED-D33D-511E-7BF600C90D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
