@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ArrowScript.cs" />
+     <Compile Include="Assets\BlockScript.cs" />
      <Compile Include="Assets\GameScript.cs" />
      <Compile Include="Assets\PlaceBlock.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />

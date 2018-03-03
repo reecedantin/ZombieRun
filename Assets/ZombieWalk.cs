@@ -5,6 +5,9 @@ namespace UnityEngine.XR.iOS
 {
 	public class ZombieWalk : MonoBehaviour
 	{
+		protected Animator myAnimation;
+		protected float speed = 1.0F;
+		protected float rotationSpeed = 100.0F;
 		public float maxRayDistance = 30.0f;
 		private LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 
@@ -26,6 +29,8 @@ namespace UnityEngine.XR.iOS
 		}
 
 		void Start() {
+			myAnimation = GetComponent<Animator>();
+			myAnimation.SetBool ("isWalking", true);
             //Debug.Log("Place zombie");
 			ARPoint point = new ARPoint {
 				x = transform.position.x,
@@ -59,6 +64,15 @@ namespace UnityEngine.XR.iOS
 				angle = Mathf.Rad2Deg * angle;
 			}
 
+			if (dX < 1 || dZ < 1) {
+				myAnimation.SetBool ("isWalking", false);
+				myAnimation.SetBool ("isAttacking", true);
+				Camera.main.GetComponent<GameScript>().isDead = true;
+			} else {
+				myAnimation.SetBool ("isWalking", true);
+				myAnimation.SetBool ("isAttacking", false);
+			}
+
 			if(dX > 0) {
 				angle = (180 + angle) % 360;
 			}
@@ -67,7 +81,7 @@ namespace UnityEngine.XR.iOS
 			//Vector3 destination = new Vector3(90, Mathf.Rad2Deg * angle, 0);
 			transform.eulerAngles = new Vector3(0, angle, 0);
 
-			transform.Translate(Vector3.forward/2 * Time.deltaTime);
+			transform.Translate(Vector3.forward * Time.deltaTime);
 
             
 

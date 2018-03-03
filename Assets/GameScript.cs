@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameScript : MonoBehaviour {
 
@@ -8,6 +9,7 @@ public class GameScript : MonoBehaviour {
 	public float waittime = 0;
     public ArrayList zombies = new ArrayList();
 	public GameObject arrowPrefab;
+	public bool isDead = false;
 
 	// Use this for initialization
 	void Start () {
@@ -27,13 +29,16 @@ public class GameScript : MonoBehaviour {
 		waittime++;
 
 
-        if (Input.touchCount > 0) {
-            foreach(GameObject zombie in zombies) {
-                GameObject.Destroy(zombie);
-            }
-
-			Instantiate (arrowPrefab, transform.position, transform.rotation);
-
-        }
+//        if (Input.touchCount > 0) {
+//            foreach(GameObject zombie in zombies) {
+//                GameObject.Destroy(zombie);
+//            }
+//
+//			Instantiate (arrowPrefab, transform.position, transform.rotation);
+//
+//        }
+		if (isDead) {
+			SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+		}
 	}
 }

@@ -18,6 +18,8 @@ namespace UnityEngine.XR.iOS
 				foreach (var hitResult in hitResults) {
 					Debug.Log ("Got hit!");
 					Vector3 pos = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+					float posy = 0.5f + pos.y;
+					pos = new Vector3 (pos.x, posy, pos.z);
 					Quaternion rot = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
 
 					Instantiate (prefab, pos, rot);
@@ -32,7 +34,7 @@ namespace UnityEngine.XR.iOS
 		// Update is called once per frame
 		void Update () {
 			//#else
-			if (Input.touchCount == 1) {
+			if (Input.touchCount > 0) {
 				var touch = Input.GetTouch (0);
 				if (touch.phase == TouchPhase.Began) {
 					var screenPosition = Camera.main.ScreenToViewportPoint (touch.position);

@@ -194,3 +194,4 @@ eb4fd2b7e0cd698b07603d3e2b00ab7c Assembly-CSharp.dll:.ARKitPlaneMeshRender
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 3e5c3ab65cdc8ce48e9e33515fca084a Assembly-CSharp.dll:UnityEngine.XR.iOS.PlaceBlock
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.ArrowScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BlockScript

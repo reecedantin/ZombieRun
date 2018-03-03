@@ -322,8 +322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zombo: {fileID: 1880908557766748, guid: 1b7dc5d5a3a9e461988c2537e4fee7a4, type: 2}
   waittime: 0
-  arrowPrefab: {fileID: 1376644071758658, guid: c9cab830d1cb741088343fd5fb24dfee,
-    type: 2}
+  arrowPrefab: {fileID: 0}
+  isDead: 0
 --- !u!114 &534412485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,10 +399,6 @@ Prefab:
     - target: {fileID: 4097328373459056, guid: df881a4392ac84bf3a6594f6f7f76155, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1063015902996798, guid: df881a4392ac84bf3a6594f6f7f76155, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df881a4392ac84bf3a6594f6f7f76155, type: 2}
