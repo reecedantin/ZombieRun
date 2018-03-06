@@ -1,4 +1,4 @@
-# Zombie Run Project ![Alt](https://github.com/reecedantin/ZombieRun/blob/master/Assets/iTunesArtwork%403x.png/ "ICON")
+# Zombie Run Project ![Alt](https://github.com/reecedantin/ZombieRun/blob/master/Assets/iTunesArtwork%403x.png/ "ICON" | width=50)
 This is one of the first AR health apps developped for IOS. Our goal was to bring a more interactive and immersive way to promote health and fitness. In this app, users must run to avoid the zombies that are pursuing them. Run too slow or you'll be overcome by the zombies. This app is always pushing you to be aware of your surroundings and to constantly keep you heart rate up.
 
 **Inspiration**
