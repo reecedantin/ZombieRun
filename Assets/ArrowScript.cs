@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-using UnityEngine;
 using System;
 
 namespace UnityEngine.XR.iOS
@@ -29,7 +27,7 @@ namespace UnityEngine.XR.iOS
 //			}
 //			transform.eulerAngles = new Vector3(Camera.main.transform.eulerAngles.x, Camera.main.transform.eulerAngles.y, Camera.main.transform.eulerAngles.z);
 		}
-		
+
 		// Update is called once per frame
 		void Update () {
 			transform.Translate (Vector3.forward * Time.deltaTime);
