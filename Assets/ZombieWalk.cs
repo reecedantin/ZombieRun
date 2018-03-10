@@ -58,7 +58,7 @@ namespace UnityEngine.XR.iOS
 			} else {
 				angle = Mathf.Rad2Deg * angle;
 			}
-			Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
+			//Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
 			//Vector3 destination = new Vector3(90, Mathf.Rad2Deg * angle, 0);
 			transform.eulerAngles = new Vector3(0, angle, 0);
 
