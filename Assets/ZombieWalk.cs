@@ -9,7 +9,6 @@ namespace UnityEngine.XR.iOS
 		protected float speed = 1.0F;
 		protected float rotationSpeed = 100.0F;
 		public float maxRayDistance = 30.0f;
-		private LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 
 		bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
 		{
@@ -94,7 +93,8 @@ namespace UnityEngine.XR.iOS
 
 			transform.Translate(Vector3.forward * Time.deltaTime);
 
-                        //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, Time.deltaTime);
+            //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, Time.deltaTime);
+
 		}
 
 		void UpdatePositionIfARScrewUp(ARPlaneAnchor arPlaneAnchor) {

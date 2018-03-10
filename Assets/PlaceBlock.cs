@@ -8,7 +8,6 @@ namespace UnityEngine.XR.iOS
 	public class PlaceBlock : MonoBehaviour
 	{
 		public float maxRayDistance = 30.0f;
-		private LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
 		public GameObject blockPrefab;
 
 		bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes, GameObject prefab)
@@ -46,13 +45,13 @@ namespace UnityEngine.XR.iOS
 					// prioritize reults types
 					ARHitTestResultType[] resultTypes = {
 						//ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingGeometry,
-						ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, 
+						ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent,
 						// if you want to use infinite planes use this:
 						//ARHitTestResultType.ARHitTestResultTypeExistingPlane,
-						//ARHitTestResultType.ARHitTestResultTypeEstimatedHorizontalPlane, 
-						//ARHitTestResultType.ARHitTestResultTypeEstimatedVerticalPlane, 
+						//ARHitTestResultType.ARHitTestResultTypeEstimatedHorizontalPlane,
+						//ARHitTestResultType.ARHitTestResultTypeEstimatedVerticalPlane,
 						//ARHitTestResultType.ARHitTestResultTypeFeaturePoint
-					}; 
+					};
 
 					foreach (ARHitTestResultType resultType in resultTypes) {
 						if (HitTestWithResultType (point, resultType, blockPrefab)) {
@@ -65,4 +64,3 @@ namespace UnityEngine.XR.iOS
 		}
 	}
 }
-
