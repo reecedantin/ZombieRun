@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameScript : MonoBehaviour {
 
 	public GameObject zombo;
 	public float waittime = 0;
-    public ArrayList zombies = new ArrayList();
+        public ArrayList zombies = new ArrayList();
+	public GameObject arrowPrefab;
+	public bool isDead = false;
 
 	void Awake () {
 		
@@ -24,6 +27,8 @@ public class GameScript : MonoBehaviour {
 //					}
 //					});
 
+		isDead = false;
+
 		//Vector3 zombieLoc = new Vector3(transform.position.x + Random.Range(-5,5), transform.position.y, transform.position.z + Random.Range(-5,5));
 		//Instantiate(zombo, zombieLoc, zombo.transform.rotation);
 	}
@@ -39,10 +44,17 @@ public class GameScript : MonoBehaviour {
 		waittime++;
 
 
-        if (Input.touchCount > 0) {
-            foreach(GameObject zombie in zombies) {
-                GameObject.Destroy(zombie);
-            }
-        }
+//        if (Input.touchCount > 0) {
+//            foreach(GameObject zombie in zombies) {
+//                GameObject.Destroy(zombie);
+//            }
+//
+//			Instantiate (arrowPrefab, transform.position, transform.rotation);
+//
+//        }
+		if (isDead) {
+			SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+			isDead = false;
+		}
 	}
 }
