@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace UnityEngine.XR.iOS
@@ -63,6 +63,9 @@ namespace UnityEngine.XR.iOS
 				angle = Mathf.Rad2Deg * angle;
 			}
 
+			//Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
+
+
 			if ((Mathf.Abs(dX) < 1 && Mathf.Abs(dZ) < 1) && (Mathf.Abs(dX) > 0.5 && Mathf.Abs(dZ) > 0.5)) {
 				myAnimation.SetBool ("isWalking", false);
 				myAnimation.SetBool ("isAttacking", true);
@@ -84,14 +87,14 @@ namespace UnityEngine.XR.iOS
 			}
 
 			Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
+
 			//Vector3 destination = new Vector3(90, Mathf.Rad2Deg * angle, 0);
 			transform.eulerAngles = new Vector3(0, angle, 0);
 
 			transform.Translate(Vector3.forward * Time.deltaTime);
 
-
-
             //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, Time.deltaTime);
+
 		}
 
 		void UpdatePositionIfARScrewUp(ARPlaneAnchor arPlaneAnchor) {

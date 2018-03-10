@@ -7,14 +7,28 @@ public class GameScript : MonoBehaviour {
 
 	public GameObject zombo;
 	public float waittime = 0;
-    public ArrayList zombies = new ArrayList();
+        public ArrayList zombies = new ArrayList();
 	public GameObject arrowPrefab;
 	public bool isDead = false;
+
+	void Awake () {
+		
+	}
 
 	// Use this for initialization
 	void Start () {
         Debug.Log("Game started");
+
+//		DateTimeOffset now = DateTimeOffset.UtcNow;
+//		DateTimeOffset start = now.AddDays(-1);
+//		healthStore.ReadQuantitySamples(HKDataType.HKQuantityTypeIdentifierStepCount, start, now, delegate(List<QuantitySample> samples) {
+//			foreach (QuantitySample sample in samples) {
+//				Debug.Log(String.Format(“ - {0} from {1} to {2}”, sample.quantity.doubleValue, sample.startDate, sample.endDate);
+//					}
+//					});
+
 		isDead = false;
+
 		//Vector3 zombieLoc = new Vector3(transform.position.x + Random.Range(-5,5), transform.position.y, transform.position.z + Random.Range(-5,5));
 		//Instantiate(zombo, zombieLoc, zombo.transform.rotation);
 	}
