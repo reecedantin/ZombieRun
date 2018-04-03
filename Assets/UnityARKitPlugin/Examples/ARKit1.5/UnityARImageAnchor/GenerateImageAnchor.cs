@@ -17,7 +17,7 @@ public class GenerateImageAnchor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		UnityARSessionNativeInterface.ARImageAnchorAddedEvent += AddImageAnchor;
-		UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent += UpadteImageAnchor;
+		UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent += UpdateImageAnchor;
 		UnityARSessionNativeInterface.ARImageAnchorRemovedEvent += RemoveImageAnchor;
 
 	}
@@ -33,7 +33,7 @@ public class GenerateImageAnchor : MonoBehaviour {
 		}
 	}
 
-	void UpadteImageAnchor(ARImageAnchor arImageAnchor)
+	void UpdateImageAnchor(ARImageAnchor arImageAnchor)
 	{
 		Debug.Log ("image anchor updated");
 		if (arImageAnchor.referenceImageName == referenceImage.imageName) {
@@ -55,7 +55,7 @@ public class GenerateImageAnchor : MonoBehaviour {
 	void OnDestroy()
 	{
 		UnityARSessionNativeInterface.ARImageAnchorAddedEvent -= AddImageAnchor;
-		UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent -= UpadteImageAnchor;
+		UnityARSessionNativeInterface.ARImageAnchorUpdatedEvent -= UpdateImageAnchor;
 		UnityARSessionNativeInterface.ARImageAnchorRemovedEvent -= RemoveImageAnchor;
 
 	}

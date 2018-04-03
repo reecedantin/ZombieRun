@@ -15,7 +15,7 @@ public class UnityARCameraManager : MonoBehaviour {
 	public ARReferenceImagesSet detectionImages = null;
 	public bool getPointCloud = true;
 	public bool enableLightEstimation = true;
-	public bool enableAutoFocus = false;
+	public bool enableAutoFocus = true;
 	private bool sessionStarted = false;
 
 	// Use this for initialization

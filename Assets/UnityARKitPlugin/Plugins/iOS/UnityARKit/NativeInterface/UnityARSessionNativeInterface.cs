@@ -409,6 +409,14 @@ namespace UnityEngine.XR.iOS {
 		[DllImport("__Internal")]
 		private static extern void SessionSetWorldOrigin (IntPtr nativeSession, Matrix4x4 worldMatrix);
 
+        [DllImport("__Internal")]
+        private static extern bool Native_IsARKit_1_5_Supported();
+
+
+        public static bool IsARKit_1_5_Supported()
+        {
+            return Native_IsARKit_1_5_Supported();
+        }
 
 		public UnityARSessionNativeInterface()
 		{

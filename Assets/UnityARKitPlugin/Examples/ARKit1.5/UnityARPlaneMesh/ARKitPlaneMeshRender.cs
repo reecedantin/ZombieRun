@@ -21,16 +21,19 @@ public class ARKitPlaneMeshRender : MonoBehaviour {
 
 	public void UpdateMesh(ARPlaneAnchor arPlaneAnchor)
 	{
-		planeMesh.vertices = arPlaneAnchor.planeGeometry.vertices;
-		planeMesh.uv = arPlaneAnchor.planeGeometry.textureCoordinates;
-		planeMesh.triangles = arPlaneAnchor.planeGeometry.triangleIndices;
+        if (UnityARSessionNativeInterface.IsARKit_1_5_Supported()) //otherwise we cannot access planeGeometry
+        {
+            planeMesh.vertices = arPlaneAnchor.planeGeometry.vertices;
+            planeMesh.uv = arPlaneAnchor.planeGeometry.textureCoordinates;
+            planeMesh.triangles = arPlaneAnchor.planeGeometry.triangleIndices;
 
-		lineRenderer.positionCount = arPlaneAnchor.planeGeometry.boundaryVertexCount;
-		lineRenderer.SetPositions (arPlaneAnchor.planeGeometry.boundaryVertices);
+            lineRenderer.positionCount = arPlaneAnchor.planeGeometry.boundaryVertexCount;
+            lineRenderer.SetPositions(arPlaneAnchor.planeGeometry.boundaryVertices);
 
-		// Assign the mesh object and update it.
-		planeMesh.RecalculateBounds();
-		planeMesh.RecalculateNormals();
+            // Assign the mesh object and update it.
+            planeMesh.RecalculateBounds();
+            planeMesh.RecalculateNormals();
+        }
 
 	}
 
