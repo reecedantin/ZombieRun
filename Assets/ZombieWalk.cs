@@ -47,7 +47,26 @@ namespace UnityEngine.XR.iOS
 					//Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", transform.position.x, transform.position.y, transform.position.z));
 				}
 			}
-            transform.eulerAngles = new Vector3(0, 180, 0);
+
+			float dX = Camera.main.transform.position.x - transform.position.x;
+            float dZ = Camera.main.transform.position.z - transform.position.z;
+			float angle = Mathf.Atan(dX / dZ);
+			if ((dX / dZ) > 0) {
+				angle = (180 + Mathf.Rad2Deg * angle) % 360;
+			} else {
+				angle = Mathf.Rad2Deg * angle;
+			}
+
+			if(dX > 0) {
+				angle = (180 + angle) % 360;
+			}
+
+			if(angle < 0) {
+				angle += 360;
+			}
+
+			transform.eulerAngles = new Vector3(0, angle, 0);
+
 
 			//UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdatePositionIfARScrewUp;
 		}
@@ -66,7 +85,7 @@ namespace UnityEngine.XR.iOS
 			//Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
 
 
-			if ((Mathf.Abs(dX) < 1 && Mathf.Abs(dZ) < 1) && (Mathf.Abs(dX) > 0.5 && Mathf.Abs(dZ) > 0.5)) {
+			if ((Mathf.Abs(dX) < 2 && Mathf.Abs(dZ) < 2) && (Mathf.Abs(dX) > 0.5 && Mathf.Abs(dZ) > 0.5)) {
 				myAnimation.SetBool ("isWalking", false);
 				myAnimation.SetBool ("isAttacking", true);
 			}  else if (Mathf.Abs(dX) > 20 && Mathf.Abs(dZ) > 20) {
@@ -76,7 +95,7 @@ namespace UnityEngine.XR.iOS
 				myAnimation.SetBool ("isWalking", false);
 				myAnimation.SetBool ("isAttacking", true);
 				Debug.Log ("Player killed " + dZ + " " + dX);
-				Camera.main.GetComponent<GameScript>().isDead = true;
+				//Camera.main.GetComponent<GameScript>().isDead = true;
 			} else {
 				myAnimation.SetBool ("isWalking", true);
 				myAnimation.SetBool ("isAttacking", false);
@@ -86,14 +105,30 @@ namespace UnityEngine.XR.iOS
 				angle = (180 + angle) % 360;
 			}
 
-			Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
+			if(angle < 0) {
+				angle += 360;
+			}
 
-			//Vector3 destination = new Vector3(90, Mathf.Rad2Deg * angle, 0);
-			transform.eulerAngles = new Vector3(0, angle, 0);
+			//Debug.Log ("Angle of stuff " + angle + " " + dX + " " + dZ);
+
+			//transform.eulerAngles = new Vector3(0, angle, 0);
+			float intermediateangle = 0;
+			if(angle < transform.eulerAngles.y) {
+				intermediateangle = transform.eulerAngles.y - 1;
+			} else if(angle > transform.eulerAngles.y) {
+				intermediateangle = transform.eulerAngles.y + 1;
+			} else {
+				intermediateangle = angle;
+			}
+
+			intermediateangle = intermediateangle % 360;
+
+			transform.eulerAngles = new Vector3(transform.eulerAngles.x, intermediateangle, transform.eulerAngles.z);
+			Debug.Log (transform.eulerAngles + " " + angle);
+            //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, new Vector3(0, angle, 0), Time.deltaTime * .5F);
 
 			transform.Translate(Vector3.forward * Time.deltaTime);
-
-            //transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, destination, Time.deltaTime);
+			//Camera.main.transform.Translate(Vector3.forward * Time.deltaTime * .2f);
 
 		}
 
